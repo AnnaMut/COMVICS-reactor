@@ -1,0 +1,60 @@
+body {
+    min-width: $small-screen;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.4em;
+    color: #fff;
+    background-color: #fff;
+    overflow-x: hidden;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    ul {
+        list-style: none;
+    }
+  
+    .visually-hidden:not(:focus):not(:active),
+    input[type="checkbox"].visually-hidden,
+    input[type="radio"].visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        -webkit-clip-path: inset(100%);
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .gradientcolor {
+        background: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%);
+        border-radius: 3px;  
+    }
+
+  }
+
+  @media (min-width: 1024px) and (max-width: 1920px) {
+    body {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    min-width: 320px;
+    color: rgb(74, 50, 112);
+    background-color: rgb(207, 26, 26)221, 221, 221;
+    }
+  }
