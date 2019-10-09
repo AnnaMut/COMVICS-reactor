@@ -1,0 +1,58 @@
+.features-list-box {
+    margin: 0 4%;
+    position: relative;
+    padding-bottom: 20%;
+}
+
+.features-headtext {
+    font-size: 1.7em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    margin-left: 4%;
+
+}
+
+
+.featurestext-img {
+    position: absolute;
+    left: 2px;
+    top: 5px;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.features-item {
+display: flex;
+font-size: 1em;
+line-height: 1.25em;
+margin-bottom: 20%;
+}
+
+
+.features-text {
+    display: block;
+    font-weight: 400;
+}
+
+.quality-text, .factory-text, .garantee-text {
+    margin: 5px 0 0 30px;
+}
+
+
+.flask-text {
+    margin: -4px 0 0 30px;
+}
+
+.features-icon {
+    width: 43px;
+    height: 43px;
+    fill: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%); 
+    display: inline-block;
+    vertical-align: middle;
+}
