@@ -382,3 +382,54 @@ body {
     top: 0px;
     background-color: #fc6534;
     padding: 5.589%; }
+
+.order_about-box {
+  background-color: #29415a;
+  color: #fff;
+  padding: 20% 0 20% 0; }
+  .order_about-box .order_about {
+    margin: 0 4%;
+    position: relative; }
+  .order_about-box .order-head {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+    margin: 0 17% 10% 4%; }
+  .order_about-box .order-about-decor-img {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+  .order_about-box .individual, .order_about-box .custom {
+    display: none; }
+  .order_about-box .custom-desision {
+    font-size: 0.75em;
+    line-height: 1.3em;
+    margin-bottom: 9%;
+    margin-right: 9%; }
+    .order_about-box .custom-desision .order-bold {
+      font-weight: bold; }
+  .order_about-box .main-nav__link-text {
+    color: #fff;
+    position: relative;
+    display: block;
+    font-size: 0.875em;
+    line-height: 1.05em;
+    font-weight: 400px;
+    letter-spacing: 0.1em;
+    padding: 5% 0 5% 12%;
+    border-radius: 3px; }
+  .order_about-box .main-nav__link-text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #FF7344;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    right: 18%;
+    top: 0px; }
+  .order_about-box .main-nav__link-text-img {
+    position: absolute;
+    right: 6%;
+    top: 92%; }
