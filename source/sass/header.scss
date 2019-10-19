@@ -49,6 +49,10 @@
         padding-right: 1px;
     }
 
+    .phone-text {
+        color: #fff;
+    }
+
     .login {
         display: flex;
         font-size: 0.875em;
@@ -78,6 +82,7 @@
 
     .login-span {
         display: block;
+        color: #fff;
     } 
 
     .signin-img  {
@@ -121,6 +126,10 @@
    margin: 2.75em auto 1.6em auto;
    padding: 0;
    text-align: center;
+}
+
+.menu-list-link {
+    color: #fff;
 }
 
    .menu-list-item {
@@ -171,6 +180,7 @@
    }
 
    .button-order-form {
+    color: #fff;
     position: relative;
     display: block;
     font-size: 0.875em;
