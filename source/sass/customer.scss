@@ -1,0 +1,52 @@
+.customer {
+    margin: 26% 4% 8% 4%;
+    position: relative;
+
+
+    .customer__list {
+    margin: 0 0 4% 0;
+    padding: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .customer__item {
+        margin: 0 4% 4% 0;
+
+    }
+}
+
+
+.customer__title-head {
+    color: #0E1823;
+    font-size: 1.7em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: 0 0 8% 4%;
+    position: relative;
+}
+
+.customer-head-img {
+    position: absolute;
+    left: 0%;
+    top: 2%;
+ }
+
+ .pagination-list-customer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    .pagination-item {
+        margin-right: 4%;
+    }
+ }
+
+}

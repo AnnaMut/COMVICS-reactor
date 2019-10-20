@@ -1,0 +1,21 @@
+.contacts {
+    margin: 8% 4% 0 4%;
+    position: relative;
+    color: #0E1823;
+
+    .contacts__title {
+        font-size: 1.7em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: 0 0 8% 4%;
+    position: relative;
+    }
+
+    .contacts-head-img {
+        position: absolute;
+        left: 0%;
+        top: 1%;
+    }
+    
+}

@@ -504,3 +504,138 @@ body {
 
 .mobile-display {
   display: none; }
+
+.customer {
+  margin: 26% 4% 8% 4%;
+  position: relative; }
+  .customer .customer__list {
+    margin: 0 0 4% 0;
+    padding: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    .customer .customer__list .customer__item {
+      margin: 0 4% 4% 0; }
+  .customer .customer__title-head {
+    color: #0E1823;
+    font-size: 1.7em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: 0 0 8% 4%;
+    position: relative; }
+  .customer .customer-head-img {
+    position: absolute;
+    left: 0%;
+    top: 2%; }
+  .customer .pagination-list-customer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .customer .pagination-list-customer .pagination-item {
+      margin-right: 4%; }
+
+.reviews {
+  margin: 0 4% 0 4%;
+  position: relative; }
+  .reviews .reviews__title {
+    color: #0E1823;
+    font-size: 1.7em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: 0 0 8% 4%;
+    position: relative; }
+  .reviews .reviews-head-img {
+    position: absolute;
+    left: 0%;
+    top: 1%; }
+  .reviews .reviews__list {
+    margin: 0;
+    padding: 0; }
+    .reviews .reviews__list .review {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      color: #0E1823;
+      margin: 0;
+      padding: 0; }
+      .reviews .reviews__list .review .review__content {
+        font-size: 0.75em;
+        line-height: 1.3em;
+        margin: 8% 0; }
+        .reviews .reviews__list .review .review__content .mobile-close-text {
+          display: none; }
+      .reviews .reviews__list .review .show-hidden-review-text {
+        font-size: 1em;
+        line-height: 1.2em;
+        text-align: center;
+        letter-spacing: 0.1em;
+        margin: 0 0 8% 0; }
+      .reviews .reviews__list .review .review__author {
+        margin-left: 4%;
+        font-style: normal; }
+        .reviews .reviews__list .review .review__author .review__author-name {
+          font-size: 1em;
+          font-weight: bold;
+          letter-spacing: 10%;
+          display: block; }
+        .reviews .reviews__list .review .review__author .review__author-personality {
+          font-size: 0.88em;
+          line-height: 1.1em;
+          letter-spacing: 0.1em;
+          color: #0E1823;
+          opacity: 0.8; }
+      .reviews .reviews__list .review .reviews-author-avatar-social-media {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 4%; }
+        .reviews .reviews__list .review .reviews-author-avatar-social-media .reviews-author-img {
+          border-radius: 50%;
+          margin-right: 4%; }
+      .reviews .reviews__list .review .review__author-social-media {
+        font-size: 0.88em;
+        opacity: 60%;
+        letter-spacing: 10%; }
+  .reviews .reviews__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 0 8% 0;
+    margin: 0; }
+    .reviews .reviews__pagination .pagination-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0;
+      margin: 0; }
+
+.contacts {
+  margin: 8% 4% 0 4%;
+  position: relative;
+  color: #0E1823; }
+  .contacts .contacts__title {
+    font-size: 1.7em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: 0 0 8% 4%;
+    position: relative; }
+  .contacts .contacts-head-img {
+    position: absolute;
+    left: 0%;
+    top: 1%; }
