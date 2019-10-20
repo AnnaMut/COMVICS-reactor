@@ -1,0 +1,89 @@
+.aria-head {
+margin: 26% 4% 8% 4%;
+position: relative;
+
+.aria-head-header {
+    color: #0E1823;
+    font-size: 1.7em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-left: 4%;
+    position: relative;
+}
+
+.aria-head-img {
+    position: absolute;
+    left: 0%;
+    bottom: 11%;
+ }
+}
+
+.equipment-use-box {
+    background-color: #233d5e;
+    color: #fff;
+    margin: 0;
+    padding: 13% 4% 13% 0;
+
+    .equipment-use-text{
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0 4%; 
+    }
+}
+
+.sector-head {
+  font-size: 1.4em;
+line-height: 1.7em;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+   margin: 0;
+   padding: 13% 4% 13% 4%;
+}
+
+.sector {
+padding: 0 0 23% 0;
+}
+
+.sector-oil {
+    background: #122537;
+}
+
+.sector-petrology {
+    background: #484A54;;
+}
+
+.sector-analistic {
+    background:#1E0640;;
+}
+
+.sector-chem {
+    background: #00184A;;
+}
+
+.sector-list {
+    margin: 13% 8% 13% 4%;
+    padding: 0 0 0 4%;
+}
+
+.first-sector-item {
+margin-bottom: 4%
+}
+
+.sector-list-item {
+font-size: 0.88em;
+line-height: 1.9em;
+}
+
+.show-hidden-sector-items {
+    font-size: 1em;
+line-height: 1.2em;
+text-align: center;
+letter-spacing: 0.1em;
+margin: 0;
+padding: 0;
+}
+
+.mobile-display {
+    display: none;
+}
