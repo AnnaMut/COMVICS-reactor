@@ -17,5 +17,70 @@
         left: 0%;
         top: 1%;
     }
+
+    .logo-red {
+        margin-bottom: 8%;
+    }
+
+    .contacts__address {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-svg {
+        margin-right: 4%;
+    }
+
+    .contact-data {
+        display: flex;
+        margin: 0 4% 4% 0;
+    }
+
+    .contacts__address-value {
+        font-size: 0.875em;
+        line-height: 1.375em;
+    }
+
+    .contacts__time-box {
+        font-size: 0.875em;
+        line-height: 1.375em;
+    }
+
+    .contacts__time-tag {
+        flex-shrink: 0;
+        margin: 3% 4% 0 0;
+    }
+
+    .contact-text-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+
+
+    .bold-text-time {
+        font-weight: 600;
+    }
+}
+
+.link-svg {
+/* display: inline-block;
+vertical-align: middle; */
+margin-right: 4%;
+}
+
+.link-text {
+   /*  display: block; */
+     /* padding-left: 11%; */  /* not corrected */
+} 
+
+.contact-link {
+    display: flex;
+    font-size: 1.250em;
+line-height: 1.500em;
+color: #0E1823;
+}
+
+.contacts__phone-text-span {
+ font-weight: 600;
+}
     
 }
