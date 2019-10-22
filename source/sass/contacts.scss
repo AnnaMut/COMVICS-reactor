@@ -62,25 +62,57 @@
 }
 
 .link-svg {
-/* display: inline-block;
-vertical-align: middle; */
 margin-right: 4%;
 }
 
-.link-text {
-   /*  display: block; */
-     /* padding-left: 11%; */  /* not corrected */
-} 
 
 .contact-link {
-    display: flex;
     font-size: 1.250em;
 line-height: 1.500em;
 color: #0E1823;
 }
 
+ .contact-data-link {
+    margin: 0 0 4% 0;
+} 
+
 .contacts__phone-text-span {
  font-weight: 600;
 }
+
+.mobile-hide-order {
+    display: none;
+}
+
+.button-writeus {
+    color: #fff;
+    position: relative;
+    display: block;
+    font-size: 0.875em;
+    line-height: 1.05em;
+    font-weight: 400px;
+    letter-spacing: 0.1em;
+    padding: 5% 0 5% 12%;
+    margin-bottom: 4%;
+    border-radius: 3px;
+   }
+
+   .button-writeus::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #FF7344;
+    transform: rotate(180deg);
+    right: 18%;
+    top: 0px;
+  }
+
+  .order-button-img {
+      position: absolute;
+      right: 9%;
+      top: 50%;
+  }
     
 }
