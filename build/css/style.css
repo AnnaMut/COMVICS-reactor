@@ -199,7 +199,7 @@ body {
   .main-header .headtext-img {
     position: absolute;
     left: 12px;
-    top: -4px; }
+    top: -3px; }
   .main-header .underlined-text {
     text-decoration: underline;
     -webkit-text-decoration-color: #FC5A38;
@@ -384,16 +384,24 @@ body {
     border-color: #FF7344; }
   .popular-product .main-nav__link-text-img {
     position: absolute;
-    /*  background-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%); */
+    /*  background-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%);  */
     right: 0%;
     top: 0px;
     background-color: #fc6534;
-    padding: 5.5% 5.589% 5.6% 5.589%; }
+    padding-top: 5.5%;
+    padding-right: 5.589%;
+    padding-bottom: calc(100% - 93.5%);
+    padding-left: 5.589%; }
 
 .order_about-box {
   background-color: #29415a;
+  background-image: url("../img/order-about-bg-pic1.png"), url("../img/order-about-bg-pic2.png");
+  background-position: top -28% right 10px, bottom -12% left;
+  background-repeat: no-repeat, no-repeat;
   color: #fff;
-  padding: 20% 0 20% 0; }
+  padding: 28% 0 28% 0;
+  position: relative;
+  overflow: hidden; }
   .order_about-box .order_about {
     margin: 0 4%;
     position: relative; }
@@ -440,6 +448,18 @@ body {
     position: absolute;
     right: 6%;
     top: 90.5%; }
+
+.order_about-box:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: 0;
+  background: url("../img/order-about-bg.png");
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
 
 .aria-head {
   margin: 26% 4% 8% 4%;
@@ -718,7 +738,7 @@ body {
   .contacts .order-button-img {
     position: absolute;
     right: 7%;
-    top: 33%; }
+    top: 29%; }
 
 .contacts__map iframe {
   vertical-align: bottom; }

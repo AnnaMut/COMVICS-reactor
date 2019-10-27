@@ -1,7 +1,14 @@
 .order_about-box {
     background-color: #29415a;
+    background-image: url("../img/order-about-bg-pic1.png"), url("../img/order-about-bg-pic2.png"); 
+    background-position: top -28% right 10px, bottom -12% left;
+    background-repeat: no-repeat, no-repeat;
     color: #fff;
-    padding: 20% 0 20% 0;
+    padding: 28% 0 28% 0;
+    position: relative;
+overflow: hidden;
+
+
     
     .order_about {
         margin: 0 4%;
@@ -68,3 +75,16 @@
         top: 90.5%;
       }
 }
+
+.order_about-box:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: 0;
+    background: url("../img/order-about-bg.png");
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    }
