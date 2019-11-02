@@ -382,16 +382,19 @@ body {
     /* border-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%); */
     border: 1px solid;
     border-color: #FF7344; }
-  .popular-product .main-nav__link-text-img {
+  .popular-product .main-nav__link:after {
     position: absolute;
-    /*  background-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%);  */
-    right: 0%;
-    top: 0px;
-    background-color: #fc6534;
-    padding-top: 5.5%;
-    padding-right: 5.589%;
-    padding-bottom: calc(100% - 93.5%);
-    padding-left: 5.589%; }
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 3em;
+    content: "\2192";
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #fc6534; }
 
 .order_about-box {
   background-color: #29415a;
@@ -976,7 +979,18 @@ body {
   margin: 0 4%;
   /*    .type-item-link-head{
       margin: auto 0 auto 3%;
-   } */ }
+   } */
+  /* .main-nav__link-text-img {
+    position: absolute;
+   /*  background-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%);  
+   right: 0%;
+   top: 0px;
+   background-color: #fc6534;
+   padding-top: 5.5%; 
+   padding-right: 5.589%;
+   padding-bottom: calc(100% - 93.5%);
+   padding-left: 5.589%; 
+  } */ }
   .type-product .type-product__title {
     color: #0E1823;
     font-size: 1.7em;
@@ -1013,8 +1027,19 @@ body {
         flex-shrink: 0.2;
     margin-left: -1%;
     margin-right: 1.5%; }
-  .type-product .main-nav__link {
-    color: #0E1823; }
+  .type-product .main-nav-type__link:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 3em;
+    content: "\2192";
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #fc6534; }
   .type-product .type-item-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1036,7 +1061,8 @@ body {
     min-width: 67%; }
   .type-product .mount-head {
     margin: 0 3% 8% 0; }
-  .type-product .main-nav__link {
+  .type-product .main-nav-type__link {
+    color: #0E1823;
     position: relative;
     display: block;
     font-size: 0.875em;
@@ -1048,13 +1074,3 @@ body {
     /* border-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%); */
     border: 1px solid;
     border-color: #FF7344; }
-  .type-product .main-nav__link-text-img {
-    position: absolute;
-    /*  background-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%);  */
-    right: 0%;
-    top: 0px;
-    background-color: #fc6534;
-    padding-top: 5.5%;
-    padding-right: 5.589%;
-    padding-bottom: calc(100% - 93.5%);
-    padding-left: 5.589%; }
