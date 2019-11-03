@@ -166,6 +166,10 @@
     max-width: 85%;
    }
 
+   .main-header-headtext-desktop {
+       display: none;
+   }
+
 
   .headtext-catalog-img {
       position: absolute;
@@ -181,6 +185,7 @@
 
   .reactor-mobile-catalog-img {
       margin-bottom: 20%;
+      margin-left: 4%;
   }
 
 

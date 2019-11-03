@@ -25,7 +25,7 @@
     margin: 0;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50% 50%;
+    grid-template-rows: 65% 65%;
     margin-bottom: 24%;
 
 
@@ -80,7 +80,14 @@ line-height: 1.375em;
     top: 0px;
   }
 
+  .contact-footer-phone-img {
+      display: inline-block;
+      vertical-align: middle;
+  }
 
+  .contact-footer-text-call {
+  margin-right: calc(100% - 56%);
+}
 
 }
 
@@ -89,18 +96,19 @@ line-height: 1.375em;
     padding: 4%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 85% 85%;
 
    
     .copyright-text {
        font-size: 0.625em;
        line-height: 0.750em;
-       color: #fff;
+       color: #fff !important;
        opacity: 0.3; 
     }
 
     .main-text-hidden {
         color: #111b26;
+        font-size: 1px;
     }
 
     .ogrn-text {
