@@ -2,6 +2,10 @@
     margin: 0 4%;
     position: relative;
     padding-bottom: 20%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 0 12.75%;
+        padding-bottom: 3.4%;
+      }
 }
 
 .features-headtext {
@@ -9,6 +13,9 @@
     line-height: 2em;
     letter-spacing: 0.05em;
     margin-left: 4%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      display: none;
+    }
 
 }
 
@@ -17,6 +24,9 @@
     position: absolute;
     left: 2px;
     top: 5px;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+      }
 }
 
 .features-list {
@@ -25,6 +35,11 @@
     justify-content: flex-start;
     margin: 0;
     padding: 0;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
 }
 
 .features-item {
@@ -32,6 +47,13 @@ display: flex;
 font-size: 1em;
 line-height: 1.25em;
 margin-bottom: 20%;
+position: relative;
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+   /*  font-size: 16px;
+    line-height: 20px; */
+    margin: 0;
+    position: relative;
+  }
 }
 
 
@@ -42,11 +64,17 @@ margin-bottom: 20%;
 
 .quality-text, .factory-text, .garantee-text {
     margin: 5px 0 0 30px;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 4% 0 0 2.27em;
+      }
 }
 
 
 .flask-text {
     margin: -4px 0 0 30px;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 0.43% 0 0 2.27em;
+      }
 }
 
 .features-icon {
@@ -55,4 +83,21 @@ margin-bottom: 20%;
     fill: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%); 
     display: inline-block;
     vertical-align: middle;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        width: 55px;
+    height: 55px;
+      }
+}
+
+.features-item::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 1px;
+        width: 55px;
+        background: #FF6E2F;
+        left:  10%;
+        bottom: 49%;
+        transform: rotate(90deg);
+        
 }

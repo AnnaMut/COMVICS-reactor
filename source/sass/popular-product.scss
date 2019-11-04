@@ -4,6 +4,10 @@
     position: relative;
     margin: 0 4%;
 
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      margin: 0 10%;
+  }
+
    .popular-product__title {
       color: #0E1823;
       font-size: 1.7em;
@@ -11,6 +15,12 @@
       letter-spacing: 0.05em;
       margin-left: 4%;
       position: relative;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         font-size: 3.1em;
+         line-height: 3.8em;
+         letter-spacing: 0.1em;
+         margin: 8% 0 0 4%;
+     }
    }
 
    .productheader-img {
@@ -21,6 +31,14 @@
 
    .products-line-list {
       padding: 0;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 4%;
+  margin: 0;
+     }
+
    }
 
 
@@ -36,6 +54,12 @@
       text-transform: uppercase;
    }
 
+   .product-link {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         order:2;
+     }
+   }
+
    .shrink {
     flex-shrink: 1.8;
    }
@@ -48,17 +72,35 @@
        flex-shrink: 0;
    }
 
-   .main-nav__link {
-      color: #0E1823;
+   .product-item {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         position: relative;
+         }
    }
+
+   .product-item-hover {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         position: absolute;
+          top: 43%;
+          width: 209px;
+         }
+   }
+
 
    .product-item-box {
       display: flex;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         border: 1px solid #F2F2F2;
+box-sizing: border-box;
+border-radius: 3px;
+     }
+
    }
 
 .main-nav__link {
     position: relative;
     display: block;
+    color: #0E1823;
     font-size: 0.875em;
     line-height: 1.05em;
     letter-spacing: 0.1em;
@@ -67,7 +109,16 @@
     border-radius: 3px;
     /* border-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%); */
     border: 1px solid;
-    border-color:  #FF7344;;
+    border-color:  #FF7344;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      line-height: 2.5em;
+    padding: 0 0 0 8%;
+    font-size: 1.125em;
+letter-spacing: 0.1em;
+font-weight: 600;
+
+
+      }
    }
 
    .main-nav__link:after {
@@ -82,7 +133,10 @@
 		color: #fff;
 		font-size: 1.2em;
 		text-align: center;
-		background-color: #fc6534;
+      background-color: #fc6534;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         width: 2.5em;
+         }
 	}
 
 

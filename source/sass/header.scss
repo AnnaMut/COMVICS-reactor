@@ -1,12 +1,9 @@
 .main-header {
-    /* background-image: url("../img/group.png"), url("../img/header@mobile.png");
-    background-position: top top, right right; */
-    /* background-color: #25394e; */
-   /*  background: linear-gradient(-45deg, #1d2e46, #2d455f, #102130);  */
-    background: #112e4e;
+    background: #112e4e; 
+    
     background-image: url(data:image/png;base64,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);
-/*     background-size: cover; */
   
+
     .menu-container {
         position: relative;
         background-color: #0E1823;
@@ -21,6 +18,23 @@
         padding-right: 4%;
         padding-top: 4%;
         padding-bottom: 4%;
+
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+                display: none;
+            }
+    }
+
+    .burger-menu-toggle-box-open {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: none;
+        }
     }
 
     .burger-menu-button {
@@ -31,10 +45,59 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 4em;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* padding: 3% 10%; */
+            padding: 0 12.75%;
+        }
     }
 
     .lang-toggle {
         display: none;
+
+        .lang {
+            color: #fff;
+        }
+
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: block;
+            position: relative;
+            font-size: 0.875em;
+    line-height: 1.05em;
+    padding-top: 1.4em;
+    padding-bottom: 0.813em;
+
+    .russian-lang {
+        padding-right: 15px;
+    }
+
+    .russian-lang:after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 1px;
+        width: 17px;
+        background: #fff;
+        left: 20px;
+        top: 23px;
+        transform: rotate(90deg);
+        opacity: 0.3;
+      }
+    
+      .russian-lang:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 26px;
+        background: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%);;
+        left: -4px;
+        bottom: 8px;
+      }
+
+        }
     }
 
     .phone {
@@ -44,6 +107,13 @@
         line-height: 1.6em;
         font-weight: 500;
         text-transform: uppercase;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            order: 0;
+            font-size: 0.875em;
+    line-height: 1.05em;
+    padding-top: 1.4em;
+    padding-bottom: 0.813em;
+        }
     }
     
     .phone-img {
@@ -61,6 +131,9 @@
         font-size: 0.875em;
         line-height: 1.05em;
         font-weight: 500;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-weight: 600;
+        }
      }
 
      
@@ -71,6 +144,9 @@
         padding-left: 4.6%; 
         flex: 2 1 auto;
         background-color: #fff;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            padding: 1.4em 2em 0.875em 1em;
+        }
     }
 
     .signin-link {
@@ -94,6 +170,11 @@
         width: 11px;
         height: 12px;
         padding-right: 6px;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            padding-right: 3.3em;
+            width: 17px;
+        height: 18px;
+        }
      }
 
 
@@ -104,6 +185,9 @@
         padding-left: 4.6%; 
         flex: 2 1 auto;
         background: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%);
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            padding: 1.4em 2.3em 0.875em 1em;
+        }
     }
 
     .login-link {
@@ -117,6 +201,11 @@
     width: 11px;
     height: 12px;
     padding-right: 10px;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        padding-right: 3.8em;
+        width: 20px;
+    height: 18px;
+    }
     }
 
 
@@ -129,10 +218,24 @@
    margin: 2.75em auto 1.6em auto;
    padding: 0;
    text-align: center;
+   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       position: absolute;
+       right: 12.75%;
+       width: 100%;
+       display: flex;
+    justify-content: flex-end;
+    font-size: 1.250em;
+    line-height: 1.500em;
+    opacity: 0.7;
+    margin: 6.25em 0 0 0;
+}
 }
 
    .menu-list-link {
     color: #fff;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin-left: 57px;
+ }
 }
 
    .menu-list-item {
@@ -148,10 +251,24 @@
     background: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%);
     left: 3px;
     top: 28px;
-  }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+ }
+   }
 
   .order-headtext {
     position: relative;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 0 12.75% 0 12.75%;
+    }
+  }
+
+  .main-header-container {
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        background-image: url("../img/header-desc-bg.png"), url("../img/molecule.png"), url("../img/molecule2.png");
+  background-repeat: no-repeat;
+  background-position: top center, top 12.5% left 1.5%, bottom 5.7% right 1%;
+    }
   }
 
 
@@ -164,6 +281,15 @@
     margin-top: 2.8em;
     margin-bottom: 2.1em;
     max-width: 85%;
+
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        font-size: 3.1em;
+        line-height: 1.35em;
+        letter-spacing: 0.05em;
+        margin-top: 15%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
    }
 
 
@@ -171,6 +297,10 @@
       position: absolute;
       left: 12px;
       top: -3px;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        left: 0;
+        top: 9px;
+    }
   }
 
    .underlined-text {
@@ -180,6 +310,12 @@
 
    .main-header-usetext {
        display: none;
+       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: block;
+        margin-bottom: 3.7%;
+        font-size: 1.500em;
+    line-height: 1.6em;
+    }
    }
 
    .button-order-form {
@@ -195,6 +331,18 @@
     margin-left: 4%;
     margin-bottom: 23%;
     border-radius: 3px;
+
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    padding: 20px 25px 20px 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 11%;
+    margin-left: 0;
+    font-size: 1.125em;
+    line-height: 1.375em;
+    letter-spacing: 0.1em;
+    z-index: 1;
+}
    }
 
    .button-order-form::before {
@@ -209,8 +357,30 @@
     top: 0px;
   }
 
+  .button-pattern {
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    position: absolute;
+    height: 100px;
+    width: 97px;
+    background: 
+    radial-gradient(#ff7344 .1px, transparent 3px);
+    background-size: 10px 10px;
+    opacity: 0.3;
+    top: 59.3%;
+    left: 18.9%;
+    z-index: 0;
+}
+  }
+
+
+
+
+
   .order-head-span {
-      padding-right: calc(100% - 175px); ;
+      padding-right: calc(100% - 175px); 
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        padding-right: 72px; 
+    }
     }
 
 /*   .order-button-img {
@@ -225,46 +395,83 @@
 }
 
 
+}
+ 
 
-    @media (min-width: $large-screen) {
 
-        .login-box {
-            display: flex;
-            justify-content: space-between;
-        }
+ @media screen and (min-width: 1024px) and (max-width: 1920px) {
 
-        .burger-menu-button {
-            display: none;
-          }
+       .signin-link:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 60px;
+        opacity: 0.2;
+        transform: rotate(90deg);
+        background: #2B3239;
+        right: 82px;
+        top: 14px;
+      }
 
-          .signin-link:before {
-            content: "";
-            display: block;
-            position: absolute;
-            height: 2px;
-            width: 60px;
-            opacity: 0.2;
-            transform: rotate(90deg);
-            background: #2B3239;
-            right: 87px;
-            top: 14px;
-          }
+     .login-link:before {
+        content: "";
+        display: block;
+        position: absolute;
+height: 2px;
+width: 60px;
+opacity: 0.2;
+transform: rotate(90deg);
+background: #CB2134;
+right: 110px;
+top: 0px;
+}
 
-          
-.login-link:before {
+.reactor-mobile-img {
+    display: none;
+}
+
+
+.activ::after {
     content: "";
     display: block;
     position: absolute;
-    height: 2px;
-    width: 60px;
-    opacity: 0.2;
-    transform: rotate(90deg);
-    background: #CB2134;
-    right: 114px;
-    top: 0px;
-  }
-    }
-
+    height: 3px;
+    width: 90px !important;
+    background: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%);
+    left: 64%;
+    top: 49px;
   }
 
+  .order-headtext::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 134.2%;
+    background: #fff;
+    opacity: 0.5;
+    left: -17.1%;
+    top: -18%;
+  }
 
+  .bg {
+    position: absolute;
+    top: 46px;
+    bottom: -354px;
+    right: 0;
+    left: 0;
+    display:flex;
+    z-index:0;
+  }
+  .col {
+    width: 25%;
+    border-right: 1px solid #cfcfcf;
+    opacity: 0.09;
+  }
+  .col:first-child {
+    border-left: 1px solid #cfcfcf;
+  }
+   
+
+} 
