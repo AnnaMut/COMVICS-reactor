@@ -99,5 +99,61 @@ position: relative;
         left:  10%;
         bottom: 49%;
         transform: rotate(90deg);
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: none;
+          }
         
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .quality::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 1px;
+        width: 55px;
+        background: #FF6E2F;
+        left: 20%;
+    bottom: 55%;
+        transform: rotate(90deg);
+    }
+
+    .garantee::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 1px;
+        width: 55px;
+        background: #FF6E2F;
+        left: 15%;
+    bottom: 55%;
+        transform: rotate(90deg);
+    }
+
+
+    .flask::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 1px;
+        width: 55px;
+        background: #FF6E2F;
+        left: 18%;
+    bottom: 55%;
+        transform: rotate(90deg);
+    }
+
+    .factory::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 1px;
+        width: 55px;
+        background: #FF6E2F;
+        left: 23%;
+    bottom: 55%;
+        transform: rotate(90deg);
+    } 
+
+
+    }

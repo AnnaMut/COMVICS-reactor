@@ -553,6 +553,55 @@ body {
   bottom: 49%;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg); }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .features-item::after {
+      display: none; } }
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .quality::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 55px;
+    background: #FF6E2F;
+    left: 20%;
+    bottom: 55%;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .garantee::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 55px;
+    background: #FF6E2F;
+    left: 15%;
+    bottom: 55%;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .flask::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 55px;
+    background: #FF6E2F;
+    left: 18%;
+    bottom: 55%;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .factory::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 55px;
+    background: #FF6E2F;
+    left: 23%;
+    bottom: 55%;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); } }
 
 .popular-product {
   display: -webkit-box;
@@ -566,7 +615,7 @@ body {
   margin: 0 4%; }
   @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .popular-product {
-      margin: 0 10%; } }
+      margin: 0 12.75%; } }
   .popular-product .popular-product__title {
     color: #0E1823;
     font-size: 1.7em;
@@ -589,9 +638,9 @@ body {
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .popular-product .products-line-list {
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-        grid-gap: 4%;
+        grid-template-columns: 702px 702px;
+        grid-template-rows: 456px 456px;
+        grid-gap: 2.5%;
         margin: 0; } }
   .popular-product .item-link-head {
     margin: auto 0 auto 3%; }
@@ -601,11 +650,19 @@ body {
     line-height: 1.3em;
     letter-spacing: 0.05em;
     text-transform: uppercase; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .popular-product .item-link {
+        font-size: 1.6em;
+        line-height: 1.3em;
+        letter-spacing: 0.05em; } }
   @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .popular-product .product-link {
-      -webkit-box-ordinal-group: 3;
-          -ms-flex-order: 2;
-              order: 2; } }
+      /* order:2; */
+      position: absolute; } }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .popular-product .react-link {
+      top: 15%;
+      right: 4%; } }
   .popular-product .shrink {
     -ms-flex-negative: 1.8;
         flex-shrink: 1.8; }
@@ -617,22 +674,33 @@ body {
         flex-shrink: 0; }
   @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .popular-product .product-item {
-      position: relative; } }
+      position: relative;
+      border: 1px solid #F2F2F2;
+      border-radius: 3px; } }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .popular-product .item-react {
+      padding: 57px 215px 15px 40px; } }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .popular-product .item-sapf {
+      padding: 57px 130px 15px 40px; } }
+  .popular-product .sapf-foto {
+    display: none; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .popular-product .sapf-foto {
+        position: absolute; } }
   @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .popular-product .product-item-hover {
       position: absolute;
-      top: 43%;
-      width: 209px; } }
+      bottom: 5%;
+      width: 209px;
+      left: 8%; } }
   .popular-product .product-item-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .popular-product .product-item-box {
-        border: 1px solid #F2F2F2;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        border-radius: 3px; } }
+        display: block; } }
   .popular-product .main-nav__link {
     position: relative;
     display: block;

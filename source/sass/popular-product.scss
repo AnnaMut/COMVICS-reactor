@@ -5,7 +5,7 @@
     margin: 0 4%;
 
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-      margin: 0 10%;
+      margin: 0 12.75%;
   }
 
    .popular-product__title {
@@ -33,9 +33,9 @@
       padding: 0;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 4%;
+         grid-template-columns: 702px 702px;
+         grid-template-rows: 456px 456px;
+  grid-gap: 2.5%;
   margin: 0;
      }
 
@@ -52,12 +52,26 @@
       line-height: 1.3em;
       letter-spacing: 0.05em;
       text-transform: uppercase;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         font-size: 1.6em;
+         line-height: 1.3em;
+         letter-spacing: 0.05em;
+     }
+
    }
 
    .product-link {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-         order:2;
+         /* order:2; */
+         position: absolute;
      }
+   }
+
+   .react-link {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      top: 15%;
+      right: 4%;
+   }
    }
 
    .shrink {
@@ -75,14 +89,39 @@
    .product-item {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          position: relative;
-         }
+         border: 1px solid #F2F2F2;
+         border-radius: 3px;
+       }
    }
+
+   
+.item-react {
+   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+   padding: 57px 215px 15px 40px;
+   }
+   }
+
+   .item-sapf {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      padding: 57px 130px 15px 40px;
+      }
+      }
+
+      .sapf-foto {
+         display: none;
+         @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            position: absolute;
+            }
+      }
+
+
 
    .product-item-hover {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          position: absolute;
-          top: 43%;
-          width: 209px;
+         bottom: 5%;
+         width: 209px;
+         left: 8%;
          }
    }
 
@@ -90,11 +129,8 @@
    .product-item-box {
       display: flex;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-         border: 1px solid #F2F2F2;
-box-sizing: border-box;
-border-radius: 3px;
+        display: block;
      }
-
    }
 
 .main-nav__link {
