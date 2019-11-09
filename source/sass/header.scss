@@ -281,6 +281,7 @@
     margin-top: 2.8em;
     margin-bottom: 2.1em;
     max-width: 85%;
+    position: relative;
 
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
         font-size: 3.1em;
@@ -292,16 +293,26 @@
     }
    }
 
-
-  .headtext-img {
-      position: absolute;
-      left: 12px;
-      top: -3px;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        left: 0;
-        top: 9px;
+   .main-header-headtext::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 5px;
+    height: 164px;;
+    background-image: linear-gradient(-90deg, #FF6E2F 0%, #F84343 100%);
+    left: -5%;
+    bottom: -3%;
+    transform: rotate(0deg);
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+        height: 10px;
+    width: 169px;
+    left: -8.9%;
+    bottom: 47%;
     }
-  }
+   }
+
 
    .underlined-text {
        text-decoration: underline;

@@ -23,6 +23,26 @@
      }
    }
 
+   .popular-product__title::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 5px;
+      height: 34px;
+      background-image: linear-gradient(-90deg, #FF6E2F 0%, #F84343 100%);
+      left: -4%;
+      bottom: 16%;
+      transform: rotate(0deg);
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         -webkit-transform: rotate(90deg);
+     transform: rotate(90deg);
+         height: 10px;
+     width: 66px;
+     left: -4.3%;
+     bottom: 47%;
+     }
+     }
+
    .productheader-img {
       position: absolute;
       left: 0%;
@@ -199,7 +219,7 @@ font-weight: 600;
       background-color: #fc6534;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          width: 2.5em;
-         }
+      }
    }
    
    @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -209,7 +229,7 @@ font-weight: 600;
    }
    
 
-   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+  
       .pattern-product {
          position: absolute;
          background: radial-gradient(#ff7344 .1px,transparent 3px);
@@ -220,35 +240,63 @@ font-weight: 600;
 
 
       .button-pattern-s1 {
-     height: 128px;
-    width: 144px;
-    top: 9.3%;
-    left: 3.9%;
+     height: 97px;
+    width: 84px;
+    top: 11.3%;
+    left: 65.9%;
+
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      height: 128px;
+      width: 144px;
+      top: 9.3%;
+      left: 3.9%;
+    }
       }
 
       .button-pattern-s2 {
-    height: 128px;
-    width: 144px;
-    top: 32.3%;
-    left: 50.9%;
+         width: 43.98px;
+      height: 84px;
+      top: 40.3%;
+      left: 38.9%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      height: 128px;
+      width: 144px;
+      top: 32.3%;
+      left: 50.9%;
+   }
       }
 
       .button-pattern-s3 {
-         height: 80px;
-    width: 209px;
-    top: 10.3%;
-    left: 35.9%;
+         width: 57px;
+         height: 84px;
+         top: 61.3%;
+    left: 79.9%;
+
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+
+      height: 80px;
+      width: 209px;
+      top: 61.3%;
+    left: 80.9%;
+   }
       }
     
       .button-pattern-s4 {
-         height: 80px;
-    width: 209px;
-    top: 29.3%;
-    left: 69.9%;
+         width: 120px;
+         height: 100px;
+         top: 78%;
+         
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      height: 80px;
+      width: 209px;
+      top: 29.3%;
+      left: 69.9%;
+  
+   }
       }
 
 
-   }
+   
    
 
 }

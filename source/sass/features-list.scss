@@ -13,11 +13,25 @@
     line-height: 2em;
     letter-spacing: 0.05em;
     margin-left: 4%;
+    position: relative;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       display: none;
     }
 
 }
+
+.features-headtext::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 5px;
+    height: 34px;
+    background-image: linear-gradient(-90deg, #FF6E2F 0%, #F84343 100%);
+    left: -3.5%;
+    bottom: 16%;
+    transform: rotate(0deg);
+   }
+
 
 
 .featurestext-img {
