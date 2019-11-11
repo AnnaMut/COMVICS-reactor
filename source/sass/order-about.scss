@@ -1,18 +1,31 @@
 .order_about-box {
     background-color: #29415a;
-    background-image: url("../img/order-about-bg-pic1.png"), url("../img/order-about-bg-pic2.png"); 
-    background-position: top -28% right 10px, bottom -12% left;
+    background-image:  url("../img/order-about-bg.png"), url("../img/order-about-bg-pic1.png"); 
+    /* background-position: top -28% right 10px, bottom -12% left; */
+    background-position: center center, top -28% right 10px;
     background-repeat: no-repeat, no-repeat;
     color: #fff;
     padding: 28% 0 28% 0;
     position: relative;
 overflow: hidden;
 
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    padding: 0;
+    /* padding: 9% 20.75%; */
+    background-image:  url("../img/order-about-bg-desc.png"), url("../img/order-about-bg-pic1.png"), url("../img/order-about-bg-pic2.png"); 
+    background-position: center center, bottom 8% left, top -28% right 10px;
+    background-repeat: no-repeat, no-repeat;
+ }
+
 
     
     .order_about {
         margin: 0 4%;
         position: relative;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            margin: 9% 20.75%;
+         }
+
     }
 
     .order-head {
@@ -20,6 +33,12 @@ overflow: hidden;
         line-height: 1.6em;
         letter-spacing: 0.05em;
         margin: 0 8% 10% 4%;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.1em;
+margin: 0 8% 3% 2%;
+         }
        
      }
 
@@ -27,25 +46,52 @@ overflow: hidden;
         position: absolute;
         left: 0px;
         top: 0px;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: none;
+         }
+     }
+
+     .order-about-img-desc {
+        display: none;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+           display: block;
+           position: absolute;
+        left: 0;
+        top: 2.5%;
+        }
+  
      }
 
 
-     .individual, .custom {
-         display: none;
-     }
-
-     .custom-desision {
+     
+     .order-item {
         font-size: 0.75em;
         line-height: 1.3em; 
         margin-bottom: 9%;
         margin-right: 9%;
 
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-size: 20px;
+line-height: 30px;
+/* margin: 0;
+margin-bottom: 9%;
+ */
+ margin-bottom: 5%;
+         }
         .order-bold {
             font-weight: bold;
         }
      }
 
-     .main-nav__link-text {
+     .individual, .custom {
+        display: none;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+           display: block;
+           margin: 0 0 2% 0;
+        }
+    }
+
+    .button-order-form {
         color: #fff;
         position: relative;
         display: block;
@@ -54,29 +100,79 @@ overflow: hidden;
         font-weight: 400px;
         letter-spacing: 0.1em;
         padding: 5% 0 5% 12%;
+       /*  margin-bottom: 23%; */
         border-radius: 3px;
+    
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        padding: 20px 25px 20px 50px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.125em;
+        line-height: 1.375em;
+        letter-spacing: 0.1em;
+        z-index: 1;
+    }
+       }
+
+
+     .order-button-about-text {
+        color: #fff;
+        position: relative;
+        /* display: block; */
+        font-size: 0.875em;
+        line-height: 1.05em;
+        font-weight: 400px;
+        letter-spacing: 0.1em;
+        border-radius: 3px;
+        padding-right: calc(100% - 166px); 
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-size: 1.125em;
+    line-height: 1.375em;
+        letter-spacing: 0.1em;
+            padding-right: 72px; 
+        }
      }
 
-     .main-nav__link-text::before {
+     .button-order-form::before {
         content: "";
-        display: block;
-        position: absolute;
-        height: 100%;
-        width: 1px;
-        background: #FF7344;
-        transform: rotate(180deg);
-        right: 18%;
-        top: 0px;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #ff7344;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    right: 18%;
+    top: 0;
       }
 
-      .main-nav__link-text-img {
-        position: absolute;
-        right: 6%;
-        top: 90.5%;
+      .desc-center {
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+           text-align: center; 
+        }
       }
+
+
 }
 
-.order_about-box:before {
+.button-pattern-order {
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    position: absolute;
+    height: 100px;
+    width: 97px;
+    background: 
+    radial-gradient(#ff7344 .1px, transparent 3px);
+    background-size: 10px 10px;
+    opacity: 0.3;
+    top: 0%;
+    left: 80%;
+    z-index: 0;
+}
+  }
+
+/* .order_about-box:before {
     content: "";
     position: absolute;
     width: 200%;
@@ -87,4 +183,8 @@ overflow: hidden;
     background: url("../img/order-about-bg.png");
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        background: url("../img/order-about-bg-desc.png");
+background-size: cover;
+     }
+    } */

@@ -1,11 +1,19 @@
 .popular-product {
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin: 0 4%;
+    
+
+    .popular-product__container {
+      margin: 0 4%;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         margin: 0 12.75% 10.7% 12.75%;
+     }
+    }
 
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-      margin: 0 12.75% 10.7% 12.75%;
+      background-image: url("../img/molecule-red-1.png"), url("../img/molecule-red-2.png");
+  background-repeat: no-repeat;
+  background-position:  top 2.5% right 1%, bottom 4.7% left 5.5%;
   }
 
    .popular-product__title {
@@ -23,37 +31,39 @@
      }
    }
 
-   .popular-product__title::before {
-      content: "";
-      display: inline-block;
-      position: absolute;
-      width: 5px;
-      height: 34px;
-      background-image: linear-gradient(-90deg, #FF6E2F 0%, #F84343 100%);
-      left: -4%;
-      bottom: 16%;
-      transform: rotate(0deg);
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
-         -webkit-transform: rotate(90deg);
-     transform: rotate(90deg);
-         height: 10px;
-     width: 66px;
-     left: -4.3%;
-     bottom: 47%;
-     }
-     }
+   .popular-product__header {
+      position: relative;
+   }
+
 
    .productheader-img {
       position: absolute;
       left: 0%;
-      top: 2.5%;
+      top: 12%;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
+   }
+
+   .productheader-img-desc {
+      display: none;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         display: block;
+         position: absolute;
+      left: 1.5%;
+      top: 26.5%;
+      }
+
    }
 
    .products-line-list {
       padding: 0;
+      position: relative;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          display: grid;
-         grid-template-columns: 702px 702px;
+        /*   grid-template-columns: 702px 702px;
+         grid-template-rows: 456px 456px;*/
+         grid-template-columns: minmax(36.5%, 702px) minmax(36.5%, 702px);
          grid-template-rows: 456px 456px;
          row-gap: 3.8%;
          column-gap: 2.5%;
@@ -66,6 +76,10 @@
 
    .item-link-head{
       margin: auto 0 auto 3%;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         margin: 0;
+         align-self: stretch;
+      }
       
    }
 
@@ -80,90 +94,96 @@
          line-height: 1.3em;
          letter-spacing: 0.05em;
          z-index: 1;
+
      }
 
    }
 
    .product-link {
+      order: 0;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-         /* order:2; */
-         position: absolute;
+         order:2; 
+         /* position: absolute; */
+         align-self: flex-end;
      }
+   }
+
+   .sapf-head {
+ max-width: 50%;
    }
 
    .react-link {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-      top: 15%;
-      right: 4%;
    }
    }
 
    .shrink {
     flex-shrink: 1.8;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-      right: 0px;
-      bottom: 37px;
+      align-self: flex-end;
    }
    }
 
    .shrink-2 {
     flex-shrink: 2.7;
+    position: relative;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-    right: 21px;
-    bottom: 39px;
    }
    }
 
-   .no-shrink {
+ /*   .no-shrink {
        flex-shrink: 0;
-   }
+       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         flex-shrink: 1;
+        }
+   } */
 
    .product-item {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          position: relative;
          border: 1px solid #F2F2F2;
          border-radius: 3px;
+         display: flex;
        }
    }
 
    
 .item-react {
    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-   padding: 57px 215px 15px 40px;
+   padding: 37px 40px 15px 40px;
    }
    }
 
    .item-sapf {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-      padding: 57px 130px 15px 40px;
+      padding: 37px 40px 15px 40px;
       }
       }
 
       .sapf-foto {
          display: none;
          @media screen and (min-width: 1024px) and (max-width: 1920px) {
-            position: absolute;
+            /* position: absolute; */
             display: block;
-            max-width: 406px;
-            top: 69px;
-            left: 252px;
+            /* max-width: 406px; */
             }
       }
 
         .item-nasos {
          @media screen and (min-width: 1024px) and (max-width: 1920px) {
-         padding: 57px 40px 15px 36px;
+         padding: 37px 40px 15px 36px;
          }
          }
          
          .item-porsh {
             @media screen and (min-width: 1024px) and (max-width: 1920px) {
-            padding: 57px 40px 15px 36px;
+            padding: 37px 40px 15px 36px;
             }
             }
 
 
    .product-item-hover {
+
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          position: absolute;
          bottom: 5%;
@@ -176,7 +196,8 @@
    .product-item-box {
       display: flex;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        display: block;
+        display: flex;
+       /*  flex-direction: column;  */
      }
    }
 
@@ -255,42 +276,42 @@ font-weight: 600;
 
       .button-pattern-s2 {
          width: 43.98px;
-      height: 84px;
-      top: 40.3%;
-      left: 38.9%;
+         height: 92px;
+         top: calc(100% - 65%);
+         left: 31.9%;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       height: 128px;
       width: 144px;
-      top: 32.3%;
+      top: 50%;
       left: 50.9%;
    }
       }
 
       .button-pattern-s3 {
          width: 57px;
-         height: 84px;
-         top: 61.3%;
-    left: 79.9%;
+         height: 92px;
+         top: 59.3%;
+         left: 85.9%;
 
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
 
       height: 80px;
       width: 209px;
-      top: 61.3%;
-    left: 80.9%;
+      top: 8.3%;
+      left: 0;
    }
       }
     
       .button-pattern-s4 {
          width: 120px;
          height: 100px;
-         top: 78%;
+         top: 0;
          
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       height: 80px;
       width: 209px;
-      top: 29.3%;
-      left: 69.9%;
+      top: 0;
+      right: 0;
   
    }
       }

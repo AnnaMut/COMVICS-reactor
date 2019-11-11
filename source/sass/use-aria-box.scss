@@ -2,6 +2,10 @@
 margin: 26% 4% 8% 4%;
 position: relative;
 
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    margin: 8% 12.75% 1.5% 12.75%;
+ }
+
 .aria-head-header {
     color: #0E1823;
     font-size: 1.7em;
@@ -10,25 +14,74 @@ position: relative;
     letter-spacing: 0.05em;
     margin-left: 4%;
     position: relative;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        font-size: 3.1em;
+        line-height: 3.8em;
+        letter-spacing: 0.1em;
+        margin: 0 0 0 4%;
+    }
 }
 
 .aria-head-img {
     position: absolute;
     left: 0%;
     bottom: 11%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
  }
+
+ .use-img-desc {
+    display: none;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       display: block;
+       position: absolute;
+    left: 1.5%;
+    top: 26.5%;
+    }
+
+ }
+
 }
 
 .equipment-use-box {
+    position: relative;
     background-color: #233d5e;
     color: #fff;
     margin: 0;
     padding: 13% 4% 13% 0;
 
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        padding: 2.5% 7% 2.5% 0;
+        margin: 0 13.75%  -4.6% 13.75%;
+     }
+
+
+    .pattern-use {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: 
+        radial-gradient(#fff .1px, transparent 3px);
+        background-size: 10px 10px;
+        opacity: 0.07;
+        top: 0%;
+        z-index: 0;
+      }
+    
+    
+
     .equipment-use-text{
         font-size: 1em;
         line-height: 1.5em;
         margin: 0 4%; 
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 0 0 8%;
+         }
+    
+
     }
 }
 
