@@ -1,6 +1,12 @@
 .reviews {
-margin: 0 4% 0 4%;
+padding: 0 4% 0 4%;
 position: relative;
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    padding: 8% 12.75% 5.5% 12.75%;
+    background-image:  url("../img/rew-bg-desc.png");
+        background-size: cover;
+ }
 
 .reviews__title {
     color: #0E1823;
@@ -10,18 +16,43 @@ position: relative;
     letter-spacing: 0.05em;
     margin: 0 0 8% 4%;
     position: relative;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        font-size: 3.1em;
+        line-height: 3.8em;
+letter-spacing: 0.1em;
+margin: 0 0 1% 4%;
+     }
 }
 
 .reviews-head-img {
     position: absolute;
-    left: 0%;
+    left: -14px;
     top: 1%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
 }
+
+.reviews-img-desc  {
+    display: none;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       display: block;
+       position: absolute;
+       left: 14%;
+       top: 21%;
+    }
+ }
 
 .reviews__list {
 
 margin: 0;
 padding: 0;
+
+.reviews__item {
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 0 10% 4% 30%;
+     }
+}
 
 .review {
 display: flex;
@@ -29,15 +60,33 @@ display: flex;
     color: #0E1823;
     margin: 0;
 padding: 0;
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    flex-direction: column;
+ }
 
 
 .review__content {
     font-size: 0.75em;
     line-height: 1.3em;
     margin: 8% 0;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        order: 2;
+        font-size: 1em;
+            line-height: 1.6em;
+
+    }
+
+    .mobile-close-text-mark {
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: none;
+        }
+    }
 
 .mobile-close-text {
     display: none;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: inline;
+    }
 }
 
 }
@@ -48,43 +97,92 @@ padding: 0;
     text-align: center;
     letter-spacing: 0.1em;
     margin: 0 0 8% 0;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         display: none;
+     }
+}
+
+.customer-img {
+    position: absolute;
+    left: 0%;
+    top: 1%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
+}
+
+.customer-img-desc {
+    display: none;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       display: block;
+       position: absolute;
+       left: -7.5%;
+       top: 5%;
+    }
 }
 
     .review__author {
         margin-left: 4%;
+        margin-right: 8%;
         font-style: normal;
+        position: relative;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            margin: 0 45% 0 4%;
+        }
+
+
     .review__author-name {
         font-size: 1em;
 font-weight: bold;
-letter-spacing: 10%;
 display: block;
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    font-size: 1.6em;
+    line-height: 2em;
+}
     }
 
     .review__author-personality {
         font-size: 0.88em;
         line-height: 1.1em;
         letter-spacing: 0.1em;
-        
         color: #0E1823;
-        
         opacity: 0.8;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-size: 1.3em;
+            line-height: 1.5em;
+        }
     }
 }
 
     .reviews-author-avatar-social-media {
         display: flex;
         margin-bottom: 4%;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            position: absolute;
+            flex-direction: column;
+            left: 14%;
+         }
+
 
         .reviews-author-img {
             border-radius: 50%;
             margin-right: 4%;
+            @media screen and (min-width: 1024px) and (max-width: 1920px) {
+                width: 290px;
+                height: 290px;
+                margin: 0 0 11% 0;
+             }
           }
     }
 
     .review__author-social-media {
 font-size: 0.88em;
 opacity: 60%;
-letter-spacing: 10%
+letter-spacing: 10%;
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
     }
 
 

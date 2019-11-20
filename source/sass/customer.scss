@@ -2,6 +2,10 @@
     margin: 26% 4% 8% 4%;
     position: relative;
 
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 8% 12.75% 5.5% 12.75%;
+     }
+
 
     .customer__list {
     margin: 0 0 4% 0;
@@ -9,10 +13,17 @@
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 0 4.3% 0 4.3%;
+        grid-template-columns: 30% 30% 30% 30%;
+     }
 
     .customer__item {
         margin: 0 4% 4% 0;
-
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            margin: 0 0 15% 0;
+            
+         }
     }
 }
 
@@ -25,12 +36,31 @@
     letter-spacing: 0.05em;
     margin: 0 0 8% 4%;
     position: relative;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        font-size: 3.1em;
+        line-height: 3.8em;
+letter-spacing: 0.1em;
+margin: 0 0 1% 4%;
+     }
 }
 
 .customer-head-img {
     position: absolute;
     left: 0%;
     top: 2%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
+ }
+
+ .customer-img-desc {
+    display: none;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       display: block;
+       position: absolute;
+    left: 1.5%;
+    top: 10%;
+    }
  }
 
  .pagination-list-customer {
@@ -45,6 +75,10 @@
     align-items: center;
     padding: 0; 
     margin: 0;
+
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
 
     .pagination-item {
         margin-right: 4%;
