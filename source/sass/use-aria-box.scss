@@ -271,8 +271,30 @@ text-align: center;
 letter-spacing: 0.1em;
 margin: 0;
 padding: 0;
+position: relative;
+
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
     display: none;
+ }
+
+ .border-red {
+    border-bottom: 2px solid #fc5a38; 
+ }
+}
+
+.show-hidden-sector-items::after {
+    position: absolute;
+    top: 0;
+    left: 66%;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 3.5em;
+    content: "\25BC";
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
  }
 }
 

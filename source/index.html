@@ -144,7 +144,7 @@
                 <span class="menu-list-link-text activ-span">Главная</span>
               </a>
             </li>
-            <li class="menu-list-item">
+            <li class="menu-list-item hover-item-menu">
               <a class="menu-list-link" href="form.html">
                 <span class="menu-list-link-text">Продукция</span>
               </a>
@@ -322,7 +322,7 @@
 <li class="sector-list-item item-oil mobile-display">Исследование пластовых флюидов.</li>
 </ul>
 </div>
-<p class="show-hidden-sector-items">Показать текст...</p>
+<p class="show-hidden-sector-items"><span class="border-red">Показать текст...</span></p>
 </div>
 
 <div class="sector sector-petrology">
@@ -339,7 +339,7 @@
         <li class="sector-list-item item-petrology mobile-display">Пробоподготовка.</li>     
         </ul>
       </div>
-        <p class="show-hidden-sector-items">Показать текст...</p>
+      <p class="show-hidden-sector-items"><span class="border-red">Показать текст...</span></p>
         </div>
         
         <div class="sector sector-analistic">
@@ -355,7 +355,7 @@
                 <li class="sector-list-item item-analistic mobile-display">Определение коэффициента межфазного натяжения.</li>     
                 </ul>
               </div>
-                <p class="show-hidden-sector-items">Показать текст...</p>
+              <p class="show-hidden-sector-items"><span class="border-red">Показать текст...</span></p>
                 </div>
 
                 <div class="sector sector-chem">
@@ -394,22 +394,24 @@
         </div>
         <div class="splitter">
             <ul class="pagination-list-customer">
-              <li class="pagination-item current"><span class="pagination-current">1</span></li>
-              <li class="pagination-item"><a href="page2.html">2</a></li>
-              <li class="pagination-item"><a href="page3.html">3</a></li>
+              <li class="pagination-item"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">1</a></li>
+              <li class="pagination-item"><a href="page2.html"> <img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">2</a></li>
+              <li class="pagination-item current"><a href="page3.html"><img src="img/pagination-current.svg" class="pagination-img" width="15" height="4" alt="Линия">3</a></li>
             </ul>
           </div>
       </section>
 
       <section class="reviews">
         <div class="container reviews__container">
+          <div class="rew-box">
             <img src="img/features-decor-svg.svg" class="reviews-head-img" width="5" height="34" alt="Линия">
             <img src="img/desc-decor-line.svg" class="reviews-img-desc" width="9" height="74" alt="Линия">
           <h2 class="reviews__title">Отзывы</h2>
+        </div>
           <ul class="reviews__list">
             <li class="reviews__item">
               <blockquote class="review">
-                  <p class="show-hidden-review-text">Показать текст...</p>
+                  <p class="show-hidden-review-text"><span class="border-red-rev">Показать текст...</span></p>
                
                   <p class="review__content">
                        <span> Исследование фазовых равновесий при повышенной температуре и давлении с применением сапфирового реактора получает новое качество визуального контроля. Конечно, традиционно используемые методы работы с тонкостенными</span> <span class="mobile-close-text-mark">...</span><span class="mobile-close-text">капиллярами позволяют наблюдать поведение фазовых границ, но работа с дисперсными системами и твердыми фазами оказывается очень трудной. </span>
@@ -447,12 +449,12 @@
             <button class="pagination__button pagination__button_prev" type="button">
               <span class="visually-hidden">Предыдущий</span>
             </button>
-            <div class="splitter">
-                <ul class="pagination-list">
-                  <li class="pagination-item"><span class="pagination-current">1</span></li>
-                  <li class="pagination-item"><a href="page2.html">2</a></li>
-                  <li class="pagination-item"><a href="page3.html">3</a></li>
-                  <li class="pagination-item current"><a href="page4.html">4</a></li>
+            <div class="splitter-rev">
+                <ul class="pagination-list-rev">
+                    <li class="pagination-item-rev"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">2</a></li>
+                    <li class="pagination-item-rev"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">3</a></li>
+                    <li class="pagination-item-rev"><a href="page2.html"> <img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">4</a></li>
+                    <li class="pagination-item-rev current-rev"><a href="page3.html"><img src="img/pagination-current.svg" class="pagination-img" width="15" height="4" alt="Линия">5</a></li>
                 </ul>
               </div>
             <button class="pagination__button pagination__button_next" type="button">
@@ -505,7 +507,7 @@
                             <h3 class="visually-hidden">Напишите нам</h3>
                            
                             <form class="subscribe-gllacy" action="https://echo.htmlacademy.ru" method="post">
-                              <p>
+                              <p class="form-subs-title">
                                 <label for="subscribe">Мы на связи</label>
                               </p>
                               <p class="subscribe-input">

@@ -3,6 +3,10 @@
     position: relative;
     color: #0E1823;
 
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        margin: 8% 12.75% 5.5% 12.75%;
+     }
+
     .contacts__title {
         font-size: 1.7em;
     line-height: 2em;
@@ -14,7 +18,7 @@
         font-size: 3.1em;
         line-height: 3.8em;
 letter-spacing: 0.1em;
-margin: 0 0 1% 4%;
+margin: 0 0 0 4%;
      }
     }
 
@@ -33,7 +37,7 @@ margin: 0 0 1% 4%;
            display: block;
            position: absolute;
         left: 1.5%;
-        top: 4%;
+        top: 10.5%;
         }
      }
 
@@ -45,6 +49,9 @@ margin: 0 0 1% 4%;
 
     .logo-red {
         margin-bottom: 8%;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            margin-bottom: 12%;
+         }
     }
 
     .contacts__address {
@@ -54,31 +61,52 @@ margin: 0 0 1% 4%;
             border: 1px solid #EDEDED;
 box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
 border-radius: 3px;
+padding: 3% 3% 8.5% 3%;
+min-width: 454px;
          }
     }
     .contact-svg {
         margin-right: 4%;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            margin-right: 1%;
+         }
     }
 
     .contacts-data {
         display: flex;
         margin: 0 4% 4% 0;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
-            
             border: 1px solid #EDEDED;
 box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
 border-radius: 3px;
+margin: 0;
+padding: 3% 3% 8.5% 3%;
+         }
+    }
+
+    .contact-data {
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+margin: 0 0 3% 0;
+display: block;
          }
     }
 
     .contacts__address-value {
         font-size: 0.875em;
         line-height: 1.375em;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-size: 1.3em;
+            line-height: 3.2em;
+         }
     }
 
     .contacts__time-box {
         font-size: 0.875em;
         line-height: 1.375em;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            font-size: 1.3em;
+            line-height: 2em;
+         }
     }
 
     .contacts__time-tag {
@@ -90,6 +118,10 @@ border-radius: 3px;
     display: flex;
     flex-direction: column;
     margin-top: 3%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: block;
+        margin: 0 0 0 6.5%;
+    }
 
 
     .bold-text-time {
@@ -99,6 +131,9 @@ border-radius: 3px;
 
 .link-svg {
 margin-right: 4%;
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    margin-right: 1%;
+}
 }
 
 
@@ -106,6 +141,10 @@ margin-right: 4%;
     font-size: 1.250em;
 line-height: 1.500em;
 color: #0E1823;
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    font-size: 1.3em;
+    line-height: 3.2em;
+ }
 }
 
  .contact-data-link {
@@ -114,10 +153,21 @@ color: #0E1823;
 
 .contacts__phone-text-span {
  font-weight: 600;
+ @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    font-size: 1.4em;
+    line-height: 3.2em;
+}
 }
 
 .mobile-hide-order {
     display: none;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: inline-block;
+        font-size: 1.125em;
+line-height: 1.375em;
+color: #0E1823;
+border-bottom: 2px solid #fc5a38;
+    }
 }
 
 .button-writeus {
@@ -154,4 +204,8 @@ color: #0E1823;
       top: 29%;
   }
     
+.form-subs-title {
+    
+}
+
 }
