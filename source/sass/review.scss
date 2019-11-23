@@ -48,8 +48,7 @@ margin: 0 0 2% 4%;
  }
 
 .reviews__list {
-
-margin: 0;
+margin: 0 0 13% 0;
 padding: 0;
 
 .reviews__item {
@@ -216,20 +215,29 @@ letter-spacing: 10%;
 
 
 .reviews__pagination {
-  display: flex;
+ /*  display: flex;
   justify-content: space-between;
   padding: 0 0 8% 0; 
-  margin: 0;
+  margin: 0; */
 
-  .splitter-rev {
-    flex-grow: 1.5;
-    align-content: center;
+ /* .splitter-rev {
+     align-content: center;
+  } */
+
+  .current-rev {
+      margin-top: 4%;
   }
+
+  .page-rev {
+      margin-top: 3%;
+  }
+
 
   .pagination-list-rev {
       display: flex;
       padding: 0;
       margin: 0;
+      justify-content: center;
   }
 
   .pagination-item-rev {

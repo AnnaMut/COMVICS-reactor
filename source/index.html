@@ -388,15 +388,15 @@
             <li class="customer__item customer__item_gg"><a><img src="img/mgu-customer.png" width="160" height="69" alt="МГУ"></a></li>
             <li class="customer__item customer__item_ff"><a><img src="img/mgu-customer.png" width="160" height="69" alt="МГУ"></a></li>
             <li class="customer__item customer__item_gg"><a><img src="img/mgu-customer.png" width="160" height="69" alt="МГУ"></a></li>
-            <li class="customer__item customer__item_gg"><a><img src="img/mgu-customer.png" width="160" height="69" alt="МГУ"></a></li>
-            <li class="customer__item customer__item_gg"><a><img src="img/mgu-customer.png" width="160" height="69" alt="МГУ"></a></li>
+            <li class="customer__item customer__item_gg desc-hide"><a><img src="img/mgu-customer.png" width="160" height="69" alt="МГУ"></a></li>
+            <li class="customer__item customer__item_gg desc-hide"><a><img src="img/mgu-customer.png" width="160" height="69" alt="МГУ"></a></li>
           </ul>
         </div>
         <div class="splitter">
             <ul class="pagination-list-customer">
               <li class="pagination-item"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">1</a></li>
               <li class="pagination-item"><a href="page2.html"> <img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">2</a></li>
-              <li class="pagination-item current"><a href="page3.html"><img src="img/pagination-current.svg" class="pagination-img" width="15" height="4" alt="Линия">3</a></li>
+              <li class="pagination-item current-customer-btn"><a href="page3.html"><img src="img/pagination-current.svg" class="pagination-img" width="15" height="4" alt="Линия">3</a></li>
             </ul>
           </div>
       </section>
@@ -445,21 +445,27 @@
             </li>
           </ul>
         
-          <div class="pagination reviews__pagination">
+          <div class="reviews__pagination">
+      <!--       <div>
             <button class="pagination__button pagination__button_prev" type="button">
               <span class="visually-hidden">Предыдущий</span>
             </button>
-            <div class="splitter-rev">
+          </div> -->
+           <!--  <div class="splitter-rev"> -->
                 <ul class="pagination-list-rev">
-                    <li class="pagination-item-rev"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">2</a></li>
-                    <li class="pagination-item-rev"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">3</a></li>
-                    <li class="pagination-item-rev"><a href="page2.html"> <img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">4</a></li>
+                    <li class="pagination-item-rev prev-btn-rev"><a href="page1.html"><img src="img/button-pagination-prev.svg" class="pagination-img" width="35" height="35" alt="Линия">2</a></li>
+                    <li class="pagination-item-rev page-rev"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">2</a></li>
+                    <li class="pagination-item-rev page-rev"><a href="page1.html"><img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">3</a></li>
+                    <li class="pagination-item-rev page-rev"><a href="page2.html"> <img src="img/pagination.svg" class="pagination-img" width="15" height="4" alt="Линия">4</a></li>
                     <li class="pagination-item-rev current-rev"><a href="page3.html"><img src="img/pagination-current.svg" class="pagination-img" width="15" height="4" alt="Линия">5</a></li>
+                    <li class="pagination-item-rev next-btn-rev"><a href="page1.html"><img src="img/button-pagination-next.svg" class="pagination-img" width="35" height="35" alt="Линия">2</a></li>
                 </ul>
-              </div>
+            <!--   </div> -->
+             <!--  <div>
             <button class="pagination__button pagination__button_next" type="button">
               <span class="visually-hidden">Следующий</span>
             </button>
+          </div> -->
           </div>
           
         
@@ -480,7 +486,7 @@
                 <span class="contact-text contacts__address-value">Россия, Москва, Дмитровское шоссе, д.3, к.1</span>
               </div>
               <div class="contact-data contacts__time-box">
-                <img src="img/clock-contact.svg" class="contact-svg contact-time-img" width="20" height="20" alt="Телефон">
+                <img src="img/clock-contact.svg" class="contact-svg contact-time-img" width="20" height="20" alt="Часы">
                 <span class="contact-text contacts__time-tag">Время работы: </span>
                 <div class="contact-text-box">
                 <span class="contact-text contacts__time-working">Пн.-пт.: <span class="bold-text-time">9:00 - 21:00;</span></span>
@@ -488,7 +494,7 @@
               </div>
               </div>
               <div class="contact-data-link contacts__email-box">
-                <a class="contact-link contacts__email-link" href="mailto:info@comvics.com"><img src="img/mail-contact.svg" class="contact-svg link-svg contact-phone-img" width="20" height="20" alt="Телефон"> <span class="contact-text link-text contacts__email-tag">info@comvics.com</span></a>
+                <a class="contact-link contacts__email-link" href="mailto:info@comvics.com"><img src="img/mail-contact.svg" class="contact-svg link-svg contact-phone-img" width="20" height="20" alt="Почтовый ящик"> <span class="contact-text link-text contacts__email-tag">info@comvics.com</span></a>
               </div>
                 <div class="contact-data-link contacts__phone-box">
                     <a href="tel:+74959950550" class="contact-link contact-phone-link">
@@ -502,7 +508,7 @@
               <a class="button-writeus gradientcolor contact-btn" href="writeus.html"><img src="img/writeus-img.svg" class="order-button-img" width="20" height="19" alt="Письмо">Напишите нам</a>
       
 
-            <div class="contacts-data">
+            <div class="contacts-feed-data">
                     <div class="subscribe-form-inner">
                             <h3 class="visually-hidden">Напишите нам</h3>
                            
@@ -586,7 +592,7 @@
                             </a>
                           </li>
           </ul>
-
+          <div class="col"></div>
       <div class="foooter-contacts">
         <ul class="contact__list-footer">
           <li class="contact-footer__item item-prime">
@@ -600,7 +606,7 @@
                 
           </li>
           <li class="contact-footer__item">
-                <a href="#" class="contact-footer-link contact-footer-call-link gradientcolor"><span class="link-text-footer  contact-footer-text-call">Заказать звонок</span><img src="img/phone-contact.svg" class="contact-footer-svg contact-footer-phone-img" width="20" height="20" alt="Телефон"></a>
+                <a href="#" class="contact-footer-link contact-footer-call-link gradientcolor"><span class="link-text-footer  contact-footer-text-call">Заказать звонок</span><img src="img/icon-tel-white.svg" class="contact-footer-svg contact-footer-phone-img" width="20" height="20" alt="Телефон"></a>
                 
           </li>
         </ul>
