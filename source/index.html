@@ -89,7 +89,7 @@
 </div>
 </div> 
 
-<div class="popup-menu">
+<div class="popup-menu closed-popup-menu">
            
     <div class="burger-menu-toggle-box">
         <img class="logo" src="img/logo@mobile.svg" alt="Логотип COMVICS">
@@ -98,11 +98,7 @@
         </div>
         </div> 
 
-                    
-            <div class="lang-toggle">
-                <a href="#" class="russian-lang lang">RU</a>
-                <a href="#" class="engl-lang lang">EN</a>
-            </div>
+         
 
          <div class="phone">
            <a href="tel:+74959950550" class="phone-link">
@@ -170,6 +166,94 @@
 
        </div>
 </div>
+
+
+
+
+
+
+
+<div class="menu-container-desc"> 
+
+
+
+              
+                       
+               <div class="lang-toggle">
+                   <a href="#" class="russian-lang lang">RU</a>
+                   <a href="#" class="engl-lang lang">EN</a>
+               </div>
+   
+            <div class="phone">
+              <a href="tel:+74959950550" class="phone-link">
+              <img src="img/icon-tel.svg" class="phone-img" width="17" height="17" alt="Телефон">
+              <span class="phone-text">+7 (495) 995-05-50</span></a>
+           </div>
+   
+           <div class="login">
+              <div class="signin-btn">
+                   <a href="entrancepage.html" class="signin-link">
+                           <img src="img/icon-signin.svg" class="signin-img" alt="Ключ">
+                           <span class="signin-span">Регистрация</span></a>
+                   </div>
+                   <div class="login-btn gradientcolor">
+                           <a href="entrancepage.html" class="login-link">
+                                   <img src="img/icon-login.svg" class="login-img"  alt="Вход">
+                                   <span class="login-span">Войти в кабинет</span></a>
+                   </div> 
+                 
+                   </div> 
+            
+            
+               
+              
+              <!-- <a class="logo">
+                 <picture>
+                   <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
+                   <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+                   <img class="logo__image" src="img/logo-mobile.svg" width="90" height="35" alt="">
+                 </picture>
+               </a>
+               <button class="main-nav__menu-togler" type="button">
+                 <span class="visually-hidden">Открыть Закрыть меню</span>
+               </button>-->
+           
+             <ul class="main-nav menu-list mainmenu">
+               <li class="menu-list-item">
+                 <a class="menu-list-link activ" href="#">
+                   <span class="menu-list-link-text activ-span">Главная</span>
+                 </a>
+               </li>
+               <li class="menu-list-item hover-item-menu">
+                 <a class="menu-list-link" href="form.html">
+                   <span class="menu-list-link-text">Продукция</span>
+                 </a>
+               </li>
+               <li class="menu-list-item">
+                       <a class="menu-list-link" href="form.html">
+                         <span class="menu-list-link-text">О компании</span>
+                       </a>
+                     </li>
+   
+                     <li class="menu-list-item">
+                           <a class="menu-list-link" href="form.html">
+                             <span class="menu-list-link-text">Отзывы</span>
+                           </a>
+                         </li>
+                         <li class="menu-list-item">
+                               <a class="menu-list-link" href="form.html">
+                                 <span class="menu-list-link-text">Контакты</span>
+                               </a>
+                             </li>
+             </ul>                           
+   </div>
+
+
+
+
+
+
+
       </nav>
       <section class="order-headtext">
       <h1 class="visually-hidden">Реакторы COMVICS</h1>
@@ -565,27 +649,29 @@
                 <span class="menu-list-link-text">Главная</span>
               </a>
             </li>
+
+            
+            <li class="menu-list-footer-item menu-list-footer-item-feedback">
+                <a class="menu-list-link" href="form.html">
+                  <span class="menu-list-link-text">Отзывы</span>
+                </a>
+              </li>
+
             <li class="menu-list-footer-item menu-list-footer-item-product">
               <a class="menu-list-link" href="form.html">
                 <span class="menu-list-link-text">Продукция</span>
               </a>
             </li>
+            <li class="menu-list-footer-item menu-list-footer-item-blog">
+                <a class="menu-list-link" href="form.html">
+                  <span class="menu-list-link-text">Блог</span>
+                </a>
+              </li>
             <li class="menu-list-footer-item menu-list-footer-item-company">
                     <a class="menu-list-link" href="form.html">
                       <span class="menu-list-link-text">О компании</span>
                     </a>
-                  </li>
-
-                  <li class="menu-list-footer-item menu-list-footer-item-feedback">
-                        <a class="menu-list-link" href="form.html">
-                          <span class="menu-list-link-text">Отзывы</span>
-                        </a>
-                      </li>
-                      <li class="menu-list-footer-item menu-list-footer-item-blog">
-                            <a class="menu-list-link" href="form.html">
-                              <span class="menu-list-link-text">Блог</span>
-                            </a>
-                          </li>
+                  </li>          
                       <li class="menu-list-footer-item menu-list-footer-item-contacts">
                             <a class="menu-list-link" href="form.html">
                               <span class="menu-list-link-text">Контакты</span>
@@ -596,17 +682,17 @@
       <div class="foooter-contacts">
         <ul class="contact__list-footer">
           <li class="contact-footer__item item-prime">
-                  <a class="contact-footer-link contacts-footer-email-link" href="mailto:info@comvics.com"><img src="img/mail-contact.svg" class="contact-footer-svg contact-footer-phone-img" width="20" height="20" alt="Телефон"> <span class="link-text-footer contact-footer-text-email">info@comvics.com</span></a>
+                  <a class="contact-footer-link contacts-footer-email-link" href="mailto:info@comvics.com"><img src="img/mail-contact.svg" class="contact-footer-svg contact-footer-icon" width="20" height="20" alt="Телефон"> <span class="link-text-footer contact-footer-text-email">info@comvics.com</span></a>
                               
           </li>
           <li class="contact-footer__item item-prime">
               <a href="tel:+74959950550" class="contact-footer-link contact-footer-phone-link">
-                  <img src="img/phone-contact.svg" class="contact-footer-svg contact-footer-phone-img" width="20" height="20" alt="Телефон">
+                  <img src="img/phone-contact.svg" class="contact-footer-svg contact-footer-icon" width="20" height="20" alt="Телефон">
                   <span class="link-text-footer  contact-footer-text-phone">+7 (495) 995-05-50</span></a>
                 
           </li>
-          <li class="contact-footer__item">
-                <a href="#" class="contact-footer-link contact-footer-call-link gradientcolor"><span class="link-text-footer  contact-footer-text-call">Заказать звонок</span><img src="img/icon-tel-white.svg" class="contact-footer-svg contact-footer-phone-img" width="20" height="20" alt="Телефон"></a>
+          <li class="contact-footer__item call-btn-item">
+                <a href="#" class="contact-footer-link contact-footer-call-link gradientcolor"><img src="img/icon-tel-white.svg" class="contact-footer-svg contact-footer-phone-img" width="20" height="20" alt="Телефон">Заказать звонок</a>
                 
           </li>
         </ul>

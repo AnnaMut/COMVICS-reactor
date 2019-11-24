@@ -28,17 +28,21 @@
     }
 
 .menu-list-footer {
-    padding: 0;
+    padding: 0 0 0 12%;
     margin: 0;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 65% 65%;
-    margin-bottom: 35%;
+    grid-template-rows: 65% 65%; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 30%;
 
 
 .menu-list-footer-item {
-
-padding-left: 20%;
+    flex: 0 1 45%;
+    margin-bottom: 5%;
 
     .menu-list-link {
         color: #fff;
@@ -61,14 +65,12 @@ width: 100%;
 .contact__list-footer {
 
     padding: 0 0 8% 0;
-    margin: 0 0 0 0;
+    margin: 0 0 8% 0;
 
 .item-prime {
  margin-bottom: 8%;
  text-align: center;
 }
-
-
 
 
 .link-text-footer {
@@ -99,43 +101,64 @@ width: 100%;
     top: 0px;
   }
 
-  .contact-footer-phone-img {
-      display: inline-block;
-      vertical-align: middle;
-  }
-
-  .contact-footer-text-call {
-  margin-right: calc(100% - 56%);
+  .contact-footer-icon {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 1%;
 }
+
+  .contact-footer-phone-img {
+        position: absolute;
+        right: 7%;
+        top: 29%;
+  }
 
 }
 
 .copyright-item {
     background-color: #111b26;
-    padding: 4%;
-    display: grid;
+    padding: 4% 4% 0 4%;
+    /* display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 85% 85%;
+    grid-template-rows: 85% 85%; */
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: flex-start; */
+ /*    align-items: flex-start; */
+
 
    
     .copyright-text {
        font-size: 0.625em;
        line-height: 0.750em;
        color: #fff !important;
-       opacity: 0.3; 
+       opacity: 0.3;
+       margin: 0 0 4% 0; 
+    }
+
+    .main-text {
+        flex: 0 1 45%;
+        justify-self: flex-start;
     }
 
     .main-text-hidden {
+        flex: 0 1 45%;
         color: #111b26;
         font-size: 1px;
     }
 
     .ogrn-text {
-        justify-self: end;
+        flex: 0 1 55%;
+        text-align: end;
+        color: #fff !important;
+        opacity: 0.3; 
     }
 
     .inn-text {
-        justify-self: end;
+        flex: 0 1 55%;
+        text-align: end;
+        color: #fff !important;
+        opacity: 0.3; 
     }
    }
 
