@@ -4,6 +4,7 @@ var navOpen = document.querySelector(".burger-menu-button");
 /* navMain.classList.remove("main-nav_nojs"); */
 
 navOpen.addEventListener("click", function() {
+    alert("hohoh");
   if (navMain.classList.contains("closed-popup-menu")) {
     navMain.classList.remove("closed-popup-menu");
     navMain.classList.add("opened-popup-menu");
