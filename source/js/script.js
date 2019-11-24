@@ -1,10 +1,10 @@
 var navMain = document.querySelector(".popup-menu");
 var navOpen = document.querySelector(".burger-menu-button");
+var navClose = document.querySelector(".burger-menu-button-close");
+var nexteSection = document.querySelector(".order-headtext");
 
-/* navMain.classList.remove("main-nav_nojs"); */
 
 navOpen.addEventListener("click", function() {
-    alert("hohoh");
   if (navMain.classList.contains("closed-popup-menu")) {
     navMain.classList.remove("closed-popup-menu");
     navMain.classList.add("opened-popup-menu");
@@ -13,6 +13,23 @@ navOpen.addEventListener("click", function() {
     navMain.classList.remove("opened-popup-menu");
   }
 });
+
+navClose.addEventListener("click", function() {
+    if (navMain.classList.contains("opened-popup-menu")) {
+      navMain.classList.remove("opened-popup-menu");
+      navMain.classList.add("closed-popup-menu");
+    } else {
+      navMain.classList.add("opened-popup-menu");
+      navMain.classList.remove("closed-popup-menu");
+    }
+  });
+
+
+  window.onclick = function(event) {
+    if (event.target != navMain) {
+        navMain.style.display = "none";
+    }
+  }
 
 
 var modalWindow = document.querySelector(".modal-window");

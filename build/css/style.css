@@ -110,6 +110,9 @@ body {
   .main-header .burger-menu-button {
     display: block;
     cursor: pointer; }
+  .main-header .burger-menu-button-close {
+    display: block;
+    cursor: pointer; }
   .main-header .closed-popup-menu {
     display: none; }
   .main-header .opened-popup-menu {
@@ -119,12 +122,31 @@ body {
     position: absolute; }
   .main-header .popup-menu {
     /* display: flex;  */
+    z-index: 6;
+    width: 100%;
+    top: 0;
     background-color: #0E1823;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 4em; }
+    padding-bottom: 4em;
+    -webkit-animation-name: animateNav;
+            animation-name: animateNav;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s; }
+
+@-webkit-keyframes animateNav {
+  from {
+    top: -535px; }
+  to {
+    top: 0; } }
+
+@keyframes animateNav {
+  from {
+    top: -535px; }
+  to {
+    top: 0; } }
   .main-header .lang-toggle {
     position: relative;
     font-size: 0.875em;

@@ -52,6 +52,11 @@
         cursor: pointer;
     }
 
+    .burger-menu-button-close {
+        display: block;
+        cursor: pointer;
+    }
+
   .closed-popup-menu {
      display: none;
     }
@@ -63,10 +68,20 @@
 
     .popup-menu {
         /* display: flex;  */
+        z-index: 6;
+        width: 100%;
+        top: 0;
         background-color: #0E1823;
         flex-direction: column;
         padding-bottom: 4em;
+        animation-name: animateNav;
+        animation-duration: 0.8s
     }
+
+    @keyframes animateNav {
+        from {top:-535px}
+        to {top:0}
+      }
 
     .lang-toggle {
             position: relative;
