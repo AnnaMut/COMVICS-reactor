@@ -108,7 +108,8 @@ body {
     padding-top: 4%;
     padding-bottom: 4%; }
   .main-header .burger-menu-button {
-    display: block; }
+    display: block;
+    cursor: pointer; }
   .main-header .closed-popup-menu {
     display: none; }
   .main-header .opened-popup-menu {
