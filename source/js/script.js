@@ -2,27 +2,44 @@ var navMain = document.querySelector(".popup-menu");
 var navOpen = document.querySelector(".burger-menu-button");
 var navClose = document.querySelector(".burger-menu-button-close");
 var nexteSection = document.querySelector(".order-headtext");
-
+var orderOpenBtn = document.querySelector(".button-order-form");
+var orderCloseBtn = document.querySelector(".order-button-close");
+var orderPopup = document.querySelector(".order-data");
 
 navOpen.addEventListener("click", function() {
   if (navMain.classList.contains("closed-popup-menu")) {
     navMain.classList.remove("closed-popup-menu");
     navMain.classList.add("opened-popup-menu");
-  } else {
+  } /* else {
     navMain.classList.add("closed-popup-menu");
     navMain.classList.remove("opened-popup-menu");
-  }
+  } */
 });
 
 navClose.addEventListener("click", function() {
     if (navMain.classList.contains("opened-popup-menu")) {
       navMain.classList.remove("opened-popup-menu");
       navMain.classList.add("closed-popup-menu");
-    } else {
+    } /* else {
       navMain.classList.add("opened-popup-menu");
       navMain.classList.remove("closed-popup-menu");
+    } */
+  });
+
+
+  orderOpenBtn.addEventListener("click", function() {
+    if (orderPopup.classList.contains("сlosed-order")) {
+      orderPopup.classList.remove("сlosed-order");
+      orderPopup.classList.add("opened-order");
     }
   });
+  
+  orderCloseBtn.addEventListener("click", function() {
+      if (orderPopup.classList.contains("opened-order")) {
+        orderPopup.classList.remove("opened-order");
+        orderPopup.classList.add("сlosed-order");
+      }
+    });
 
 
   window.onclick = function(event) {
