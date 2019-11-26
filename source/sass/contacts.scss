@@ -76,9 +76,41 @@ min-width: 454px;
         margin-right: 5%;
     }
 
-    .contacts-feed-data {
+    .hide-mobile-writeus {
+        display: none;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: block;
+         }
+    }
+
+    .open-mobile-writeus {
+        display: block;
+        position: absolute;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: block;
+            position: relative;
+         }
+    }
+
+    .subscribe-form-inner {
         display: flex;
+    }
+
+    .writeus-button-close {
+        margin-left: 85%;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            display: none;
+         }
+    }
+
+    .contacts-feed-data {
+        /* display: flex; */
         padding: 8% 4% 4% 0;
+        z-index: 6;
+        width: 100%;
+        top: 0;
+        left: -4%;
+        background-color: #fff;
 
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
             border: 1px solid #EDEDED;

@@ -101,6 +101,7 @@ padding: 0;
     text-align: center;
     letter-spacing: 0.1em;
     margin: 0 0 8% 0;
+    cursor: pointer;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
          display: none;
      }
@@ -215,14 +216,6 @@ letter-spacing: 10%;
 
 
 .reviews__pagination {
- /*  display: flex;
-  justify-content: space-between;
-  padding: 0 0 8% 0; 
-  margin: 0; */
-
- /* .splitter-rev {
-     align-content: center;
-  } */
 
   .current-rev {
       margin-top: 4%;

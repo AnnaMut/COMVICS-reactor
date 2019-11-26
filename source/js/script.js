@@ -5,6 +5,19 @@ var nexteSection = document.querySelector(".order-headtext");
 var orderOpenBtn = document.querySelector(".button-order-form");
 var orderCloseBtn = document.querySelector(".order-button-close");
 var orderPopup = document.querySelector(".order-data");
+var orderBtn = document.querySelector(".order-btn-popup");
+var showHiddenItemOil = document.querySelector(".oil-btn"); 
+var closedItemsOil = document.querySelectorAll(".oil-hidden");
+var showHiddenItemPetrology = document.querySelector(".petrology-btn"); 
+var closedItemsPetrology = document.querySelectorAll(".petrology-hidden");
+var showHiddenItemAnalistic = document.querySelector(".analistic-btn"); 
+var closedItemsAnalistic = document.querySelectorAll(".analistic-hidden");
+var showHiddenReviewText = document.querySelector(".show-hidden-review-text"); 
+var closedTextReview = document.querySelector(".mobile-close-text");
+var reviewSpan = document.querySelector(".mobile-close-text-mark");
+var writeusBtn = document.querySelector(".button-writeus"); 
+var writeUsPopup = document.querySelector(".contacts-feed-data");
+var writeusCloseBtn = document.querySelector(".writeus-button-close");
 
 navOpen.addEventListener("click", function() {
   if (navMain.classList.contains("closed-popup-menu")) {
@@ -20,14 +33,18 @@ navClose.addEventListener("click", function() {
     if (navMain.classList.contains("opened-popup-menu")) {
       navMain.classList.remove("opened-popup-menu");
       navMain.classList.add("closed-popup-menu");
-    } /* else {
-      navMain.classList.add("opened-popup-menu");
-      navMain.classList.remove("closed-popup-menu");
-    } */
+    } 
   });
 
 
   orderOpenBtn.addEventListener("click", function() {
+    if (orderPopup.classList.contains("сlosed-order")) {
+      orderPopup.classList.remove("сlosed-order");
+      orderPopup.classList.add("opened-order");
+    }
+  });
+
+  orderBtn.addEventListener("click", function() {
     if (orderPopup.classList.contains("сlosed-order")) {
       orderPopup.classList.remove("сlosed-order");
       orderPopup.classList.add("opened-order");
@@ -41,8 +58,62 @@ navClose.addEventListener("click", function() {
       }
     });
 
+    showHiddenItemOil.addEventListener("click", function() {
+      for (var i=0; i< closedItemsOil.length; i++) {
+      if (closedItemsOil[i].classList.contains("mobile-display")) {
+        closedItemsOil[i].classList.remove("mobile-display");
+        showHiddenItemOil.style = "display: none";
+      } 
+    }
+    });
 
-  window.onclick = function(event) {
+    showHiddenItemPetrology.addEventListener("click", function() {
+      for (var i=0; i< closedItemsPetrology.length; i++) {
+      if (closedItemsPetrology[i].classList.contains("mobile-display")) {
+        closedItemsPetrology[i].classList.remove("mobile-display");
+        showHiddenItemPetrology.style = "display: none";
+      } 
+    }
+    });
+
+     showHiddenItemAnalistic.addEventListener("click", function() {
+      for (var i=0; i< closedItemsAnalistic.length; i++) {
+      if (closedItemsAnalistic[i].classList.contains("mobile-display")) {
+        closedItemsAnalistic[i].classList.remove("mobile-display");
+        showHiddenItemAnalistic.style = "display: none";
+      } 
+    }
+    });
+
+    showHiddenReviewText.addEventListener("click", function() {
+      if (closedTextReview) {
+        closedTextReview.classList.remove("mobile-close-text");
+        reviewSpan.style = "display: none";
+        showHiddenReviewText.style = "display: none";
+      }
+    });
+
+    writeusBtn.addEventListener("click", function() {
+      event.preventDefault();
+      if (writeUsPopup.classList.contains("hide-mobile-writeus")) {
+        writeUsPopup.classList.remove("hide-mobile-writeus");
+        writeUsPopup.classList.add("open-mobile-writeus");
+      } /* else {
+        navMain.classList.add("closed-popup-menu");
+        navMain.classList.remove("opened-popup-menu");
+      } */
+    });
+    
+    writeusCloseBtn.addEventListener("click", function() {
+        if (writeUsPopup.classList.contains("open-mobile-writeus")) {
+          writeUsPopup.classList.remove("open-mobile-writeus");
+          writeUsPopup.classList.add("hide-mobile-writeus");
+        } 
+      });
+
+
+
+  /* window.onclick = function(event) {
     if (event.target != navMain) {
         navMain.style.display = "none";
     }
@@ -90,5 +161,5 @@ window.onclick = function(event) {
     if (modalWindow.classList.contains("modal-window_shown")) {
       modalWindow.classList.remove("modal-window_shown");
     }
-  }
-}
+  } 
+}*/
