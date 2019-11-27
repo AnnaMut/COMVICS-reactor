@@ -37,7 +37,7 @@ overflow: hidden;
             font-size: 40px;
 line-height: 49px;
 letter-spacing: 0.1em;
-margin: 0 8% 3% 2%;
+margin: 0 8% 3% 0;
          }
        
      }
@@ -51,7 +51,7 @@ margin: 0 8% 3% 2%;
          }
      }
 
-     .order-about-img-desc {
+/*      .order-about-img-desc {
         display: none;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
            display: block;
@@ -59,11 +59,8 @@ margin: 0 8% 3% 2%;
         left: 0;
         top: 2.5%;
         }
-  
      }
-
-
-     
+      */
      .order-item {
         font-size: 0.75em;
         line-height: 1.3em; 
@@ -91,6 +88,12 @@ margin-bottom: 9%;
         }
     }
 
+    
+   .underlined-text {
+    text-decoration: underline;
+    text-decoration-color: #FC5A38;
+}
+
     .button-order-form {
         color: #fff;
         position: relative;
@@ -114,6 +117,10 @@ margin-bottom: 9%;
         letter-spacing: 0.1em;
         z-index: 1;
     }
+       }
+
+       .button-order-form:hover {
+        background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%);
        }
 
 
@@ -171,6 +178,14 @@ margin-bottom: 9%;
     z-index: 0;
 }
   }
+
+  .reactor-mobile-img {
+    display: block;
+    margin: -40% auto -20% auto;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
+ }
 
 /* .order_about-box:before {
     content: "";

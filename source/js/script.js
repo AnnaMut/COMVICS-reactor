@@ -18,6 +18,7 @@ var reviewSpan = document.querySelector(".mobile-close-text-mark");
 var writeusBtn = document.querySelector(".button-writeus"); 
 var writeUsPopup = document.querySelector(".contacts-feed-data");
 var writeusCloseBtn = document.querySelector(".writeus-button-close");
+var mainPageLink = document.querySelector(".menu-list-item");
 
 navOpen.addEventListener("click", function() {
   if (navMain.classList.contains("closed-popup-menu")) {
@@ -98,10 +99,7 @@ navClose.addEventListener("click", function() {
       if (writeUsPopup.classList.contains("hide-mobile-writeus")) {
         writeUsPopup.classList.remove("hide-mobile-writeus");
         writeUsPopup.classList.add("open-mobile-writeus");
-      } /* else {
-        navMain.classList.add("closed-popup-menu");
-        navMain.classList.remove("opened-popup-menu");
-      } */
+      } 
     });
     
     writeusCloseBtn.addEventListener("click", function() {
@@ -112,6 +110,18 @@ navClose.addEventListener("click", function() {
       });
 
 
+    var mainPageLink = document.querySelectorAll(".menu-list-item");
+    
+    for(var i=0;i<mainPageLink.length;i++)
+    (function(i) { 
+      mainPageLink[i].addEventListener("click", function(e) {
+        var allItems =  document.querySelectorAll(".item");
+        allItems.forEach(function (item) {
+          item.querySelector(".menu-list-link").querySelector(".menu-list-link-text").classList.remove("active-span");
+        });
+        e.target.classList.add("active-span");
+      })
+  })(i);
 
   /* window.onclick = function(event) {
     if (event.target != navMain) {

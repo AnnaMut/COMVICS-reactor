@@ -220,6 +220,10 @@
         position: relative;
     }
 
+    .login-btn:hover {
+        background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%);
+    }
+
     .login-img  {
     display: inline-block;
     vertical-align: middle;
@@ -242,12 +246,18 @@
            position: absolute;
           } 
    
+          .button-order-form:hover {
+            background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%);
+           }
 
+           .button-order:hover {
+            background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%);
+           }
 
     .order-data {
         z-index: 6;
         width: 90%;
-        top: 0;
+        top: -4%;
         padding: 8% 4% 4% 4%;
         background: #112e4e; 
     
@@ -375,7 +385,7 @@ padding: 3% 3% 8.5% 3%;
       .order-button-img {
           position: absolute;
           right: 7%;
-          top: 29%;
+          top: 40%;
       }
 
       .form-info {
@@ -419,7 +429,7 @@ padding: 3% 3% 8.5% 3%;
  }
 }
 
-.hover-item-menu::after {
+.menu-list-link:hover::after {
     position: absolute;
     top: 0;
     left: 80%;
@@ -475,7 +485,6 @@ padding: 3% 3% 8.5% 3%;
     }
   }
 
-
    .main-header-headtext {
     font-size: 1.59em;
     line-height: 1.4em; 
@@ -494,13 +503,13 @@ padding: 3% 3% 8.5% 3%;
         line-height: 1.35em; */
         letter-spacing: 0.05em;
         margin-top: 15%;
-        margin-left: 2%;
+        margin-left: 0;
         margin-bottom: 2%;
         margin-right: 0%;
     }
    }
 
-   .main-header-headtext::before {
+   /* .main-header-headtext::before {
     content: "";
     display: inline-block;
     position: absolute;
@@ -515,11 +524,11 @@ padding: 3% 3% 8.5% 3%;
     transform: rotate(90deg);
         height: 10px;
     width: 169px;
-   /*  left: -12.9%; */
+    left: -12.9%; 
     bottom: 47%;
     left: calc(100% - 67.3vw);
     }
-   }
+   } */
 
 
    .underlined-text {
@@ -591,10 +600,6 @@ padding: 3% 3% 8.5% 3%;
 }
   }
 
-
-
-
-
   .order-head-span {
       padding-right: calc(100% - 175px); 
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -602,20 +607,11 @@ padding: 3% 3% 8.5% 3%;
     }
     }
 
-/*   .order-button-img {
-      position: absolute;
-      right: 9%;
-      top: 50%;
-  } */
- 
-
 .scroll-bar {
     display: none;
 }
 
-
 }
- 
 
 
  @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -651,7 +647,11 @@ top: 0px;
 }
 
 
-  .activ-span {
+.menu-list-link:active {
+    border-bottom: 2px solid #fc5a38;
+  }
+
+  .active-span {
     border-bottom: 2px solid #fc5a38;
   }
 

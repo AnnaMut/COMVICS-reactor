@@ -118,34 +118,34 @@
                 <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
                 <img class="logo__image" src="img/logo-mobile.svg" width="90" height="35" alt="">
               </picture>
-            </a>
+            </a>  activ-span 
             <button class="main-nav__menu-togler" type="button">
               <span class="visually-hidden">Открыть Закрыть меню</span>
             </button>-->
         
           <ul class="main-nav menu-list mainmenu">
-            <li class="menu-list-item">
-              <a class="menu-list-link activ" href="index.html">
-                <span class="menu-list-link-text activ-span">Главная</span>
+            <li class="menu-list-item item">
+              <a class="menu-list-link activ" href="#">
+                <span class="menu-list-link-text ">Главная</span>
               </a>
             </li>
-            <li class="menu-list-item hover-item-menu">
+            <li class="menu-list-item product-link  item">
               <a class="menu-list-link" href="catalog.html">
                 <span class="menu-list-link-text">Продукция</span>
               </a>
             </li>
-            <li class="menu-list-item">
+            <li class="menu-list-item item">
                     <a class="menu-list-link" href="#info-section">
                       <span class="menu-list-link-text">О компании</span>
                     </a>
                   </li>
 
-                  <li class="menu-list-item">
-                        <a class="menu-list-link" href="#reviews">
+                  <li class="menu-list-item item">
+                        <a class="menu-list-link" href="#review-section">
                           <span class="menu-list-link-text">Отзывы</span>
                         </a>
                       </li>
-                      <li class="menu-list-item">
+                      <li class="menu-list-item  item">
                             <a class="menu-list-link" href="#contact-section">
                               <span class="menu-list-link-text">Контакты</span>
                             </a>
@@ -187,28 +187,28 @@
                    </div> 
             
              <ul class="main-nav menu-list mainmenu">
-               <li class="menu-list-item">
-                 <a class="menu-list-link activ" href="index.html">
-                   <span class="menu-list-link-text activ-span">Главная</span>
+               <li class="menu-list-item item">
+                 <a class="menu-list-link activ" href="#">
+                   <span class="menu-list-link-text">Главная</span>
                  </a>
                </li>
-               <li class="menu-list-item hover-item-menu">
+               <li class="menu-list-item item">
                  <a class="menu-list-link" href="catalog.html">
                    <span class="menu-list-link-text">Продукция</span>
                  </a>
                </li>
-               <li class="menu-list-item">
+               <li class="menu-list-item item">
                        <a class="menu-list-link" href="#info-section">
                          <span class="menu-list-link-text">О компании</span>
                        </a>
                      </li>
    
-                     <li class="menu-list-item">
+                     <li class="menu-list-item item">
                            <a class="menu-list-link" href="#review-section">
                              <span class="menu-list-link-text">Отзывы</span>
                            </a>
                          </li>
-                         <li class="menu-list-item">
+                         <li class="menu-list-item item">
                                <a class="menu-list-link" href="#contact-section">
                                  <span class="menu-list-link-text">Контакты</span>
                                </a>
@@ -245,11 +245,8 @@
       </div>
 
 
-      
-      
-      <figure align="center">
       <img src="img/reactor-image@mobile.png" class="reactor-mobile-img" width="325" height="601" alt="Реактор">
-    </figure>
+
   </section>
       <section class="features-list-box">
           <h2 class="features-headtext">Преимущества</h2>
@@ -351,8 +348,8 @@
 <section class="order_about-box">
   <div  class="order_about">
         <img src="img/order-about-decor.svg" class="order-about-decor-img" width="5" height="146" alt="Линия">
-        <img src="img/desc-decor-line.svg" class="order-about-img-desc" width="9" height="74" alt="Линия">
-        <h2 class="order-head">Изготавливаем реакторы и установки по индивидуальным параметрам</h2>
+        <!-- <img src="img/desc-decor-line.svg" class="order-about-img-desc" width="9" height="74" alt="Линия"> -->
+        <h2 class="order-head">Изготавливаем <span class="underlined-text">реакторы и установки</span> по индивидуальным <span class="underlined-text">параметрам</span></h2>
 <p class="order-item individual">Несмотря на то, что мы стараемся сделать наше оборудование максимально <span class="order-bold">функциональным и удобным</span>, оно не может быть универсальным инструментом там, где творчество и фантазия выходят на первое место.</p>
 <p class="order-item custom">Именно поэтому мы выпускаем нестандартное оборудование и комплексные установки, которые <span class="order-bold">учитывают все Ваши пожелания</span>.</p>
 <p class="order-item custom-desision"><span class="order-bold">Опишите нам Вашу задачу</span>, и мы разработаем сбаллансированное решение, придерживаясь принципов максимальной гибкости в ходе всего процесса создания.</p>
@@ -499,18 +496,19 @@
                 <img src="img/author-1.png" class="reviews-author-img author-1" width="92" height="92" alt="Автор 1">
                 <div class="social-media-author-box">
                 <span class="review__author-social-media">Клиент в сети:</span>
-                <a class="social-bar__link" href="https://www.instagram.com" aria-label="Переход на сайт Instagram">
-                    <span class="visually-hidden">Instagram</span>
-                    <svg class="social-bar__icon" width="22" height="22" role="img">
-                      <use xlink:href="#icon-insta_sp"></use>
-                    </svg>
+                <div class="media-icons">
+                <a class="social-bar__link" href="#" aria-label="Переход на сайт Вконтакте">
+                    <span class="visually-hidden">Вконтакте</span>
+                    <img src="img/vk-icon.svg" class="vk-img" width="30" height="30" alt="Вконтакте">
                   </a>
-                  <a class="social-bar__link" href="https://www.instagram.com" aria-label="Переход на сайт Instagram">
+                  <a class="social-bar__link" href="#" aria-label="Переход на сайт Instagram">
                     <span class="visually-hidden">Instagram</span>
-                    <svg class="social-bar__icon" width="22" height="22" role="img">
+                    <img src="img/insta-icon.svg" class="insta-img" width="30" height="30" alt="Вконтакте">
+                   <!--  <svg class="social-bar__icon" width="22" height="22" role="img">
                       <use xlink:href="#icon-insta_sp"></use>
-                    </svg>
+                    </svg> -->
                   </a>
+                </div>
                 </div>
                 </div>
               </blockquote>
@@ -570,7 +568,7 @@
       
 
             <div class="contacts-feed-data hide-mobile-writeus">
-                <a class="writeus-button-close"> <img src="img/close-button-grey.svg" class="writeus-close-img" width="25" height="22" alt="Закрыть заявку"></a>
+                <a class="writeus-button-close"> <img src="img/close-buton-grey.svg" class="writeus-close-img" width="25" height="22" alt="Закрыть заявку"></a>
                     <div class="subscribe-form-inner">
                             <h3 class="visually-hidden">Напишите нам</h3>
                          
