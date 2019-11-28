@@ -86,6 +86,14 @@ min-width: 454px;
     .open-mobile-writeus {
         display: block;
         position: absolute;
+        width:100%;
+        min-height:100%;
+        background-color: rgba(0,0,0,0.5);
+        overflow:hidden;
+        position:fixed;
+        top:0px;
+        left: 0px;
+        z-index: 7;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
             display: block;
             position: relative;
@@ -104,11 +112,14 @@ min-width: 454px;
          }
     }
 
-    .contacts-feed-data {
+    .contact-feed-box {
         /* display: flex; */
-        padding: 8% 4% 4% 0;
+        margin-left: auto;
+    margin-right: auto;
+        background: #fff;
+        padding: 8% 4% 4% 4%;
         z-index: 6;
-        width: 100%;
+        width: 320px;
         top: 0;
         left: 0;
         background-color: #fff;
@@ -122,6 +133,7 @@ margin: 0;
 padding: 3% 3% 8.5% 3%;
          }
     }
+
 
     .contact-data {
         margin: 0 0 5% 0;
@@ -281,7 +293,7 @@ border-bottom: 2px solid #fc5a38;
 
 .fb-info {
    /*  display: block; */
-    width: 100.5%;
+    width: 290px;
     height: 44px;
     margin-bottom: 8%;
     background: #f9f9f9;
@@ -302,7 +314,7 @@ color: #0E1823;
 
 .fb-text {
     /* display: block; */
-    width: 96.5%;
+    width: 275px;
     height: 79px;
     margin-bottom: 8%;
     background: #f9f9f9;
@@ -331,7 +343,7 @@ font-size: .875em;
 line-height: 1.05em;
 font-weight: 400px;
 letter-spacing: .1em;
-padding: 5% 70.7% 5% 12%;
+padding: 5% 190px 5% 12%;
 margin-bottom: 4%;
 border: 0;
 border-radius: 3px;
