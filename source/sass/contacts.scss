@@ -1,5 +1,5 @@
 .contacts {
-    padding: 8% 4% 0 4%;
+    padding: 25% 4% 0 4%;
     position: relative;
     color: #0E1823;
 
@@ -22,10 +22,14 @@ margin: 0 0 0 4%;
      }
     }
 
+.header-contacts-box {
+    position: relative;
+}
+
     .contacts-head-img {
         position: absolute;
-        left: 4%;
-        top: 8.5%;
+        left: 0;
+        top: 14.5%;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
             display: none;
          }

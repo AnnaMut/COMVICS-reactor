@@ -500,7 +500,7 @@
   .main-header-container {
     background-image: url("../img/molecule.png");
     background-repeat: no-repeat;
-    background-position: top 48.5% right;
+    background-position: top 24.5% left -188%;;
 
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
         background-image: url("../img/header-desc-bg.png"), url("../img/molecule.png"), url("../img/molecule2.png");
