@@ -441,16 +441,22 @@
     justify-content: flex-end;
     font-size: 1.250em;
     line-height: 1.500em;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     margin: 6.25em 0 0 0;
 }
 }
 
    .menu-list-link {
     color: #fff;
+    opacity: 0.7;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
         margin-left: 57px;
  }
+}
+
+.menu-list-link:hover {
+    color: #fff;
+    opacity: 1;
 }
 
 .menu-list-link:hover::after {
@@ -464,6 +470,7 @@
     font-size: 1.2em;
     text-align: center;
     color: #fc6534;
+
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
         font-size: 0.9em;
         left: 90%;

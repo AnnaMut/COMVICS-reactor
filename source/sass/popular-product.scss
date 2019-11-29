@@ -90,7 +90,7 @@
       letter-spacing: 0.05em;
       text-transform: uppercase;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-         font-size: 1.6em;
+         font-size: 1.2em;
          line-height: 1.3em;
          letter-spacing: 0.05em;
          z-index: 1;
@@ -102,18 +102,22 @@
    .product-link {
       order: 0;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-         order:2; 
-         /* position: absolute; */
-         align-self: flex-end;
+         order:2;  
+         align-self: flex-end; 
      }
    }
 
    .sapf-head {
  max-width: 50%;
+ @media screen and (min-width: 1024px) and (max-width: 1920px) {
+   max-width: 100%;
+}
    }
 
    .react-link {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         margin-top: 5%;
+         margin-left: 37%;
    }
    }
 
@@ -121,6 +125,8 @@
     flex-shrink: 1.8;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       align-self: flex-end;
+      margin-left: 29%;
+    margin-top: 10%;
    }
    }
 
@@ -137,6 +143,20 @@
          flex-shrink: 1;
         }
    } */
+
+   .nasos-box {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      flex-shrink: 0;
+    width: 100%;
+   }
+   }
+
+   .porsh-box {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         flex-shrink: 0;
+       width: 100%;
+      }
+   }
 
    .product-item {
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -166,6 +186,8 @@
             /* position: absolute; */
             display: block;
             /* max-width: 406px; */
+            margin-left: 19%;
+            margin-top: 5%;
             }
       }
 
@@ -194,10 +216,10 @@
 
 
    .product-item-box {
-      display: flex;
+       display: flex; 
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        display: flex;
-       /*  flex-direction: column;  */
+        display: flex; 
+       flex-direction: column;
      }
    }
 
