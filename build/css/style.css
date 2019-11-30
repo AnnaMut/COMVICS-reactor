@@ -1864,7 +1864,8 @@ background-size: cover;
   color: #0E1823; }
   @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .contacts {
-      margin: 8% 12.75% 5.5% 12.75%; } }
+      margin: 8% 12.75% 14.5% 12.75%;
+      padding: 0; } }
   .contacts .contacts__title {
     font-size: 1.7em;
     line-height: 2em;
@@ -1894,12 +1895,13 @@ background-size: cover;
         display: block;
         position: absolute;
         left: 1.5%;
-        top: 10.5%; } }
+        top: 25.5%; } }
   @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .contacts .contact-box {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; } }
+      display: flex;
+      position: absolute; } }
   .contacts .logo-red {
     margin-bottom: 8%; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -1915,7 +1917,9 @@ background-size: cover;
                 box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
         border-radius: 3px;
         padding: 3% 3% 8.5% 3%;
-        min-width: 454px; } }
+        min-width: 454px;
+        margin-right: 33%;
+        background: #fff; } }
   .contacts .contact-svg {
     margin-right: 4%; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -1923,6 +1927,9 @@ background-size: cover;
         margin-right: 1%; } }
   .contacts .contact-time-img {
     margin-right: 5%; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .contacts .contact-time-img {
+        margin-right: 2%; } }
   .contacts .hide-mobile-writeus {
     display: none; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -1931,6 +1938,10 @@ background-size: cover;
   .contacts .open-mobile-writeus {
     display: block;
     position: absolute;
+    -webkit-animation-name: animateWriteus;
+            animation-name: animateWriteus;
+    -webkit-animation-duration: 0.8s;
+            animation-duration: 0.8s;
     width: 100%;
     min-height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -1943,10 +1954,23 @@ background-size: cover;
       .contacts .open-mobile-writeus {
         display: block;
         position: relative; } }
+
+@-webkit-keyframes animateWriteus {
+  from {
+    top: -535px; }
+  to {
+    top: 0; } }
+
+@keyframes animateWriteus {
+  from {
+    top: -535px; }
+  to {
+    top: 0; } }
   .contacts .subscribe-form-inner {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    position: relative; }
   .contacts .writeus-button-close {
     margin-left: 85%;
     cursor: pointer; }
@@ -1972,7 +1996,8 @@ background-size: cover;
                 box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
         border-radius: 3px;
         margin: 0;
-        padding: 3% 3% 8.5% 3%; } }
+        padding: 7% 10% 8.5%;
+        min-width: 454px; } }
   .contacts .contact-data {
     margin: 0 0 5% 0; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -2001,6 +2026,9 @@ background-size: cover;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     margin: 3% 4% 0 0; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .contacts .contacts__time-tag {
+        font-weight: 600; } }
   .contacts .contact-text-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2044,11 +2072,15 @@ background-size: cover;
     display: none; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .contacts .mobile-hide-order {
-        display: inline-block;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         font-size: 1.125em;
         line-height: 1.375em;
-        color: #0E1823;
-        border-bottom: 2px solid #fc5a38; } }
+        color: #0E1823; } }
+  .contacts .order-call-text {
+    border-bottom: 2px solid #fc5a38;
+    margin-right: 3%; }
   .contacts .button-writeus {
     color: #fff;
     position: relative;
@@ -2092,7 +2124,23 @@ background-size: cover;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .contacts .form-subs-title {
         font-size: 1.9em;
-        line-height: 2.3em; } }
+        line-height: 2.3em;
+        margin: 0 0 10% 0;
+        z-index: 1; } }
+  .contacts .pattern-write-desc {
+    display: none; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .contacts .pattern-write-desc {
+        display: inline-block;
+        position: absolute;
+        background: radial-gradient(#ff7344 0.1px, transparent 3px);
+        background-size: 11px 10px;
+        opacity: .3;
+        z-index: 0;
+        height: 100px;
+        width: 100px;
+        top: -2.3%;
+        left: 32%; } }
   .contacts .contacts-feed-img {
     position: absolute;
     left: -4%;
@@ -2112,6 +2160,9 @@ background-size: cover;
     border-right: none;
     border-left: none;
     padding-left: 4%; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .contacts .fb-info {
+        width: 93%; } }
   .contacts .fb-info::-webkit-input-placeholder {
     font-family: "Montserrat", "Fira Sans", sans-serif;
     font-size: 1em;
@@ -2147,6 +2198,9 @@ background-size: cover;
     -o-border-image: none;
        border-image: none;
     resize: vertical; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .contacts .fb-text {
+        width: 89.5%; } }
   .contacts .fb-text::-webkit-input-placeholder {
     font-family: "Montserrat", "Fira Sans", sans-serif;
     font-size: 1em;
@@ -2179,6 +2233,9 @@ background-size: cover;
     margin-bottom: 4%;
     border: 0;
     border-radius: 3px; }
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      .contacts .button-feedback {
+        padding: 5% 70% 5% 12%; } }
   .contacts .button-feedback:hover {
     background: -webkit-gradient(linear, right top, left top, from(#E91D1D), to(#FF6F30));
     background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%); }
