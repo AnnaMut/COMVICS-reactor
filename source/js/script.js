@@ -1,6 +1,8 @@
 var navMain = document.querySelector(".popup-menu");
 var navOpen = document.querySelector(".burger-menu-button");
 var navClose = document.querySelector(".burger-menu-button-close");
+
+
 var nexteSection = document.querySelector(".order-headtext");
 var orderOpenBtn = document.querySelector(".button-order-form");
 var orderCloseBtn = document.querySelector(".order-button-close");
@@ -36,6 +38,8 @@ navClose.addEventListener("click", function() {
       navMain.classList.add("closed-popup-menu");
     } 
   });
+
+ 
 
 
   orderOpenBtn.addEventListener("click", function() {

@@ -3,7 +3,12 @@
     position: relative;
     color: #0E1823;
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 1024px) and (max-width: 1152px) {
+        margin: 8% 0.1% 14.5% 0.1%;
+        padding: 0;
+     }
+
+    @media screen and (min-width: 1280px) and (max-width: 1920px) {
         margin: 8% 12.75% 14.5% 12.75%;
         padding: 0;
      }
@@ -152,7 +157,7 @@ background: #fff;
 box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
 border-radius: 3px;
 margin: 0;
-padding: 7% 10% 2.5%;
+padding: 7% 7% 2.5%;
 min-width: 454px;
          }
     }
