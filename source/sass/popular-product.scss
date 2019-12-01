@@ -167,6 +167,41 @@
        }
    }
 
+   .hover-text-box {
+position: absolute;
+color: #0E1823;
+width: 90%;
+font-size: 0.9em;
+line-height: 1.5em;
+top: 23%;
+opacity: 0;
+
+.item-list-title {
+   margin: 0 1% 0 0;
+   font-weight: 600;
+}
+
+.char-box {
+   display: flex;
+}
+
+.item-list {
+   padding: 0;
+}
+   }
+
+   .product-item:hover .hover-text-box {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         opacity: 1;
+       }
+   }
+
+   .product-item:hover .product-link {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         opacity: 0.2;
+       }
+   }
+
    
 .item-react {
    @media screen and (min-width: 1024px) and (max-width: 1920px) {
