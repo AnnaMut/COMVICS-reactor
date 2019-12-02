@@ -7,6 +7,7 @@
     position: relative;
 
     .writeus-catalog-header {
+       max-width: 200px;
             color: #0E1823;
             font-size: 1.75em;
             line-height: 0.99em;
@@ -19,16 +20,60 @@
 
     .whriteus-catalog-img {
         position: absolute;
-        left: 0%;
-        top: 10%;
+        left: 4%;
+    top: 12%;
      }
 
      .writeus-catalog-input {
          display: flex;
          flex-direction: column;
-         margin: 0 4% 0 4%;
+         margin: 0 0 0 4%;
          padding-bottom: 8%;
      }
+
+     .writeus-input {
+      height: 44px;
+  border-radius: 3px 3px 5px 5px;
+  border-bottom: 2px solid #DDE4EB;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 4%;
+  padding-left: 4%;
+     }
+
+     
+.writeus-input::placeholder {
+   font-family: "Montserrat", "Fira Sans", sans-serif;
+   font-size: 1em;
+line-height: 1.8em;
+color: #0E1823;
+}
+
+.writeus-catalog-text {
+   height: 79px;
+   margin-bottom: 8%;
+border-radius: 3px 3px 5px 5px;
+border-bottom: 2px solid #DDE4EB;
+border-top: none;
+border-right: none;
+border-left: none;
+   padding: 4% 4% 4% 4%;
+   border-image: none;
+   resize: vertical;
+   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       width: 89.5%;
+       margin-bottom: 6%;
+    }
+}
+
+.writeus-catalog-text::placeholder {
+   font-family: "Montserrat", "Fira Sans", sans-serif;
+   font-size: 1em;
+line-height: 1.8em;
+color: #0E1823;
+}
+
 
      .button-send-catalog {
         color: #fff;
@@ -41,6 +86,9 @@
         padding: 5% 0 5% 0;
         border-radius: 3px;
         border: 0.5px solid #FF6E2F;
+        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         padding: 5% 70% 5% 12%;
+      }
      }
 
      .button-send-catalog::before {
@@ -55,8 +103,17 @@
         top: 0px;
       }
 
+         
+         .button-send-catalog:hover {
+             background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%);
+            }
 
 
+            .send-button-img-catalog {
+               position: absolute;
+               right: 7%;
+               top: 29%;
+           }
       /* .main-nav__link-text-img {
         position: absolute;
         right: 6%;
@@ -71,5 +128,10 @@
     color: #B0B0B0;
     margin: 0 8% 0 4%;
     padding-bottom: 20%;
+
+    .color-border {
+      color: #FF6E2F;
+      border-bottom: 1px solid #fc5a38;
+  }
  }
 }
