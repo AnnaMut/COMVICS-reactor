@@ -342,6 +342,11 @@ width: 100px;
     }
 }
 
+.subscribe-input {
+    display: flex;
+    flex-direction: column;
+}
+
 .contacts-feed-img {
     position: absolute;
     left: -4%;
@@ -353,7 +358,7 @@ width: 100px;
 
 .fb-info {
    /*  display: block; */
-    width: 290px;
+    /* width: 290px; */
     height: 44px;
     margin-bottom: 8%;
     background: #f9f9f9;
@@ -364,7 +369,7 @@ border-right: none;
 border-left: none;
 padding-left: 4%;
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
-    width: 93%;
+    /* width: 93%; */
     margin-bottom: 4%;
  }
 }
@@ -378,7 +383,7 @@ color: #0E1823;
 
 .fb-text {
     /* display: block; */
-    width: 275px;
+    /* width: 275px; */
     height: 79px;
     margin-bottom: 8%;
     background: #f9f9f9;
@@ -391,7 +396,7 @@ border-left: none;
     border-image: none;
     resize: vertical;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        width: 89.5%;
+      /*   width: 89.5%; */
         margin-bottom: 6%;
      }
 }
@@ -411,12 +416,13 @@ font-size: .875em;
 line-height: 1.05em;
 font-weight: 400px;
 letter-spacing: .1em;
-padding: 5% 190px 5% 12%;
+/* padding: 5% 190px 5% 12%; */
+height: 44px;
 margin-bottom: 4%;
 border: 0;
 border-radius: 3px;
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
-    padding: 5% 70% 5% 12%;
+    /* padding: 5% 70% 5% 12%; */
  }
 }
 

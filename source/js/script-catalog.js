@@ -3,7 +3,6 @@ var navOpenCatalog = document.querySelector(".burger-menu-button-catalog");
 var navCloseCatalog = document.querySelector(".burger-menu-button-close-catalog");
 
 navOpenCatalog.addEventListener("click", function() {
-    alert("go")
     if (navMainCatalog.classList.contains("closed-popup-menu-catalog")) {
       navMainCatalog.classList.remove("closed-popup-menu-catalog");
       navMainCatalog.classList.add("opened-popup-menu-catalog");

@@ -2268,6 +2268,14 @@ background-size: cover;
         width: 100px;
         top: -2.3%;
         left: 32%; } }
+  .contacts .subscribe-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   .contacts .contacts-feed-img {
     position: absolute;
     left: -4%;
@@ -2277,7 +2285,7 @@ background-size: cover;
         display: none; } }
   .contacts .fb-info {
     /*  display: block; */
-    width: 290px;
+    /* width: 290px; */
     height: 44px;
     margin-bottom: 8%;
     background: #f9f9f9;
@@ -2289,7 +2297,7 @@ background-size: cover;
     padding-left: 4%; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .contacts .fb-info {
-        width: 93%;
+        /* width: 93%; */
         margin-bottom: 4%; } }
   .contacts .fb-info::-webkit-input-placeholder {
     font-family: "Montserrat", "Fira Sans", sans-serif;
@@ -2313,7 +2321,7 @@ background-size: cover;
     color: #0E1823; }
   .contacts .fb-text {
     /* display: block; */
-    width: 275px;
+    /* width: 275px; */
     height: 79px;
     margin-bottom: 8%;
     background: #f9f9f9;
@@ -2328,7 +2336,7 @@ background-size: cover;
     resize: vertical; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .contacts .fb-text {
-        width: 89.5%;
+        /*   width: 89.5%; */
         margin-bottom: 6%; } }
   .contacts .fb-text::-webkit-input-placeholder {
     font-family: "Montserrat", "Fira Sans", sans-serif;
@@ -2358,13 +2366,14 @@ background-size: cover;
     line-height: 1.05em;
     font-weight: 400px;
     letter-spacing: .1em;
-    padding: 5% 190px 5% 12%;
+    /* padding: 5% 190px 5% 12%; */
+    height: 44px;
     margin-bottom: 4%;
     border: 0;
     border-radius: 3px; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .contacts .button-feedback {
-        padding: 5% 70% 5% 12%; } }
+        /* padding: 5% 70% 5% 12%; */ } }
   .contacts .button-feedback:hover {
     background: -webkit-gradient(linear, right top, left top, from(#E91D1D), to(#FF6F30));
     background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%); }
@@ -3390,6 +3399,11 @@ background-size: cover;
 } */
   /*    .type-item-link-head{
       margin: auto 0 auto 3%;
+   } */
+  /*    .nasos-item {
+     /*  height: 100%; 
+      padding-top: auto;
+      padding-bottom: auto;
    } */ }
   @media screen and (max-width: 1920px) and (min-width: 1024px) {
     .other-product {
@@ -3437,6 +3451,9 @@ background-size: cover;
                 justify-content: space-between; } }
   .other-product .other-item-box {
     padding: 3%; }
+  .other-product .other-item:hover {
+    -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1); }
   .other-product .other-item-link-head {
     margin: 0; }
   .other-product .other-item-link {
