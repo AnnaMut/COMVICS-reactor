@@ -1,0 +1,65 @@
+.tab-wrapper{
+    /* width: 100%;
+    overflow-x: scroll; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 4%;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         margin: 0 12.75% 10.7% 12.75%;
+     }
+}
+
+.tab-label {
+    color: #0E1823;
+    font-size: 0.88em;
+    line-height: 1.1em;
+    /* flex-grow: 1; */
+    background: #E9E9E9;
+border: 2px solid #E7E7E7;
+border-radius: 3px 3px 3px 3px;
+padding: 1.2% 4%;
+    cursor: pointer;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    } 
+}
+
+.tab-item, .tab-wrapper input{ 
+    display: none;
+}
+
+.tab-item{
+    color: #0E1823;
+    max-width: 100%;
+    /* padding: 20px; */
+    order: 1;
+  }
+
+  .no-select{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.tab-wrapper input:checked + label{
+    border: 1px solid #E7E7E7;
+    background: #fff;
+  /*   height: 45px; */
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        padding: 2% 4.5%;
+    } 
+}
+.tab-wrapper input:checked + label + .tab-item 
+{display: block;}
+
+.flex-desc-box-mountain {
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       display: flex;
+       align-items: flex-start;
+       margin-top: 15%;
+    }
+   }

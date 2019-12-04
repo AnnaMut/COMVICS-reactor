@@ -187,6 +187,27 @@
     min-width: 67%;
    } 
 
+    .hover-text-box-catalog {
+   position: absolute;
+   color: #0E1823;
+   width: 90%;
+   font-size: 0.9em;
+   line-height: 1.5em;
+   top: 27%;
+   opacity: 0;
+}
+
+.type-item:hover .hover-text-box-catalog {
+   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      opacity: 1;
+    }
+}
+
+.type-item:hover .hover-img {
+   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      opacity: 0.2;
+    }
+}
 
 
    .mount-head {

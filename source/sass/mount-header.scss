@@ -1,21 +1,19 @@
-.main-header-catalog {
-    background: #112e4e; 
+.main-header-mountain {
+    /* background: #112e4e; 
     
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAUVBMVEWFhYWDg4N3d3dtbW17e3t1dXWBgYGHh4d5eXlzc3OLi4ubm5uVlZWPj4+NjY19fX2JiYl/f39ra2uRkZGZmZlpaWmXl5dvb29xcXGTk5NnZ2c8TV1mAAAAG3RSTlNAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAvEOwtAAAFVklEQVR4XpWWB67c2BUFb3g557T/hRo9/WUMZHlgr4Bg8Z4qQgQJlHI4A8SzFVrapvmTF9O7dmYRFZ60YiBhJRCgh1FYhiLAmdvX0CzTOpNE77ME0Zty/nWWzchDtiqrmQDeuv3powQ5ta2eN0FY0InkqDD73lT9c9lEzwUNqgFHs9VQce3TVClFCQrSTfOiYkVJQBmpbq2L6iZavPnAPcoU0dSw0SUTqz/GtrGuXfbyyBniKykOWQWGqwwMA7QiYAxi+IlPdqo+hYHnUt5ZPfnsHJyNiDtnpJyayNBkF6cWoYGAMY92U2hXHF/C1M8uP/ZtYdiuj26UdAdQQSXQErwSOMzt/XWRWAz5GuSBIkwG1H3FabJ2OsUOUhGC6tK4EMtJO0ttC6IBD3kM0ve0tJwMdSfjZo+EEISaeTr9P3wYrGjXqyC1krcKdhMpxEnt5JetoulscpyzhXN5FRpuPHvbeQaKxFAEB6EN+cYN6xD7RYGpXpNndMmZgM5Dcs3YSNFDHUo2LGfZuukSWyUYirJAdYbF3MfqEKmjM+I2EfhA94iG3L7uKrR+GdWD73ydlIB+6hgref1QTlmgmbM3/LeX5GI1Ux1RWpgxpLuZ2+I+IjzZ8wqE4nilvQdkUdfhzI5QDWy+kw5Wgg2pGpeEVeCCA7b85BO3F9DzxB3cdqvBzWcmzbyMiqhzuYqtHRVG2y4x+KOlnyqla8AoWWpuBoYRxzXrfKuILl6SfiWCbjxoZJUaCBj1CjH7GIaDbc9kqBY3W/Rgjda1iqQcOJu2WW+76pZC9QG7M00dffe9hNnseupFL53r8F7YHSwJWUKP2q+k7RdsxyOB11n0xtOvnW4irMMFNV4H0uqwS5ExsmP9AxbDTc9JwgneAT5vTiUSm1E7BSflSt3bfa1tv8Di3R8n3Af7MNWzs49hmauE2wP+ttrq+AsWpFG2awvsuOqbipWHgtuvuaAE+A1Z/7gC9hesnr+7wqCwG8c5yAg3AL1fm8T9AZtp/bbJGwl1pNrE7RuOX7PeMRUERVaPpEs+yqeoSmuOlokqw49pgomjLeh7icHNlG19yjs6XXOMedYm5xH2YxpV2tc0Ro2jJfxC50ApuxGob7lMsxfTbeUv07TyYxpeLucEH1gNd4IKH2LAg5TdVhlCafZvpskfncCfx8pOhJzd76bJWeYFnFciwcYfubRc12Ip/ppIhA1/mSZ/RxjFDrJC5xifFjJpY2Xl5zXdguFqYyTR1zSp1Y9p+tktDYYSNflcxI0iyO4TPBdlRcpeqjK/piF5bklq77VSEaA+z8qmJTFzIWiitbnzR794USKBUaT0NTEsVjZqLaFVqJoPN9ODG70IPbfBHKK+/q/AWR0tJzYHRULOa4MP+W/HfGadZUbfw177G7j/OGbIs8TahLyynl4X4RinF793Oz+BU0saXtUHrVBFT/DnA3ctNPoGbs4hRIjTok8i+algT1lTHi4SxFvONKNrgQFAq2/gFnWMXgwffgYMJpiKYkmW3tTg3ZQ9Jq+f8XN+A5eeUKHWvJWJ2sgJ1Sop+wwhqFVijqWaJhwtD8MNlSBeWNNWTa5Z5kPZw5+LbVT99wqTdx29lMUH4OIG/D86ruKEauBjvH5xy6um/Sfj7ei6UUVk4AIl3MyD4MSSTOFgSwsH/QJWaQ5as7ZcmgBZkzjjU1UrQ74ci1gWBCSGHtuV1H2mhSnO3Wp/3fEV5a+4wz//6qy8JxjZsmxxy5+4w9CDNJY09T072iKG0EnOS0arEYgXqYnXcYHwjTtUNAcMelOd4xpkoqiTYICWFq0JSiPfPDQdnt+4/wuqcXY47QILbgAAAABJRU5ErkJggg==);
-  
+   */
 
-    .main-header-container-catalog {
+   .main-header-container-mountain {
+    margin-bottom: 18%;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-    background-image: url(../img/catalog-header-desc-bg.png);
-    background-repeat: no-repeat;
-    background-position: top 11% center;
-    background-size: contain;
-    }
+        margin-bottom: 4%;
+    } 
 }
 
 
 
-    .menu-container-catalog {
+    .menu-container-mountain {
         position: relative;
         background-color: #0E1823;
         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
@@ -24,15 +22,16 @@
         }
     }
 
-    .menu-container-desc-catalog {
+    .menu-container-desc-mountain {
         display: none;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
             display: block;
             background-color: #fff;
+            border-bottom: 1px solid #b1b1b2;
     }
     }
 
-    .border-menu-box-catalog {
+    .border-menu-box-mountain {
         display: flex;
         flex-direction: row;
             justify-content: space-between;
@@ -47,7 +46,7 @@
    
 
 
-    .burger-menu-toggle-box-catalog {
+    .burger-menu-toggle-box-mountain {
         display: flex;
         justify-content: space-between;
         padding-left: 4%;
@@ -56,7 +55,7 @@
         padding-bottom: 4%;
     }
 
-    .burger-menu-toggle-box-open-catalog {
+    .burger-menu-toggle-box-open-mountain {
         display: flex;
         justify-content: space-between;
         padding-left: 4%;
@@ -65,21 +64,21 @@
         padding-bottom: 4%;
     }
 
-    .burger-menu-button-catalog {
+    .burger-menu-button-mountain {
         display: block;
         cursor: pointer;
     }
 
-    .burger-menu-button-close-catalog {
+    .burger-menu-button-close-mountain {
         display: block;
         cursor: pointer;
     }
 
-  .closed-popup-menu-catalog {
+  .closed-popup-menu-mountain {
      display: none;
     }
 
-    .opened-popup-menu-catalog {
+    .opened-popup-menu-mountain {
         display: block;
         position: absolute;
         width:100%;
@@ -93,7 +92,7 @@
         animation-duration: 0.8s;
        } 
 
-    .popup-content-catalog {
+    .popup-content-mountain {
         display: flex; 
         z-index: 6;
         width: 100%;
@@ -109,7 +108,7 @@
       }
 
 
-    .lang-toggle-catalog {
+    .lang-toggle-mountain {
             position: relative;
             font-size: 0.875em;
     line-height: 1.05em;
@@ -118,7 +117,7 @@
     font-weight: 600;
 
     
-    .lang-catalog {
+    .lang-mountain {
         color: #0E1823;
     }
 
@@ -151,7 +150,7 @@
       }
     }
 
-    .phone-catalog {
+    .phone-mountain {
         order: 3;
         text-align: center;
         font-size: 1.3em;
@@ -167,13 +166,13 @@
         }
     }
     
-    .phone-img-catalog {
+    .phone-img-mountain {
         display: inline-block;
         vertical-align: middle;
         padding-right: 1px;
     }
 
-    .phone-text-catalog {
+    .phone-text-mountain {
         color: #FFF;
         font-weight: 600;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -181,7 +180,7 @@
         }
     }
 
-    .login-catalog {
+    .login-mountain {
         display: flex;
         font-size: 0.875em;
         line-height: 1.05em;
@@ -192,7 +191,7 @@
      }
 
      
-    .signin-btn-catalog {
+    .signin-btn-mountain {
         padding-top: 5%;
         padding-right: calc(100% - 94%);
         padding-bottom: 5%;
@@ -205,12 +204,12 @@
         }
     }
 
-    .signin-link-catalog {
+    .signin-link-mountain {
         display: flex;
         position: relative;
     }
 
-    .signin-span-catalog {
+    .signin-span-mountain {
         display: block;
         color: #0E1823;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -219,12 +218,12 @@
         }
     }
 
-    .login-span-catalog {
+    .login-span-mountain {
         display: block;
         color: #fff;
     } 
 
-    .signin-img-catalog  {
+    .signin-img-mountain  {
         display: inline-block;
         vertical-align: middle;
         width: 11px;
@@ -235,7 +234,7 @@
         }
      }
 
-     .signin-img-catalog-white  {
+     .signin-img-mountain-white  {
          display: none;
         @media screen and (min-width: 1024px) and (max-width: 1920px) {
             display: inline-block;
@@ -246,7 +245,7 @@
      }
 
 
-    .login-btn-catalog {
+    .login-btn-mountain {
         padding-top: 5%;
         padding-right: calc(100% - 90%);
         padding-bottom: 5%;
@@ -258,16 +257,16 @@
         }
     }
 
-    .login-link-catalog {
+    .login-link-mountain {
         display: flex;
         position: relative;
     }
 
-    .login-btn-catalog:hover {
+    .login-btn-mountain:hover {
         background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%);
     }
 
-    .login-img-catalog  {
+    .login-img-mountain  {
     display: inline-block;
     vertical-align: middle;
     width: 11px;
@@ -281,7 +280,7 @@
     }
 
 
-.menu-list-catalog {
+.menu-list-mountain {
     position: relative;
     font-size: 1.125em;
    line-height: 1.4em;
@@ -295,6 +294,7 @@
     font-size: 0.85em;
     line-height: 1.500em;
     /* opacity: 0.7; */
+
     margin: 2.27em 0 0 0;
  }
 
@@ -315,13 +315,13 @@
 }
 
 
-.logo-main-box-catalog {
+.logo-main-box-mountain {
     position: absolute;
     left: 0;
     top: -1em;
     }
 
-   .menu-list-link-catalog {
+   .menu-list-link-mountain {
     color:  #fff;
     opacity: 0.7;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -330,7 +330,7 @@
  }
 }
 
-.menu-list-link-catalog:hover {
+.menu-list-link-mountain:hover {
     color: #fff;
     opacity: 1;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -339,7 +339,7 @@
  }
 }
 
-.menu-list-link-catalog:hover::after {
+.menu-list-link-mountain:hover::after {
     position: absolute;
     top: 0;
     left: 80%;
@@ -358,7 +358,7 @@
 }
 
 
-   .menu-list-item-catalog {
+   .menu-list-item-mountain {
        margin-bottom: 2.2em;
        position: relative;
        @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -382,11 +382,12 @@
 
 .flex-breadcrumbs {
     position: absolute;
-    top: -14%;
+    top: 12%;
     width: 100%;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
         display: block;
         position: relative;
+        padding: 0 12.75%;
  }
 
  .breadcrumbs-link {
@@ -410,7 +411,8 @@ line-height: 1.1em;
    }
 
 .brcrum-link {
-    color: #fff;
+    color: #0E1823;
+    
 }
 
 .home-img {
@@ -431,7 +433,7 @@ line-height: 1.1em;
     margin-left: 10px;
  }
 
- .brcrum-img-catalog {
+ .brcrum-img-mountain {
  position: absolute;
  right: 4%;
     bottom: 145%;
@@ -444,124 +446,14 @@ line-height: 1.1em;
 }
 
 
-  .order-headtext-catalog {
-    position: relative;
-    padding-bottom: 13%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        margin: 0 12.75% 0 12.75%;
-        padding-bottom: 6%;
-    }
-  }
-
-  .main-header-container {
-    background-image: url("../img/molecule.png");
-    background-repeat: no-repeat;
-    background-position: top 24.5% left -188%;;
-
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        background-image: url("../img/header-desc-bg.png"), url("../img/molecule.png"), url("../img/molecule2.png");
-  background-repeat: no-repeat;
-  background-position: top center, top 12.5% left 1.5%, bottom 5.7% right 1%;
-    }
-  }
-
-  .underlined-text-catalog {
-    text-decoration: underline;
-    text-decoration-color: #FC5A38;
-}
-
-   .main-header-headtext-catalog {
-    font-size: 1.59em;
-    line-height: 1.4em; 
-    letter-spacing: 0.05em;
-    margin-left: 8%;
-    margin-right: 4%;
-    margin-top: 5.3em;
-    margin-bottom: 2.1em;
-    max-width: 269px;
-    position: relative;
-
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        font-size: 2.6vw;
-        line-height: 3.4vw;
-        max-width: 880px;
-        /* font-size: 3.1em;
-        line-height: 1.35em; */
-        letter-spacing: 0.05em;
-        /* margin-top: 15%;
-        margin-left: 0;
-        margin-bottom: 2%;
-        margin-right: 0%; */
-        margin: 0;
-    }
-   }
-
-
-   .headtext-img-catalog {
-    position: absolute;
-    left: 12px;
-    top: -3px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        display: none;
-    }
-}
-
-
-   .underlined-text {
-       text-decoration: underline;
-       text-decoration-color: #FC5A38;
-   }
-
-   .main-header-usetext-catalog {
-    margin: 0 4% 10.7% 4%;
-     font-size: 0.75em;
- line-height: 2em;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-     display: none;
- }
-}
-
-   .main-header-usetext-desc-catalog {
-       display: none;
-       @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        display: block;
-        margin-bottom: 3.7%;
-        font-size: 1.500em;
-    line-height: 1.6em;
-    max-width: 770px;
-    }
-   }
-
-   .flex-desc-box {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-       display: flex;
-       align-items: flex-start;
-       margin-top: 15%;
-    }
-   }
-
-    .reactor-mobile-img-catalog {
-        display: block;
-        margin: 0 auto 0 auto;
-       /*  margin-bottom: 20%;
-        margin-left: 4%; */
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        /* position: absolute;
-    top: -18%; */
-    align-self: center;
-        }
-    }
-
-.scroll-bar {
-    display: none;
-}
+  
 
 }
 
 
  @media screen and (min-width: 1024px) and (max-width: 1920px) {
 
-       .signin-link-catalog:before {
+       .signin-link-mountain:before {
         content: "";
         display: block;
         position: absolute;
@@ -574,7 +466,7 @@ line-height: 1.1em;
         top: 0;
       }
 
-     .login-link-catalog:before {
+     .login-link-mountain:before {
         content: "";
         display: block;
         position: absolute;
@@ -592,11 +484,11 @@ top: 0px;
 }
 
 
-.menu-list-link-catalog:active {
+.menu-list-link-mountain:active {
     border-bottom: 2px solid #fc5a38;
   }
 
-  .active-span-catalog {
+  .active-span-mountain {
     border-bottom: 2px solid #fc5a38;
   }
 
