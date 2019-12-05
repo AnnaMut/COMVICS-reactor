@@ -396,7 +396,9 @@
  }
 
    .breadcrumbs {
-display: flex;
+   
+display: flex; 
+align-items: center;
 margin: 0 4% 0 4%;
 padding: 0;
 flex-direction: row;

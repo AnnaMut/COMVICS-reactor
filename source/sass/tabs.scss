@@ -5,10 +5,11 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 0 4%;
+    /* margin: 0 4%;*/
+    margin: 0;
       @media screen and (min-width: 1024px) and (max-width: 1920px) {
          margin: 0 12.75% 10.7% 12.75%;
-     }
+     } 
 }
 
 .tab-label {
@@ -19,12 +20,23 @@
     background: #E9E9E9;
 border: 2px solid #E7E7E7;
 border-radius: 3px 3px 3px 3px;
-padding: 1.2% 4%;
+padding: 3.2% 12%;
+font-weight: 500;
     cursor: pointer;
+    align-self: flex-end;
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
         font-size: 1.1em;
         line-height: 1.4em;
+        padding: 1% 7.5%;
     } 
+}
+
+.first-label {
+    border-radius: 3px 3px 0px 3px;
+}
+
+.second-label {
+    border-radius: 3px 3px 3px 0px;
 }
 
 .tab-item, .tab-wrapper input{ 
@@ -36,6 +48,11 @@ padding: 1.2% 4%;
     max-width: 100%;
     /* padding: 20px; */
     order: 1;
+    margin: 0 4%;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         /* margin: 0 12.75% 10.7% 12.75%; */
+         margin: 0;
+     }
   }
 
   .no-select{
@@ -48,18 +65,14 @@ padding: 1.2% 4%;
 .tab-wrapper input:checked + label{
     border: 1px solid #E7E7E7;
     background: #fff;
+    padding: 5.2% 12%;
   /*   height: 45px; */
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        padding: 2% 4.5%;
+        padding: 2% 7.5%;
     } 
 }
-.tab-wrapper input:checked + label + .tab-item 
-{display: block;}
 
-.flex-desc-box-mountain {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-       display: flex;
-       align-items: flex-start;
-       margin-top: 15%;
-    }
-   }
+.tab-wrapper input:checked + label + .tab-item {
+    display: block;
+}
+

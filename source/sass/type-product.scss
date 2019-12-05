@@ -188,6 +188,9 @@
    } 
 
     .hover-text-box-catalog {
+       display: none;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         display: block;
    position: absolute;
    color: #0E1823;
    width: 90%;
@@ -195,6 +198,7 @@
    line-height: 1.5em;
    top: 27%;
    opacity: 0;
+}
 }
 
 .type-item:hover .hover-text-box-catalog {
