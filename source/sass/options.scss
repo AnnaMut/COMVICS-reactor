@@ -1,0 +1,53 @@
+.options {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 4%;
+    @media screen and (max-width: 1920px) and (min-width: 1024px) {
+      margin: 0 12.75%;
+  }
+
+  .options__header {
+     position: relative;
+  }
+
+   .options-head {
+      color: #0E1823;
+      font-size: 1.7em;
+      line-height: 2em;
+      letter-spacing: 0.05em;
+      margin: 0 0 10% 4%;
+      position: relative;
+      @media screen and (max-width: 1920px) and (min-width: 1024px) {
+         font-size: 3.1em;
+         line-height: 3.8em;
+         letter-spacing: .1em;
+         margin: 8% 0 5% 2%;
+     }
+   }
+
+/*    .other-product__header {
+   margin: 15% 0 10% 0;
+} */
+
+
+   .options-img-mount {
+      position: absolute;
+      left: 0%;
+      top: 10%;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        display: none;
+     }
+   }
+
+   .options-img-mount-desc {
+      display: none;
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         display: block;
+         position: absolute;
+      left: 0;
+      bottom: 31%;
+      }
+
+   }
+}
