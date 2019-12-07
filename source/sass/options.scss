@@ -4,7 +4,7 @@
     position: relative;
     margin: 0 4%;
     @media screen and (max-width: 1920px) and (min-width: 1024px) {
-      margin: 0 12.75%;
+      margin: 0;
   }
 
   .options__header {
@@ -46,8 +46,69 @@
          display: block;
          position: absolute;
       left: 0;
-      bottom: 31%;
+      bottom: 34%;
       }
 
+   }
+
+.options-item-list {
+    padding: 0;
+    margin: 0 0 20% 0;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) { 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20% 0 0;
+    }
+}
+
+.options-list-item {
+    display: flex;
+    font-size: 1em;
+line-height: 1.5em;
+margin-bottom: 10%;
+@media screen and (min-width: 1024px) and (max-width: 1920px) { 
+    flex-direction: column;
+    margin: 0 10% 5% 0;
+    /* flex: 1 0 30%; */
+    }
+}
+
+   .mob-hide {
+    display: none;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       display: block;
+    }
+
+   }
+
+   .option-text {
+    max-width: 217px;
+    margin-top: auto;
+    margin-bottom: auto;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        text-align: center;
+     }
+   }
+
+   .options-img {
+    margin-right: 4%;
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    }
+   }
+
+   .hide-mob {
+       display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 4%;
+   }
+
+   .sistem-img {
+       height: 54px;
+       margin-top: auto;
+       margin-bottom: auto;
    }
 }
