@@ -479,6 +479,7 @@ body {
     color: #0E1823; }
   .main-header .button-order {
     color: #fff;
+    font-family: "Montserrat", "Fira Sans", sans-serif;
     position: relative;
     display: block;
     font-size: .875em;
@@ -4425,10 +4426,10 @@ background-size: cover;
       padding: 1% 7.5%; } }
 
 .first-label {
-  border-radius: 3px 3px 0px 3px; }
+  border-radius: 3px 0px 0px 3px; }
 
 .second-label {
-  border-radius: 3px 3px 3px 0px; }
+  border-radius: 0px 3px 3px 0px; }
 
 .tab-item, .tab-wrapper input {
   display: none; }
@@ -4591,7 +4592,7 @@ background-size: cover;
     .button-order-form-mount {
       width: 250px;
       height: 60px;
-      padding: 1.7% 10% 2% 3%;
+      padding: 1.5% 10% 2% 3%;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       display: inline-block;
@@ -4669,7 +4670,7 @@ background-size: cover;
       width: 360px;
       height: 60px;
       margin-bottom: 5%;
-      padding: 1.7% 10% 2% 3%;
+      padding: 1.5% 13% 2% 3%;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       line-height: 1em; } }
@@ -4838,7 +4839,8 @@ background-size: cover;
         display: flex;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        margin: 0 20% 0 0; } }
+        /* margin: 0 20% 0 0; */
+        margin: 0 0 0 0; } }
   .options .options-list-item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4882,3 +4884,283 @@ background-size: cover;
     height: 54px;
     margin-top: auto;
     margin-bottom: auto; }
+
+.mountain-constuctor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .mountain-constuctor {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      margin-top: 15%; } }
+
+.mount__header-constr {
+  /*   order: 1; */
+  margin: 15% 0 3% 0;
+  position: relative; }
+  @media screen and (max-width: 1920px) and (min-width: 1024px) {
+    .mount__header-constr {
+      margin: 0 0 5% 0; } }
+
+.mount__title-constr {
+  color: #0E1823;
+  font-size: 1.7em;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  margin-left: 4%;
+  position: relative; }
+  @media screen and (max-width: 1920px) and (min-width: 1024px) {
+    .mount__title-constr {
+      font-size: 3.1em;
+      line-height: 1.8em;
+      letter-spacing: .1em;
+      /*  margin: 8% 0 10% 2%; */
+      margin: 0 0 0 4%; } }
+
+.mountheader-img-constr {
+  position: absolute;
+  left: 0%;
+  top: 32%; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .mountheader-img-constr {
+      display: none; } }
+
+.mountheader-img-desc-constr {
+  display: none; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .mountheader-img-desc-constr {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 3%; } }
+
+.mount-usetext-constr {
+  /* order: 2; */
+  margin: 0 0 4% 0;
+  font-size: 0.75em;
+  line-height: 2em; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .mount-usetext-constr {
+      margin-bottom: 3.7%;
+      font-size: 1.500em;
+      line-height: 1.6em; } }
+
+.sort-type {
+  border: 0;
+  padding: 0; }
+
+.sort-select {
+  position: relative;
+  float: right;
+  border: 1px solid #DDE4EB;
+  padding: 9px 16px 9px 15px;
+  border-radius: 3px;
+  width: 140px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 1em;
+  line-height: 18px;
+  font-weight: 500;
+  color: #0E1823; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .sort-select {
+      float: none;
+      width: 255px; } }
+
+.sort-box::after {
+  content: "?";
+  display: inline-block;
+  border: 0;
+  color: #97A4B2;
+  background-color: #e9e9e9;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+  text-align: center; }
+
+.sort-box {
+  float: left; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .sort-box {
+      float: none; } }
+
+.sort-text {
+  display: inline-block;
+  margin-top: 8%;
+  font-size: 0.75em; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .sort-text {
+      margin: 0; } }
+
+.flex-type {
+  margin-bottom: 25px; }
+
+.big-text {
+  max-width: 132px;
+  margin-top: 0; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .big-text {
+      max-width: 255px; } }
+
+.additional-info {
+  display: block;
+  font-size: 0.75em;
+  margin-bottom: 10px; }
+
+.info-order-text {
+  height: 79px;
+  width: 92%;
+  margin-bottom: 8%;
+  border-radius: 3px 3px 5px 5px;
+  background: #F8F8F8;
+  border: 1px solid #DDE4EB;
+  padding: 4% 4% 4% 4%;
+  -o-border-image: none;
+     border-image: none;
+  resize: vertical; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .info-order-text {
+      height: 126px;
+      width: 705px;
+      margin-bottom: 3%; } }
+
+.info-order-text::-webkit-input-placeholder {
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #0E1823;
+  font-weight: 500; }
+
+.info-order-text::-moz-placeholder {
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #0E1823;
+  font-weight: 500; }
+
+.info-order-text::-ms-input-placeholder {
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #0E1823;
+  font-weight: 500; }
+
+.info-order-text::placeholder {
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #0E1823;
+  font-weight: 500; }
+
+.select-type {
+  margin-bottom: 10%; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .select-type {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-bottom: 3%; } }
+
+.button-order-constr {
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  color: #fff;
+  position: relative;
+  display: block;
+  font-size: .875em;
+  line-height: 1.05em;
+  font-weight: 400px;
+  letter-spacing: .1em;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* padding: 5% 63.7% 5% 12%; */
+  margin-bottom: 10%;
+  border: 0;
+  border-radius: 3px; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .button-order-constr {
+      width: 334px;
+      height: 50px;
+      font-size: 1.125em;
+      line-height: 1.05em;
+      padding: 1.5% 0 1.5% 0;
+      margin: 0 5% 0 0; } }
+
+.button-order-constr::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background: #FF7344;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  right: 18%;
+  top: 0px; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .button-order-constr::before {
+      right: 16%; } }
+
+.order-button--constr-img {
+  position: absolute;
+  right: 7%;
+  top: 40%; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .order-button--constr-img {
+      right: 4%; } }
+
+.button-order-constr:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#E91D1D), to(#FF6F30));
+  background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%); }
+
+.order-reset-text {
+  border-bottom: 2px solid #fc5a38;
+  margin-left: 5%; }
+
+.reset-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: .875em;
+  line-height: 1.05em;
+  color: #0E1823;
+  margin-bottom: 10%; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .reset-order {
+      width: 300px;
+      font-size: 1.125em;
+      line-height: 1.05em;
+      padding-top: 1.5%; } }
+
+.constr-buttons-box {
+  margin-bottom: 5%; }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .constr-buttons-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+
+option {
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #000;
+  padding-bottom: 5%; }
