@@ -1938,7 +1938,7 @@ background-size: cover;
             font-size: 1.3em;
             line-height: 1.5em; } }
   .reviews .reviews__pagination .current-rev {
-    margin-top: 4%; }
+    margin-top: 3.7%; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .reviews .reviews__pagination .current-rev {
         margin-top: 0.9%; } }
@@ -3850,7 +3850,7 @@ background-size: cover;
     .page-footer-catalog .contact__list-footer-catalog .contact-footer-call-link-catalog:hover {
       background: -webkit-gradient(linear, right top, left top, from(#E91D1D), to(#FF6F30));
       background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%); }
-    .page-footer-catalog .contact__list-footer-catalog .contact-footer-call-link::before {
+    .page-footer-catalog .contact__list-footer-catalog .contact-footer-call-link-catalog::before {
       content: "";
       display: block;
       position: absolute;
@@ -4035,8 +4035,8 @@ background-size: cover;
     position: fixed;
     top: 0px;
     z-index: 4;
-    -webkit-animation-name: animateNavCat;
-            animation-name: animateNavCat;
+    -webkit-animation-name: animateNavMount;
+            animation-name: animateNavMount;
     -webkit-animation-duration: 0.8s;
             animation-duration: 0.8s; }
   .main-header-mountain .popup-content-mountain {
@@ -4053,7 +4053,13 @@ background-size: cover;
             flex-direction: column;
     padding-bottom: 4em; }
 
-@keyframes animateNavCat {
+@-webkit-keyframes animateNavMount {
+  from {
+    top: -535px; }
+  to {
+    top: 0; } }
+
+@keyframes animateNavMount {
   from {
     top: -535px; }
   to {
@@ -4722,7 +4728,7 @@ background-size: cover;
   margin-bottom: 10%; }
 
 .mount-img__pagination .current-mount {
-  margin-top: 4%; }
+  margin-top: 3.7%; }
   @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .mount-img__pagination .current-mount {
       margin-top: 2.9%; } }

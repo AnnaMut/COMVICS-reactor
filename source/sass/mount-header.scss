@@ -88,7 +88,7 @@
         position:fixed;
         top:0px;
         z-index: 4;
-        animation-name: animateNavCat;
+        animation-name: animateNavMount;
         animation-duration: 0.8s;
        } 
 
@@ -102,7 +102,7 @@
         padding-bottom: 4em;
     }
 
-    @keyframes animateNavCat {
+    @keyframes animateNavMount {
         from {top:-535px}
         to {top:0}
       }

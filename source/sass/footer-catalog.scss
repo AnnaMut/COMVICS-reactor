@@ -167,7 +167,7 @@ width: 100%;
     background: linear-gradient(270deg, #E91D1D 0%, #FF6F30 100%);
    }
 
-   .contact-footer-call-link::before {
+   .contact-footer-call-link-catalog::before {
     content: "";
     display: block;
     position: absolute;
@@ -178,6 +178,8 @@ width: 100%;
     right: 18%;
     top: 0px;
   }
+
+
 
   .contact-footer-icon-catalog {
     display: inline-block;
