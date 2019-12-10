@@ -12,6 +12,11 @@ body {
     background-color: #fff;
     overflow-x: hidden;
 
+    a {
+        -moz-text-decoration: none;
+        text-decoration: none;
+    }
+
     a:-webkit-any-link {
         text-decoration: none;
     }

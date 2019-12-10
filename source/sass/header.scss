@@ -291,7 +291,7 @@
             @media screen and (min-width: 1024px) and (max-width: 1920px) {
                 position: absolute;
                 left: 25%;
-                top: 7%;
+                top: 1%;
                 width: 45%;
                 border: 1px solid #EDEDED;
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
@@ -505,7 +505,10 @@
    text-align: center;
 
    @media screen and (min-width: 1024px) and (max-width: 1152px) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    webkit-box-pack: end;
     justify-content: flex-end;
     font-size: 0.85em;
     line-height: 1.500em;

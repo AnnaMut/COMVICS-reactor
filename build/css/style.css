@@ -13,6 +13,8 @@ body {
   color: #fff;
   background-color: #fff;
   overflow-x: hidden; }
+  body a {
+    text-decoration: none; }
   body a:-webkit-any-link {
     text-decoration: none; }
   body img {
@@ -321,7 +323,7 @@ body {
       .main-header .order-form-inner {
         position: absolute;
         left: 25%;
-        top: 7%;
+        top: 1%;
         width: 45%;
         border: 1px solid #EDEDED;
         -webkit-box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
@@ -537,6 +539,7 @@ body {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        webkit-box-pack: end;
         -webkit-box-pack: end;
             -ms-flex-pack: end;
                 justify-content: flex-end;
