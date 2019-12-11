@@ -1,4 +1,7 @@
 @charset "UTF-8";
+html, body {
+  overflow-x: hidden; }
+
 body {
   min-width: 320px;
   max-width: 100%;
@@ -11,8 +14,7 @@ body {
   font-size: 0.875em;
   line-height: 1.4em;
   color: #fff;
-  background-color: #fff;
-  overflow-x: hidden; }
+  background-color: #fff; }
   body a {
     text-decoration: none; }
   body a:-webkit-any-link {
@@ -612,9 +614,9 @@ body {
       .main-header .order-headtext {
         margin: 0 12.75% 0 12.75%; } }
   .main-header .main-header-container {
-    background-image: url("../img/molecule.png");
+    background-image: url("../img/molecule-mob.png");
     background-repeat: no-repeat;
-    background-position: top 24.5% left -188%; }
+    background-position: top 24.5% left 0%; }
     @media screen and (min-width: 1024px) and (max-width: 1920px) {
       .main-header .main-header-container {
         background-image: url("../img/header-desc-bg.png"), url("../img/molecule.png"), url("../img/molecule2.png");
