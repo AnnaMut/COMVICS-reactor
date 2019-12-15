@@ -762,17 +762,6 @@ body {
     border-bottom: 2px solid #fc5a38; }
   .active-span {
     border-bottom: 2px solid #fc5a38; }
-  /*   .order-headtext::before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 1px;
-    width: 134.2%;
-    background: #fff;
-    opacity: 0.5;
-    left: -17%;
-    top: -10%;
-  } */
   .bg {
     position: absolute;
     top: 46px;
@@ -1531,7 +1520,8 @@ background-size: cover;
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
   .oil-img {
     -ms-flex-item-align: end;
-        align-self: flex-end; } }
+        align-self: flex-end;
+    height: 311px; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
   .oil-img, .analistic-img {
@@ -4645,22 +4635,21 @@ background-size: cover;
   top: 0;
   bottom: 0;
   right: 0;
-  /* padding-top: 4%;
-    padding-bottom: inherit; */
+  padding-top: inherit;
+  padding-bottom: inherit;
   /* padding-top: 4.5%; */
-  padding-bottom: 1.6%;
+  /* padding-bottom: 1.6%; */
   width: 3.5em;
   content: "\2192";
   color: #fff;
   font-size: 1.2em;
   text-align: center;
   background-color: #fc6534;
-  padding-top: 3.6%;
-  /*     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-      color: #fc6534;
-      background-color: #fff;
-      left: 50%;
-    } */ }
+  /*  padding-top: 3.6%; */ }
+  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .spec__link:after {
+      padding-bottom: 1.6%;
+      padding-top: 3.6%; } }
 
 .spec__link {
   color: #0E1823;

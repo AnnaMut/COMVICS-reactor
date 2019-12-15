@@ -159,22 +159,21 @@ top: 0;
     top: 0;
     bottom: 0;
     right: 0; 
-    /* padding-top: 4%;
-    padding-bottom: inherit; */
+    padding-top: inherit;
+    padding-bottom: inherit; 
     /* padding-top: 4.5%; */
-    padding-bottom: 1.6%;
+    /* padding-bottom: 1.6%; */
     width: 3.5em;
     content: "\2192";
     color: #fff;
     font-size: 1.2em;
     text-align: center;
     background-color: #fc6534;
-    padding-top: 3.6%;
-/*     @media screen and (min-width: 1024px) and (max-width: 1920px) {
-      color: #fc6534;
-      background-color: #fff;
-      left: 50%;
-    } */
+   /*  padding-top: 3.6%; */
+     @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        padding-bottom: 1.6%;
+        padding-top: 3.6%;
+    } 
 }
 
 .spec__link {
