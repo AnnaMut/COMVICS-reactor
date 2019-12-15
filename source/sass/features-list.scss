@@ -109,6 +109,22 @@ position: relative;
       }
 }
 
+/* .features-icon {
+    use {
+        symbol {
+            g {
+            path {
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        fill:#F84343;
+      }
+    }
+}
+        }
+}
+} */
+
+
+
 .features-item::after {
         content: "";
         display: block;

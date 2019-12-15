@@ -549,7 +549,7 @@ body {
         line-height: 1.500em;
         /* opacity: 0.7; */
         margin: 2.27em 0 0 0; } }
-    @media screen and (min-width: 1280px) and (max-width: 1920px) {
+    @media screen and (min-width: 1280px) and (max-width: 2500px) {
       .main-header .menu-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -887,6 +887,19 @@ body {
       width: 55px;
       height: 55px; } }
 
+/* .features-icon {
+    use {
+        symbol {
+            g {
+            path {
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        fill:#F84343;
+      }
+    }
+}
+        }
+}
+} */
 .features-item::after {
   content: "";
   display: block;
