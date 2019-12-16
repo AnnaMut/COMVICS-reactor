@@ -16,7 +16,7 @@
     .page-footer__container-catalog {
         margin: 0 4% 0 4%;
         padding-top: 4%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             margin: 0 12.5% 0 12.5%;
             padding-top: 2%;
             padding-bottom: 1%;
@@ -30,13 +30,13 @@
     .page-footer__item_logo-catalog {
 
      margin-bottom: 4%;
-     @media screen and (min-width: 1024px) and (max-width: 1920px) {
+     @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 0;
     }
 
      .logo-red-catalog {
          margin: 8% 0 8% 0;
-         @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         @media screen and (min-width: 950px) and (max-width: 2500px) {
             display:none;
         }
      }
@@ -44,7 +44,7 @@
 
     .mobile-hide-adress-catalog {
         display: none;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display:block;
             font-size: 1.25em;
 line-height: 1.6em;
@@ -53,7 +53,7 @@ line-height: 1.6em;
 
     .logo-red-desc-catalog {
         display: none;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display:block;
             margin-bottom: 4.5%;
         }
@@ -71,7 +71,7 @@ line-height: 1.6em;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 30%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         padding: 0;
         margin: 0;
     }
@@ -85,7 +85,7 @@ line-height: 1.6em;
         color: #fff;
         font-size: 1.125em;
 line-height: 1.375em;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     font-size: 1.25em;
 line-height: 1.5em;
 }
@@ -100,7 +100,7 @@ border-bottom: 1px solid grey;
 width: 100%;
     left: 0;
     top: 50%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
     }
 }
@@ -111,7 +111,7 @@ width: 100%;
     padding: 0 0 8% 0;
     margin: 0 0 8% 0;
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         padding: 0;
         margin: 0;
         display: flex;
@@ -121,7 +121,7 @@ width: 100%;
 .item-prime-catalog {
  margin-bottom: 8%;
  text-align: center;
- @media screen and (min-width: 1024px) and (max-width: 1920px) {
+ @media screen and (min-width: 950px) and (max-width: 2500px) {
  font-size: 1.3em;
  line-height: 1.375em;
  text-align: left;
@@ -129,13 +129,13 @@ width: 100%;
 }
 
 .contacts-footer-email-link-catalog {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     display: flex;
     }
 }
 
 .contact-footer-phone-link-catalog {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-weight: 600;
     letter-spacing: 1.1px;
         }
@@ -156,7 +156,7 @@ width: 100%;
     letter-spacing: 0.1em;
     padding: 5% 0 5% 12%;
     border-radius: 3px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-size: 1em;
         line-height: 1.2em;
         min-width: 221px;
@@ -188,7 +188,7 @@ width: 100%;
 }
 
 .icon-tel-footer-catalog {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
  margin-right: 4%;
     }
 }
@@ -197,7 +197,7 @@ width: 100%;
         position: absolute;
         right: 7%;
         top: 29%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             right: 5%;
     top: 25%;
                }
@@ -215,7 +215,7 @@ width: 100%;
     flex-flow: row wrap;
     /* justify-content: flex-start; */
  /*    align-items: flex-start; */
- @media screen and (min-width: 1024px) and (max-width: 1920px) {
+ @media screen and (min-width: 950px) and (max-width: 2500px) {
  flex-flow: nowrap;
  padding: 1% 12.5% 0 12.5%;
  }
@@ -227,7 +227,7 @@ width: 100%;
        color: #fff !important;
        opacity: 0.3;
        margin: 0 0 4% 0; 
-       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-size: 1em;
         line-height: 1.2em;
         margin: 0 0 1% 0;
@@ -237,7 +237,7 @@ width: 100%;
     .main-text-catalog {
         flex: 0 1 45%;
         justify-self: flex-start;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
         flex: 0 1 23%;
         }
     }
@@ -246,7 +246,7 @@ width: 100%;
         flex: 0 1 45%;
         color: #111b26;
         font-size: 1px;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: none;
         }
     }
@@ -256,7 +256,7 @@ width: 100%;
         text-align: end;
         color: #fff !important;
         opacity: 0.3; 
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             flex: 0 1 21%;
         }
 
@@ -268,7 +268,7 @@ width: 100%;
         color: #fff !important;
         opacity: 0.3; 
         
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             flex: 0 1 25%;
         }
     }

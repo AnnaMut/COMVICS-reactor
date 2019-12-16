@@ -2,7 +2,7 @@
 margin: 26% 4% 8% 4%;
 position: relative;
 
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     margin: 8% 12.75% 1.5% 16%;
  }
 
@@ -14,7 +14,7 @@ position: relative;
     letter-spacing: 0.05em;
     margin-left: 4%;
     position: relative;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-size: 3.1em;
         line-height: 3.8em;
         letter-spacing: 0.1em;
@@ -26,14 +26,14 @@ position: relative;
     position: absolute;
     left: 0%;
     bottom: 11%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
      }
  }
 
  .use-img-desc {
     display: none;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: block;
        position: absolute;
     left: 1.5%;
@@ -50,7 +50,7 @@ position: relative;
     margin: 0;
     padding: 13% 4% 13% 0;
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         padding: 2.5% 7% 2.5% 0;
         margin: 0 17.2%  -4.6% 17.2%;
      }
@@ -74,7 +74,7 @@ position: relative;
         font-size: 1em;
         line-height: 1.5em;
         margin: 0 4%; 
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             font-size: 20px;
             line-height: 30px;
             margin: 0 0 0 8%;
@@ -89,14 +89,14 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
    margin: 0;
    padding: 13% 4% 13% 4%;
-   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+   @media screen and (min-width: 950px) and (max-width: 2500px) {
     display: none;
  }
 }
 
 .sector-head-desc {
     display: none; 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: block;
         font-size: 30px;
 line-height: 37px;
@@ -108,7 +108,7 @@ margin: 0 0 4% 0;
 
 .sector {
 padding: 0 0 23% 0;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     display: flex;
     padding: 10% 12.5% 8.3% 12.5%;
  }
@@ -116,27 +116,27 @@ padding: 0 0 23% 0;
 
 
 .oil-box {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     margin-right: 8%;
     position: relative;
 }
 }
 
 .oil-img {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
 align-self: flex-end;
 height: 311px;
 } 
 }
 
 .oil-img, .analistic-img {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         order:2;
      } 
 }
 
 .petrology-img {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
  height: 311px;
 }
 }
@@ -144,7 +144,7 @@ height: 311px;
 
 
 .petrology-box {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     margin-left: 8%;
     align-self: flex-end;
 }
@@ -152,14 +152,14 @@ height: 311px;
 
 
 .analistic-box {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     margin-right: 8%;
     align-self: center;
 }
 }
 
 .chem-box {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     margin-left: 8%;
     align-self: center;
 }
@@ -168,7 +168,7 @@ height: 311px;
 
 .sector-oil {
     background: #122537;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         background-image:  url("../img/oil-bg-desc.png");
         box-shadow: inset 0px -74px 9px -2px rgba(43, 51, 65, 0.7);
         background-size: cover;
@@ -176,27 +176,27 @@ height: 311px;
 }
 
 .oil-box::after {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         content: '';
         position: absolute;
         box-shadow:  0 15px 10px rgba(43, 51, 65, 0.9);
 bottom: -150px;;
 left: -34.5%;
-width: 1920px; /* Ширина тени */ /* Максимальная ширина тени */
+width: 2500px; /* Ширина тени */ /* Максимальная ширина тени */
 height: 15px; /* Высота тени */
      } 
 }
 
 .sector-petrology {
     background: #484A54;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         background-image:  url("../img/petrology-bg-desc.png");
         box-shadow: 0px 75px 13px -2px  rgba(14, 24, 35, 0.8);
      } 
 }
 
 .sector-petrology::after {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         background-image:  url("../img/petrology-bg-desc.png");
         box-shadow: 0px 75px 13px -2px  rgba(14, 24, 35, 0.8);
      } 
@@ -204,14 +204,14 @@ height: 15px; /* Высота тени */
 
 .sector-analistic {
     background:#1E0640;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         background-image:  url("../img/analistic-bg-desc.png");
      } 
 }
 
 .sector-chem {
     background: #00184A;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         background-image:  url("../img/chem-bg-desc.png");
         padding-bottom: 12%;
      }
@@ -221,7 +221,7 @@ height: 15px; /* Высота тени */
     margin: 13% 8% 9% 4%;
     /* padding: 0 0 0 4%; */
     padding: 0;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 0;
     padding: 0;
      }
@@ -232,7 +232,7 @@ height: 15px; /* Высота тени */
 font-size: 0.88em;
 line-height: 1.9em;
 margin-bottom: 4%;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     font-size: 16px;
 line-height: 31px;
 margin-bottom: 1.5%;
@@ -264,7 +264,7 @@ padding: 0;
 position: relative;
 cursor: pointer;
 
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     display: none;
  }
 
@@ -284,14 +284,14 @@ cursor: pointer;
     font-size: 1.1em;
     text-align: center;
     color: #fff;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
  }
 }
 
 .mobile-display {
     display: none;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
-        display: inline-block;
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
+        display: block;
      }
 }

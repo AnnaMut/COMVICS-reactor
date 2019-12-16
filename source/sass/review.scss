@@ -2,7 +2,7 @@
 padding: 0 4% 0 4%;
 /* position: relative; */
 
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     padding: 8% 12.75% 5.5% 12.75%;
     background-image:  url("../img/rew-bg-desc.png");
         background-size: cover;
@@ -16,7 +16,7 @@ padding: 0 4% 0 4%;
     letter-spacing: 0.05em;
     margin: 0 0 8% 4%;
     position: relative;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-size: 3.1em;
         line-height: 3em;
 letter-spacing: 0.1em;
@@ -32,14 +32,14 @@ margin: 0 0 2% 4%;
     position: absolute;
     left: 0;
     top: 13.5%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
      }
 }
 
 .reviews-img-desc  {
     display: none;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: block;
        position: absolute;
        left: 1.5%;
@@ -51,12 +51,12 @@ margin: 0 0 2% 4%;
 margin: 0 0 13% 0;
 padding: 0;
 
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     margin: 0 0 3% 0;
  }
 
 .reviews__item {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 0 0 4% 38%;
      }
 }
@@ -67,7 +67,7 @@ display: flex;
     color: #0E1823;
     margin: 0;
 padding: 0;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     flex-direction: column;
     margin-left: 2%;
  }
@@ -77,7 +77,7 @@ padding: 0;
     font-size: 0.75em;
     line-height: 1.3em;
     margin: 8% 0;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         order: 2;
         font-size: 1em;
             line-height: 1.6em;
@@ -85,14 +85,14 @@ padding: 0;
     }
 
     .mobile-close-text-mark {
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: none;
         }
     }
 
 .mobile-close-text {
     display: none;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: inline;
     }
 }
@@ -107,7 +107,7 @@ padding: 0;
     letter-spacing: 0.1em;
     margin: 0 0 8% 0;
     cursor: pointer;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
          display: none;
      }
 }
@@ -127,7 +127,7 @@ padding: 0;
     font-size: 1.1em;
     text-align: center;
     color:#0E1823;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
  }
 }
@@ -136,14 +136,14 @@ padding: 0;
     position: absolute;
     left: -5%;
     top: 1%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
      }
 }
 
 .customer-img-desc {
     display: none;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: block;
        position: absolute;
        left: -7.5%;
@@ -156,7 +156,7 @@ padding: 0;
         margin-right: 8%;
         font-style: normal;
         position: relative;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             margin: 0 45% 0 4%;
         }
 
@@ -166,7 +166,7 @@ padding: 0;
 font-weight: bold;
 display: block;
 margin-bottom: 4%;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     font-size: 1.6em;
     line-height: 2em;
     margin-bottom: 2%;
@@ -181,7 +181,7 @@ margin-bottom: 4%;
         opacity: 0.8;
         width: 261px;
        display: block;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             font-size: 1.3em;
             line-height: 1.5em;
             width: auto;
@@ -192,7 +192,7 @@ margin-bottom: 4%;
     .reviews-author-avatar-social-media {
         display: flex;
         margin-bottom: 4%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             position: absolute;
             flex-direction: column;
             left: 14%;
@@ -202,7 +202,7 @@ margin-bottom: 4%;
         .reviews-author-img {
             border-radius: 50%;
             margin-right: 8%;
-            @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            @media screen and (min-width: 950px) and (max-width: 2500px) {
                 width: 290px;
                 height: 290px;
                 margin: 0 0 11% 0;
@@ -216,7 +216,7 @@ opacity: 88%;
 letter-spacing: 10%;
 margin-bottom: 5%;
 display: block;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     font-size: 1.3em;
     line-height: 1.5em;
 }
@@ -231,14 +231,14 @@ display: block;
 
   .current-rev {
       margin-top: 3.7%;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-top: 0.9%;
     }
   }
 
   .page-rev {
       margin-top: 3%;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-top: 0.7%;
     }
   }
@@ -253,7 +253,7 @@ display: block;
   .pagination-item-rev {
     margin-right: 7%;
     font-size: 1px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-right: 4%;
     }
 }
@@ -264,7 +264,7 @@ display: block;
 
     .social-bar__link {
         margin-right: 15%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             margin-right: 7%;
         }
     }

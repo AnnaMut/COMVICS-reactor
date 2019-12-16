@@ -7,7 +7,7 @@
     justify-content: flex-start;
     /* margin: 0 4%;*/
     margin: 0;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          margin: 0 12.75% 10.7% 12.75%;
      } 
 }
@@ -24,7 +24,7 @@ padding: 3.2% 12%;
 font-weight: 500;
     cursor: pointer;
     align-self: flex-end;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-size: 1.1em;
         line-height: 1.4em;
         padding: 1% 7.5%;
@@ -49,7 +49,7 @@ font-weight: 500;
     /* padding: 20px; */
     order: 1;
     margin: 0 4%;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          /* margin: 0 12.75% 10.7% 12.75%; */
          margin: 0;
      }
@@ -67,7 +67,7 @@ font-weight: 500;
     background: #fff;
     padding: 5.2% 12%;
   /*   height: 45px; */
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         padding: 2% 7.5%;
     } 
 }

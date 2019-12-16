@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     position: relative;
     padding-top: 20%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       padding-top: 2%;
       padding-left: 15%;
     padding-right: 15%;
@@ -25,7 +25,7 @@
             line-height: 0.99em;
             letter-spacing: 0.1em;
             margin: 0 15% 8% 8%;
-            @media screen and (max-width: 1920px) and (min-width: 1024px) {
+            @media screen and (min-width: 950px) and (max-width: 2500px) {
                font-size: 3.1em;
                line-height: 3.8em;
                letter-spacing: .1em;
@@ -38,14 +38,14 @@
         position: absolute;
         left: 4%;
         top: -10%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
          display: none;
       }
      }
 
      .whriteus-catalog-img-desc {
       display: none;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          display: block;
          position: absolute;
       left: 0;
@@ -58,7 +58,7 @@
          flex-direction: column;
          margin: 0 4% 0 4%;
          padding-bottom: 8%;
-         @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         @media screen and (min-width: 950px) and (max-width: 2500px) {
             margin: 0;
             flex-direction: row;
             justify-content: space-between;
@@ -75,7 +75,7 @@
   border-left: none;
   margin-bottom: 4%;
   padding-left: 4%;
-  @media screen and (min-width: 1024px) and (max-width: 1920px) {
+  @media screen and (min-width: 950px) and (max-width: 2500px) {
    height: 60px;
    flex-basis: 280px;
 }
@@ -87,7 +87,7 @@
    font-size: 1em;
 line-height: 1.8em;
 color: #0E1823;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
    font-size: 1.3em;
 }
 }
@@ -103,7 +103,7 @@ border-left: none;
    padding: 4% 4% 4% 4%;
    border-image: none;
    resize: vertical;
-   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+   @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: none;
     }
 }
@@ -127,7 +127,7 @@ color: #0E1823;
         padding: 5% 0 5% 0;
         border-radius: 3px;
         border: 0.5px solid #FF6E2F;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
          flex-basis: 280px;
          padding:  0 0 0 4%;
          /* padding: 2% 0 2% 0; */
@@ -148,7 +148,7 @@ color: #0E1823;
         transform: rotate(180deg);
         right: 18%;
         top: 0px;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
         right: 21%
         }
       }
@@ -172,7 +172,7 @@ color: #0E1823;
     color: #B0B0B0;
     margin: 0 8% 0 4%;
     padding-bottom: 20%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       display: none;
    }
 
@@ -184,7 +184,7 @@ color: #0E1823;
 
  .button-pattern-writeus-catalog {
    display: none;
-   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+   @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: inline-block;
    position: absolute;
    background: radial-gradient(#ff7344 .1px,transparent 3px);

@@ -5,12 +5,12 @@
 
     .popular-product__container {
       margin: 0 4%;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          margin: 0 12.75% 10.7% 12.75%;
      }
     }
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       background-image: url("../img/molecule-red-1.png"), url("../img/molecule-red-2.png");
   background-repeat: no-repeat;
   background-position:  top 2.5% right 1%, bottom 4.7% left 5.5%;
@@ -23,7 +23,7 @@
       letter-spacing: 0.05em;
       margin-left: 4%;
       position: relative;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          font-size: 3.1em;
          line-height: 3.8em;
          letter-spacing: 0.1em;
@@ -40,14 +40,14 @@
       position: absolute;
       left: 0%;
       top: 12%;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
      }
    }
 
    .productheader-img-desc {
       display: none;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          display: block;
          position: absolute;
       left: 6%;
@@ -59,7 +59,7 @@
    .products-line-list {
       padding: 0;
       position: relative;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          display: grid;
         /*   grid-template-columns: 702px 702px;
          grid-template-rows: 456px 456px;*/
@@ -76,7 +76,7 @@
 
    .item-link-head{
       margin: auto 0 auto 3%;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          margin: 0;
          align-self: stretch;
       }
@@ -89,7 +89,7 @@
       line-height: 1.3em;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          font-size: 1.2em;
          line-height: 1.3em;
          letter-spacing: 0.05em;
@@ -101,7 +101,7 @@
 
    .product-link {
       order: 0;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          order:2;  
          align-self: flex-end; 
      }
@@ -109,13 +109,13 @@
 
    .sapf-head {
  max-width: 50%;
- @media screen and (min-width: 1024px) and (max-width: 1920px) {
+ @media screen and (min-width: 950px) and (max-width: 2500px) {
    max-width: 100%;
 }
    }
 
    .react-link {
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          margin-top: 5%;
          margin-left: 37%;
    }
@@ -123,7 +123,7 @@
 
    .shrink {
     flex-shrink: 1.8;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       align-self: flex-end;
       margin-left: 29%;
     margin-top: 10%;
@@ -133,33 +133,33 @@
    .shrink-2 {
     flex-shrink: 2.7;
     position: relative;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
    }
    }
 
  /*   .no-shrink {
        flex-shrink: 0;
-       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       @media screen and (min-width: 950px) and (max-width: 2500px) {
          flex-shrink: 1;
         }
    } */
 
    .nasos-box {
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
       flex-shrink: 0;
     width: 100%;
    }
    }
 
    .porsh-box {
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          flex-shrink: 0;
        width: 100%;
       }
    }
 
    .product-item {
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          position: relative;
          border: 1px solid #F2F2F2;
          border-radius: 3px;
@@ -205,33 +205,33 @@ opacity: 0;
    }
 
    .product-item:hover .hover-text-box {
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          opacity: 1;
        }
    }
 
    .product-item:hover .product-link {
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          opacity: 0.2;
        }
    }
 
    
 .item-react {
-   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+   @media screen and (min-width: 950px) and (max-width: 2500px) {
    padding: 37px 40px 15px 40px;
    }
    }
 
    .item-sapf {
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
       padding: 37px 40px 15px 40px;
       }
       }
 
       .sapf-foto {
          display: none;
-         @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         @media screen and (min-width: 950px) and (max-width: 2500px) {
             /* position: absolute; */
             display: block;
             /* max-width: 406px; */
@@ -241,13 +241,13 @@ opacity: 0;
       }
 
         .item-nasos {
-         @media screen and (min-width: 1024px) and (max-width: 1920px) {
+         @media screen and (min-width: 950px) and (max-width: 2500px) {
          padding: 37px 40px 15px 36px;
          }
          }
          
          .item-porsh {
-            @media screen and (min-width: 1024px) and (max-width: 1920px) {
+            @media screen and (min-width: 950px) and (max-width: 2500px) {
             padding: 37px 40px 15px 36px;
             }
             }
@@ -255,7 +255,7 @@ opacity: 0;
 
    .product-item-hover {
 
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          position: absolute;
          bottom: 5%;
          width: 209px;
@@ -266,7 +266,7 @@ opacity: 0;
 
    .product-item-box {
        display: flex; 
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: flex; 
        flex-direction: column;
      }
@@ -285,7 +285,7 @@ opacity: 0;
     /* border-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%); */
     border: 1px solid;
     border-color:  #FF7344;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       line-height: 2.5em;
     padding: 0 0 0 8%;
     font-size: 1.125em;
@@ -309,12 +309,12 @@ font-weight: 600;
 		font-size: 1.2em;
 		text-align: center;
       background-color: #fc6534;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          width: 2.5em;
       }
    }
    
-   @media screen and (min-width: 1024px) and (max-width: 1920px) {
+   @media screen and (min-width: 950px) and (max-width: 2500px) {
       .sapf-foto-mob {
          display: none;
       }
@@ -337,7 +337,7 @@ font-weight: 600;
     top: 11.3%;
     left: 65.9%;
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       height: 128px;
       width: 144px;
       top: 9.3%;
@@ -350,7 +350,7 @@ font-weight: 600;
          height: 92px;
          top: calc(100% - 65%);
          left: 31.9%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       height: 128px;
       width: 144px;
       top: 50%;
@@ -364,7 +364,7 @@ font-weight: 600;
          top: 59.1%;
          left: 84.1%;
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
 
       height: 80px;
       width: 209px;
@@ -378,7 +378,7 @@ font-weight: 600;
          height: 100px;
          top: 0;
          
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       height: 80px;
       width: 209px;
       top: 0;

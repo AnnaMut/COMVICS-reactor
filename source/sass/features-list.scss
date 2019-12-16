@@ -2,7 +2,7 @@
     margin: 0 4%;
     position: relative;
     padding-bottom: 20%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 0 12.75%;
         padding-bottom: 3.4%;
       }
@@ -14,7 +14,7 @@
     letter-spacing: 0.05em;
     margin-left: 4%;
     position: relative;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       display: none;
     }
 
@@ -38,7 +38,7 @@
     position: absolute;
     left: 2px;
     top: 5px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
       }
 }
@@ -49,7 +49,7 @@
     justify-content: flex-start;
     margin: 0;
     padding: 0;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         flex-direction: row;
         justify-content: space-around;
     }
@@ -62,7 +62,7 @@ font-size: 1em;
 line-height: 1.25em;
 margin-bottom: 20%;
 position: relative;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
    /*  font-size: 16px;
     line-height: 20px; */
     margin: 0;
@@ -78,13 +78,13 @@ position: relative;
 
 .quality-text, .factory-text, .garantee-text {
     margin: 5px 0 0 30px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 4% 0 0 2.27em;
       }
 }
 
 .garantee-text{
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     min-width: 180px;
 }
 }
@@ -92,7 +92,7 @@ position: relative;
 
 .flask-text {
     margin: -4px 0 0 30px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 0.43% 0 0 2.27em;
       }
 }
@@ -103,7 +103,7 @@ position: relative;
     fill: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%); 
     display: inline-block;
     vertical-align: middle;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         width: 55px;
     height: 55px;
       }
@@ -114,7 +114,7 @@ position: relative;
         symbol {
             g {
             path {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         fill:#F84343;
       }
     }
@@ -135,13 +135,13 @@ position: relative;
         left:  10%;
         bottom: 49%;
         transform: rotate(90deg);
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: none;
           }
         
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     .quality::before {
         content: "";
         display: block;

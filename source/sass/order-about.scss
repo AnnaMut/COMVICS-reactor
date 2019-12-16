@@ -9,7 +9,7 @@
     position: relative;
 overflow: hidden;
 
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     padding: 0;
     /* padding: 9% 20.75%; */
     background-image:  url("../img/order-about-bg-desc.png"), url("../img/order-about-bg-pic1.png"), url("../img/order-about-bg-pic2.png"); 
@@ -22,7 +22,7 @@ overflow: hidden;
     .order_about {
         margin: 0 4%;
         position: relative;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             margin: 9% 20.75%;
          }
 
@@ -33,7 +33,7 @@ overflow: hidden;
         line-height: 1.6em;
         letter-spacing: 0.05em;
         margin: 0 8% 10% 4%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             font-size: 40px;
 line-height: 49px;
 letter-spacing: 0.1em;
@@ -46,14 +46,14 @@ margin: 0 8% 3% 0;
         position: absolute;
         left: 0px;
         top: 0px;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: none;
          }
      }
 
 /*      .order-about-img-desc {
         display: none;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
            display: block;
            position: absolute;
         left: 0;
@@ -67,7 +67,7 @@ margin: 0 8% 3% 0;
         margin-bottom: 9%;
         margin-right: 9%;
 
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             font-size: 20px;
 line-height: 30px;
 /* margin: 0;
@@ -82,7 +82,7 @@ margin-bottom: 9%;
 
      .individual, .custom {
         display: none;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
            display: block;
            margin: 0 0 2% 0;
         }
@@ -106,7 +106,7 @@ margin-bottom: 9%;
        /*  margin-bottom: 23%; */
         border-radius: 3px;
     
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
         padding: 20px 25px 20px 50px;
         display: inline-block;
         vertical-align: middle;
@@ -134,7 +134,7 @@ margin-bottom: 9%;
         letter-spacing: 0.1em;
         border-radius: 3px;
         padding-right: calc(100% - 166px); 
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             font-size: 1.125em;
     line-height: 1.375em;
         letter-spacing: 0.1em;
@@ -156,7 +156,7 @@ margin-bottom: 9%;
       }
 
       .desc-center {
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
            text-align: center; 
         }
       }
@@ -165,7 +165,7 @@ margin-bottom: 9%;
 }
 
 .button-pattern-order {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     position: absolute;
     height: 100px;
     width: 97px;
@@ -182,7 +182,7 @@ margin-bottom: 9%;
   .reactor-mobile-img {
     display: block;
     margin: -40% auto -20% auto;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
      }
  }
@@ -198,7 +198,7 @@ margin-bottom: 9%;
     background: url("../img/order-about-bg.png");
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         background: url("../img/order-about-bg-desc.png");
 background-size: cover;
      }

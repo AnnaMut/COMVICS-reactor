@@ -3,7 +3,7 @@
     flex-direction: column;
     position: relative;
     margin: 0 4%;
-    @media screen and (max-width: 1920px) and (min-width: 1024px) {
+    @media screen and (max-width: 2500px) and (min-width: 950px) {
       margin: 0;
   }
 
@@ -18,7 +18,7 @@
       letter-spacing: 0.05em;
       margin: 0 0 10% 4%;
       position: relative;
-      @media screen and (max-width: 1920px) and (min-width: 1024px) {
+      @media screen and (max-width: 2500px) and (min-width: 950px) {
          font-size: 3.1em;
          line-height: 3.8em;
          letter-spacing: .1em;
@@ -35,14 +35,14 @@
       position: absolute;
       left: 0%;
       top: 10%;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
      }
    }
 
    .options-img-mount-desc {
       display: none;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
          display: block;
          position: absolute;
       left: 0;
@@ -54,7 +54,7 @@
 .options-item-list {
     padding: 0;
     margin: 0 0 20% 0;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) { 
+    @media screen and (min-width: 950px) and (max-width: 2500px) { 
     display: flex;
     flex-wrap: wrap;
     /* margin: 0 20% 0 0; */
@@ -67,7 +67,7 @@
     font-size: 1em;
 line-height: 1.5em;
 margin-bottom: 10%;
-@media screen and (min-width: 1024px) and (max-width: 1920px) { 
+@media screen and (min-width: 950px) and (max-width: 2500px) { 
     flex-direction: column;
     margin: 0 10% 5% 0;
     /* flex: 1 0 30%; */
@@ -76,7 +76,7 @@ margin-bottom: 10%;
 
    .mob-hide {
     display: none;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: block;
     }
 
@@ -86,14 +86,14 @@ margin-bottom: 10%;
     max-width: 217px;
     margin-top: auto;
     margin-bottom: auto;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         text-align: center;
      }
    }
 
    .options-img {
     margin-right: 4%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4%;

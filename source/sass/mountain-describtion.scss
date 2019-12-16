@@ -1,7 +1,7 @@
 .mountain-describtion {
     display: flex;
     flex-direction: column;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: flex;
        flex-direction: row;
        align-items: flex-start;
@@ -18,7 +18,7 @@
     order: 1;
     margin: 15% 0 3% 0;
     position: relative;
-    @media screen and (max-width: 1920px) and (min-width: 1024px) {
+    @media screen and (max-width: 2500px) and (min-width: 950px) {
        margin: 0 0 5% 0;
    }
  
@@ -31,7 +31,7 @@
     letter-spacing: 0.05em;
     margin-left: 4%;
     position: relative;
-    @media screen and (max-width: 1920px) and (min-width: 1024px) {
+    @media screen and (max-width: 2500px) and (min-width: 950px) {
   font-size: 3.1em;
   line-height: 1.8em;
   letter-spacing: .1em;
@@ -44,14 +44,14 @@
     position: absolute;
     left: 0%;
     top: 32%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
       display: none;
    }
  }
 
  .mountheader-img-desc {
     display: none;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
        display: block;
        position: absolute;
     left: 0;
@@ -64,7 +64,7 @@
     margin: 0 0 4% 0;
      font-size: 0.75em;
  line-height: 2em;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-bottom: 3.7%;
         font-size: 1.500em;
     line-height: 1.6em;
@@ -76,7 +76,7 @@
     margin: 0 0 11% 0;
      font-size: 0.75em;
  line-height: 2em;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-bottom: 3.7%;
         font-size: 1.500em;
     line-height: 1.6em;
@@ -88,7 +88,7 @@
     font-size: 1.4em;
     line-height: 1.7em;
     font-weight: 600;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-bottom: 3.7%;
         font-size: 1.6em;
     line-height: 1.6em;
@@ -110,7 +110,7 @@
     border-radius: 3px;
     margin-bottom: 4%;
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         width: 250px;
        /*  height: 50px; */
     padding: 1.5% 10% 1.5% 3%;
@@ -140,7 +140,7 @@ background: #ff7344;
 transform: rotate(180deg);
 right: 15%;
 top: 0;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     right: 22%;
 }
   }
@@ -149,7 +149,7 @@ top: 0;
     position: absolute;
     right: 3%;
     top: 27%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         right: 7%;
     }
 }
@@ -170,7 +170,7 @@ top: 0;
     text-align: center;
     background-color: #fc6534;
    /*  padding-top: 3.6%; */
-     @media screen and (min-width: 1024px) and (max-width: 1920px) {
+     @media screen and (min-width: 950px) and (max-width: 2500px) {
         padding-bottom: 1.6%;
         padding-top: 3.6%;
     } 
@@ -189,7 +189,7 @@ top: 0;
     /* border-color: linear-gradient(90deg, #FC6534 0%, #FC7136 100%); */
     border: 1px solid;
     border-color:  #FF7344;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         width: 360px;
         /* height: 50px; */
       /* margin-bottom: 5%; */
@@ -202,7 +202,7 @@ top: 0;
 
    .mount-buttons-box {
        order: 4;
-       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: flex;
         order: 7;
       }
@@ -211,14 +211,14 @@ top: 0;
    .mount-list-mobile {
        order:5;
        margin-bottom: 10%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
       } 
    }
 
    .mount-list {
        display: none;
-       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: block;
         align-self: center;
         flex-shrink: 0;
@@ -248,14 +248,14 @@ top: 0;
 
     .current-mount {
         margin-top: 3.7%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
           margin-top: 2.9%;
       }
     }
   
     .page-mount{
         margin-top: 3%;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
           margin-top: 1.9%;
       }
     }
@@ -272,7 +272,7 @@ top: 0;
     .pagination-item-mount {
       margin-right: 7%;
       font-size: 1px;
-      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      @media screen and (min-width: 950px) and (max-width: 2500px) {
           margin-right: 4%;
       }
   }
@@ -285,7 +285,7 @@ top: 0;
     margin: 8% 8% 9% 4%;
     /* padding: 0 0 0 4%; */
     padding: 0;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 0 0 5% 0;
     padding: 0;
      }
@@ -296,7 +296,7 @@ top: 0;
 font-size: 0.88em;
 line-height: 1.4em;
 margin-bottom: 4%;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     font-size: 16px;
 line-height: 31px;
 margin-bottom: 1.5%;

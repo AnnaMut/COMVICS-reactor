@@ -6,7 +6,7 @@
 
    .main-header-container-mountain {
     margin-bottom: 18%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-bottom: 4%;
     } 
 }
@@ -17,14 +17,14 @@
         position: relative;
         background-color: #0E1823;
         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
            display: none;  
         }
     }
 
     .menu-container-desc-mountain {
         display: none;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: block;
             background-color: #fff;
             border-bottom: 1px solid #b1b1b2;
@@ -157,7 +157,7 @@
         line-height: 1.6em;
         font-weight: 500;
         text-transform: uppercase;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             order: 0;
             font-size: 0.875em;
     line-height: 1.05em;
@@ -175,7 +175,7 @@
     .phone-text-mountain {
         color: #FFF;
         font-weight: 600;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             color: #0E1823;
         }
     }
@@ -185,7 +185,7 @@
         font-size: 0.875em;
         line-height: 1.05em;
         font-weight: 500;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             font-weight: 600;
         }
      }
@@ -198,7 +198,7 @@
         padding-left: 4.6%; 
         flex: 2 1 auto;
         background-color: #fff;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             padding: 1.4em 2em 0.875em 1em;
             background-color: #0E1823;
         }
@@ -212,7 +212,7 @@
     .signin-span-mountain {
         display: block;
         color: #0E1823;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             color: #fff;
             background-color: #0E1823;
         }
@@ -229,14 +229,14 @@
         width: 11px;
         height: 12px;
         padding-right: 6px;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: none;
         }
      }
 
      .signin-img-mountain-white  {
          display: none;
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: inline-block;
             padding-right: 3.3em;
             width: 17px;
@@ -252,7 +252,7 @@
         padding-left: 4.6%; 
         flex: 2 1 auto;
         background: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%);
-        @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        @media screen and (min-width: 950px) and (max-width: 2500px) {
             padding: 1.4em 2.3em 0.875em 1em;
         }
     }
@@ -272,7 +272,7 @@
     width: 11px;
     height: 12px;
     padding-right: 10px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         padding-right: 3.8em;
         width: 20px;
     height: 18px;
@@ -288,24 +288,22 @@
    margin: 2.75em auto 1.6em auto;
    padding: 0;
    text-align: center;
-   @media screen and (min-width: 1024px) and (max-width: 1152px) {
+   @media screen and (min-width: 950px) and (max-width: 2500px) {
     display: flex;
     justify-content: flex-end;
     font-size: 0.85em;
     line-height: 1.500em;
     /* opacity: 0.7; */
-
     margin: 2.27em 0 0 0;
  }
 
-@media screen and (min-width: 1280px) and (max-width: 1920px) {
+/* @media screen and (min-width: 1280px) and (max-width: 2500px) {
     display: flex;
     justify-content: flex-end;
     font-size: 1.250em;
     line-height: 1.500em;
-    /* opacity: 0.7; */
     margin: 2.27em 0 0 0;
-}
+} */
 
 }
 
@@ -324,7 +322,7 @@
    .menu-list-link-mountain {
     color:  #fff;
     opacity: 0.7;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-left: 57px;
         color: #0E1823;
  }
@@ -333,7 +331,7 @@
 .menu-list-link-mountain:hover {
     color: #fff;
     opacity: 1;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         color: #0E1823;
         opacity: 1;
  }
@@ -351,7 +349,7 @@
     text-align: center;
     color: #fc6534;
 
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-size: 0.9em;
         left: 90%;
  }
@@ -361,7 +359,7 @@
    .menu-list-item-mountain {
        margin-bottom: 2.2em;
        position: relative;
-       @media screen and (min-width: 1024px) and (max-width: 1920px) {
+       @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-bottom: 1em;
  }
    }
@@ -375,7 +373,7 @@
     background: linear-gradient(270deg, #FF6E2F 0%, #F84343 100%);
     left: 3px;
     top: 28px;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
  }
    }
@@ -384,14 +382,14 @@
     position: absolute;
     top: 12%;
     width: 100%;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: block;
         position: relative;
         padding: 0 12.75%;
  }
 
  .breadcrumbs-link {
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin-right: 2%;
  }
  }
@@ -405,7 +403,7 @@ flex-direction: row;
 justify-content: space-between;
 font-size: 0.88em;
 line-height: 1.1em;
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 950px) and (max-width: 2500px) {
     margin: 4% 0 0 0;
     justify-content: flex-start;
 }
@@ -439,7 +437,7 @@ line-height: 1.1em;
  right: 4%;
     bottom: 145%;
     cursor: pointer;
-    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
     }
  }
@@ -452,7 +450,7 @@ line-height: 1.1em;
 }
 
 
- @media screen and (min-width: 1024px) and (max-width: 1920px) {
+ @media screen and (min-width: 950px) and (max-width: 2500px) {
 
        .signin-link-mountain:before {
         content: "";
