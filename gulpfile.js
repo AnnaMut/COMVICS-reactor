@@ -50,18 +50,7 @@ gulp.task("html", function() {
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest("build"));
 });
-/* 
-gulp.task("uglify", function (cb) {
-  pump([
-        gulp.src("source/js/script.js"),
-        uglify(),
-        rename("script.min.js"),
-        gulp.dest("source/js")
-    ],
-    cb
-  );
-});
- */
+
 gulp.task("uglify", function () {
   return gulp.src("source/js/*.js")
     .pipe(plumber())
@@ -73,7 +62,7 @@ gulp.task("uglify", function () {
 
 gulp.task("images", function() {
   return gulp
-    .src("source/img/**/*.{png,jpg,svg}")
+    .src("source/img/*.{png,jpg,svg}")
     .pipe(
       imagemin([
         imagemin.optipng({ optimizationLevel: 3 }),
@@ -86,7 +75,7 @@ gulp.task("images", function() {
 
 gulp.task("webp", function() {
   return gulp
-    .src("source/img/**/*.{png,jpg}")
+    .src("source/img/*.{png,jpg}")
     .pipe(webp({ quality: 90 }))
     .pipe(gulp.dest("source/img"));
 });
@@ -104,7 +93,7 @@ gulp.task("clean", function() {
 });
 
 gulp.task("build", function(done) {
-  run("clean", "copy", "style", "sprite", "html", "uglify", done);
+  run("clean", "copy", "style", "images", "webp", "sprite", "html", "uglify", done);
 });
 
 gulp.task("serve", function() {

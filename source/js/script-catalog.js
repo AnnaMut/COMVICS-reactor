@@ -6,10 +6,7 @@ navOpenCatalog.addEventListener("click", function() {
     if (navMainCatalog.classList.contains("closed-popup-menu-catalog")) {
       navMainCatalog.classList.remove("closed-popup-menu-catalog");
       navMainCatalog.classList.add("opened-popup-menu-catalog");
-    } /* else {
-      navMain.classList.add("closed-popup-menu");
-      navMain.classList.remove("opened-popup-menu");
-    } */
+    }
   });
   
   navCloseCatalog.addEventListener("click", function() {

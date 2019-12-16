@@ -6,10 +6,7 @@ navOpenMount.addEventListener("click", function() {
     if (navMainMount.classList.contains("closed-popup-menu-mountain")) {
       navMainMount.classList.remove("closed-popup-menu-mountain");
       navMainMount.classList.add("opened-popup-menu-mountain");
-    } /* else {
-      navMain.classList.add("closed-popup-menu");
-      navMain.classList.remove("opened-popup-menu");
-    } */
+    } 
   });
   
   navCloseMount.addEventListener("click", function() {

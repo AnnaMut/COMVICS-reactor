@@ -1,11 +1,9 @@
 .reviews {
 padding: 0 4% 0 4%;
-/* position: relative; */
-
 @media screen and (min-width: 950px) and (max-width: 2500px) {
     padding: 8% 12.75% 5.5% 12.75%;
     background-image:  url("../img/rew-bg-desc.png");
-        background-size: cover;
+    background-size: cover;
  }
 
 .reviews__title {
@@ -19,9 +17,9 @@ padding: 0 4% 0 4%;
     @media screen and (min-width: 950px) and (max-width: 2500px) {
         font-size: 3.1em;
         line-height: 3em;
-letter-spacing: 0.1em;
-margin: 0 0 2% 4%;
-     }
+        letter-spacing: 0.1em;
+        margin: 0 0 2% 4%;
+    }
 }
 
 .rew-box {
@@ -34,7 +32,7 @@ margin: 0 0 2% 4%;
     top: 13.5%;
     @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
-     }
+    }
 }
 
 .reviews-img-desc  {
@@ -50,7 +48,6 @@ margin: 0 0 2% 4%;
 .reviews__list {
 margin: 0 0 13% 0;
 padding: 0;
-
 @media screen and (min-width: 950px) and (max-width: 2500px) {
     margin: 0 0 3% 0;
  }
@@ -62,16 +59,15 @@ padding: 0;
 }
 
 .review {
-display: flex;
+    display: flex;
     flex-direction: column-reverse;
     color: #0E1823;
     margin: 0;
-padding: 0;
-@media screen and (min-width: 950px) and (max-width: 2500px) {
-    flex-direction: column;
-    margin-left: 2%;
+    padding: 0;
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
+      flex-direction: column;
+      margin-left: 2%;
  }
-
 
 .review__content {
     font-size: 0.75em;
@@ -80,8 +76,7 @@ padding: 0;
     @media screen and (min-width: 950px) and (max-width: 2500px) {
         order: 2;
         font-size: 1em;
-            line-height: 1.6em;
-
+        line-height: 1.6em;
     }
 
     .mobile-close-text-mark {
@@ -96,7 +91,6 @@ padding: 0;
         display: inline;
     }
 }
-
 }
 
 .show-hidden-review-text {
@@ -160,9 +154,8 @@ padding: 0;
             margin: 0 45% 0 4%;
         }
 
-
     .review__author-name {
-        font-size: 1em;
+font-size: 1em;
 font-weight: bold;
 display: block;
 margin-bottom: 4%;
@@ -198,7 +191,6 @@ margin-bottom: 4%;
             left: 14%;
          }
 
-
         .reviews-author-img {
             border-radius: 50%;
             margin-right: 8%;
@@ -220,9 +212,7 @@ display: block;
     font-size: 1.3em;
     line-height: 1.5em;
 }
-    }
-
-
+}
 }
 }
 
@@ -269,6 +259,5 @@ display: block;
         }
     }
 }
-
 
 }

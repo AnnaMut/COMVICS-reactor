@@ -26,11 +26,6 @@
      }
    }
 
-/*    .other-product__header {
-   margin: 15% 0 10% 0;
-} */
-
-
    .productheader-other-img-catalog {
       position: absolute;
       left: 0%;
@@ -48,7 +43,6 @@
       left: 0;
       bottom: 31%;
       }
-
    }
 
    .other-product-line-list {
@@ -68,17 +62,6 @@
       box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
    }
 
-/*    .type-item-link-head{
-      margin: auto 0 auto 3%;
-   } */
-
-/*    .nasos-item {
-     /*  height: 100%; 
-      padding-top: auto;
-      padding-bottom: auto;
-   } */
-
-
    .other-item-link-head {
        margin: 0;
    }
@@ -95,15 +78,11 @@
        text-align: center;
        margin-bottom: 8%;
        border: 1px solid #EDEDED;
-border-radius: 3px;
-@media screen and (min-width: 950px) and (max-width: 2500px) {
-   flex-basis: 400px;
-   margin-bottom: 4%;
-}
+       border-radius: 3px;
+       @media screen and (min-width: 950px) and (max-width: 2500px) {
+         flex-basis: 400px;
+         margin-bottom: 4%;
+       }
    }
-
-
-
-
 
 }

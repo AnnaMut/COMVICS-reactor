@@ -5,7 +5,7 @@
     @media screen and (min-width: 950px) and (max-width: 2500px) {
         margin: 0 12.75%;
         padding-bottom: 3.4%;
-      }
+    }
 }
 
 .features-headtext {
@@ -17,7 +17,6 @@
     @media screen and (min-width: 950px) and (max-width: 2500px) {
       display: none;
     }
-
 }
 
 .features-headtext::before {
@@ -32,15 +31,13 @@
     transform: rotate(0deg);
    }
 
-
-
 .featurestext-img {
     position: absolute;
     left: 2px;
     top: 5px;
     @media screen and (min-width: 950px) and (max-width: 2500px) {
         display: none;
-      }
+    }
 }
 
 .features-list {
@@ -53,7 +50,6 @@
         flex-direction: row;
         justify-content: space-around;
     }
-
 }
 
 .features-item {
@@ -63,13 +59,10 @@ line-height: 1.25em;
 margin-bottom: 20%;
 position: relative;
 @media screen and (min-width: 950px) and (max-width: 2500px) {
-   /*  font-size: 16px;
-    line-height: 20px; */
     margin: 0;
     position: relative;
   }
 }
-
 
 .features-text {
     display: block;
@@ -88,7 +81,6 @@ position: relative;
     min-width: 180px;
 }
 }
-
 
 .flask-text {
     margin: -4px 0 0 30px;
@@ -109,22 +101,6 @@ position: relative;
       }
 }
 
-/* .features-icon {
-    use {
-        symbol {
-            g {
-            path {
-    @media screen and (min-width: 950px) and (max-width: 2500px) {
-        fill:#F84343;
-      }
-    }
-}
-        }
-}
-} */
-
-
-
 .features-item::after {
         content: "";
         display: block;
@@ -138,7 +114,6 @@ position: relative;
         @media screen and (min-width: 950px) and (max-width: 2500px) {
             display: none;
           }
-        
 }
 
 @media screen and (min-width: 950px) and (max-width: 2500px) {
@@ -150,7 +125,7 @@ position: relative;
         width: 55px;
         background: #FF6E2F;
         left: 20%;
-    bottom: 55%;
+        bottom: 55%;
         transform: rotate(90deg);
     }
 
@@ -165,7 +140,6 @@ position: relative;
     bottom: 55%;
         transform: rotate(90deg);
     }
-
 
     .flask::before {
         content: "";
@@ -190,6 +164,4 @@ position: relative;
     bottom: 55%;
         transform: rotate(90deg);
     } 
-
-
-    }
+}
