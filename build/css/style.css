@@ -4518,7 +4518,7 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  padding-top: inherit;
+  padding-top: 5%;
   padding-bottom: inherit;
   /* padding-top: 4.5%; */
   /* padding-bottom: 1.6%; */
